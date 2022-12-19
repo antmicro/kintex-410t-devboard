@@ -423,6 +423,35 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "c1489e7c-896d-4046-acd4-3929998e87dc",
+      ""
+    ],
+    [
+      "020031b8-7f27-4e26-b74c-26be7f0881a9",
+      "FPGA supply"
+    ],
+    [
+      "4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5",
+      "FPGA Config"
+    ],
+    [
+      "c44d4881-1156-4195-851b-7c886d359b71",
+      "FPGA MGT Interface"
+    ],
+    [
+      "a3957483-213a-470c-a1de-fe57857f88c1",
+      "FPGA banks 12-15"
+    ],
+    [
+      "78b11f42-e2e4-43af-ae41-29688942d4ca",
+      "FPGA banks 16-32"
+    ],
+    [
+      "317e09ad-195f-4335-af98-5bdb3ee7dd66",
+      "FPGA banks 33-34"
+    ]
+  ],
   "text_variables": {}
 }

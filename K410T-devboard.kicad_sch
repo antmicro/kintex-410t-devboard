@@ -1,5 +1,134 @@
 (kicad_sch (version 20211123) (generator eeschema)
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (uuid c1489e7c-896d-4046-acd4-3929998e87dc)
+
+  (paper "A3")
+
+  (title_block
+    (title "K410T devboard")
+    (comment 1 "www.antmicro.com")
+    (comment 2 "Antmicro Ltd")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 95.25 80.01) (size 64.77 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 020031b8-7f27-4e26-b74c-26be7f0881a9)
+    (property "Sheet name" "FPGA supply" (id 0) (at 95.25 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "FPGA_supply.kicad_sch" (id 1) (at 95.25 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 165.1 27.94) (size 64.77 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 317e09ad-195f-4335-af98-5bdb3ee7dd66)
+    (property "Sheet name" "FPGA banks 33-34" (id 0) (at 165.1 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "FPGA_banks_33-34.kicad_sch" (id 1) (at 165.1 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 25.4 80.01) (size 64.77 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5)
+    (property "Sheet name" "FPGA Config" (id 0) (at 25.4 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "FPGA_Config.kicad_sch" (id 1) (at 25.4 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 95.25 27.94) (size 64.77 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 78b11f42-e2e4-43af-ae41-29688942d4ca)
+    (property "Sheet name" "FPGA banks 16-32" (id 0) (at 95.25 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "FPGA_banks_16-32.kicad_sch" (id 1) (at 95.25 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 25.4 27.94) (size 64.77 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a3957483-213a-470c-a1de-fe57857f88c1)
+    (property "Sheet name" "FPGA banks 12-15" (id 0) (at 25.4 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "FPGA_banks_12-15.kicad_sch" (id 1) (at 25.4 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 234.95 27.94) (size 64.77 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid c44d4881-1156-4195-851b-7c886d359b71)
+    (property "Sheet name" "FPGA MGT Interface" (id 0) (at 234.95 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "FPGA_MGT.kicad_sch" (id 1) (at 234.95 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9" (page "2"))
+    (path "/4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5" (page "3"))
+    (path "/c44d4881-1156-4195-851b-7c886d359b71" (page "4"))
+    (path "/a3957483-213a-470c-a1de-fe57857f88c1" (page "5"))
+    (path "/78b11f42-e2e4-43af-ae41-29688942d4ca" (page "6"))
+    (path "/317e09ad-195f-4335-af98-5bdb3ee7dd66" (page "7"))
+  )
+
+  (symbol_instances
+    (path "/a3957483-213a-470c-a1de-fe57857f88c1/01b533d9-8210-4ab0-9e90-840151980f73"
+      (reference "U?") (unit 1) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/a3957483-213a-470c-a1de-fe57857f88c1/3e7eddba-0573-49d2-9b10-0dc10a0b9a51"
+      (reference "U?") (unit 2) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/78b11f42-e2e4-43af-ae41-29688942d4ca/52755ce6-3e2b-4e00-8d73-f22d9dcccb68"
+      (reference "U?") (unit 3) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/78b11f42-e2e4-43af-ae41-29688942d4ca/7919acbd-3d4c-4deb-9ff2-4977ce31f875"
+      (reference "U?") (unit 4) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/317e09ad-195f-4335-af98-5bdb3ee7dd66/afdc3869-72c4-4e38-aca6-da3e3960d75a"
+      (reference "U?") (unit 5) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/c44d4881-1156-4195-851b-7c886d359b71/1a984ca6-eacb-4e8d-ad6a-a5179fbe07e9"
+      (reference "U?") (unit 6) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/c44d4881-1156-4195-851b-7c886d359b71/bf0d372b-cd17-48be-9e3f-049258564940"
+      (reference "U?") (unit 7) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5/8fdd15e0-56bd-46f8-98ee-1dd00fddcf58"
+      (reference "U?") (unit 8) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/4f2e5743-bcdb-47b3-81a2-2a0e16c92148"
+      (reference "U?") (unit 9) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/a19c306d-df55-43cf-ae5e-6f0521f53def"
+      (reference "U?") (unit 10) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/bc4f425b-bbd2-473a-bd39-5bcffd8b088e"
+      (reference "U?") (unit 11) (value "XC7K410T-2FFG900I") (footprint "antmicro-footprints:xc7k410t-2ffg900I")
+    )
+  )
 )
