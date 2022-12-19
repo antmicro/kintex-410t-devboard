@@ -3902,7 +3902,7 @@
   (symbol (lib_id "antmicroMicrocontrollers:XC7K410T-2FFG900I") (at 209.55 130.81 0) (unit 5)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid afdc3869-72c4-4e38-aca6-da3e3960d75a)
-    (property "Reference" "U?" (id 0) (at 209.55 57.15 0))
+    (property "Reference" "U1" (id 0) (at 209.55 57.15 0))
     (property "Value" "XC7K410T-2FFG900I" (id 1) (at 209.55 59.69 0))
     (property "Footprint" "antmicro-footprints:xc7k410t-2ffg900I" (id 2) (at 209.55 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
