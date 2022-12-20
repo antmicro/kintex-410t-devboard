@@ -5,8 +5,9 @@
   (paper "A3")
 
   (title_block
-    (comment 1 "www.antmicro.com")
-    (comment 2 "Antmicro Ltd")
+    (title "K410T devboard")
+    (date "2022-12-20")
+    (rev "0.0.99")
   )
 
   (lib_symbols
@@ -5054,7 +5055,7 @@
   (symbol (lib_id "power:GND") (at 271.78 109.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2e4625f0-e6d8-405b-8aa6-494ad81358f2)
-    (property "Reference" "#PWR?" (id 0) (at 271.78 115.57 0)
+    (property "Reference" "#PWR0118" (id 0) (at 271.78 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 271.78 113.03 0))
@@ -5098,7 +5099,7 @@
   (symbol (lib_id "power:+1V35") (at 256.54 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6af49fdc-87cd-4d01-8290-0c11575fa243)
-    (property "Reference" "#PWR?" (id 0) (at 256.54 205.74 0)
+    (property "Reference" "#PWR0117" (id 0) (at 256.54 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V35" (id 1) (at 256.54 198.3542 0))
@@ -6033,7 +6034,7 @@
   (symbol (lib_id "power:GND") (at 271.78 175.26 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b220d629-e1c0-4338-87e6-cbc88ecd6221)
-    (property "Reference" "#PWR?" (id 0) (at 271.78 181.61 0)
+    (property "Reference" "#PWR0120" (id 0) (at 271.78 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 271.78 179.07 0))
@@ -6077,7 +6078,7 @@
   (symbol (lib_id "power:GND") (at 256.54 62.23 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e28e8702-d80a-4854-997f-e759f9d77423)
-    (property "Reference" "#PWR?" (id 0) (at 256.54 68.58 0)
+    (property "Reference" "#PWR0119" (id 0) (at 256.54 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 256.54 66.04 0))

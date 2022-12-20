@@ -6,15 +6,15 @@
 
   (title_block
     (title "K410T devboard")
-    (comment 1 "www.antmicro.com")
-    (comment 2 "Antmicro Ltd")
+    (date "2022-12-20")
+    (rev "0.0.99")
   )
 
   (lib_symbols
   )
 
-  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
   (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}"))
+  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
 
   (sheet (at 95.25 80.01) (size 64.77 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))

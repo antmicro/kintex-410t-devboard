@@ -5,6 +5,12 @@
   )
 
   (paper "A3")
+  (title_block
+    (title "K410T devboard")
+    (date "2022-12-20")
+    (rev "0.0.99")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
