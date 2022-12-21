@@ -464,6 +464,10 @@
     [
       "f197fc77-508c-435d-932d-162b52b3ed75",
       "Power supply"
+    ],
+    [
+      "53e5e9d0-da1a-4e72-8926-4916ab1fc9d9",
+      "SPI Flash"
     ]
   ],
   "text_variables": {}

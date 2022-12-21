@@ -3900,6 +3900,39 @@
   )
 
 
+  (bus_entry (at 263.525 125.73) (size -2.54 2.54)
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 0962bb1d-124e-4071-b323-6c19d27eee6e)
+  )
+
+  (bus (pts (xy 263.525 121.92) (xy 263.525 125.73))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 222c5885-7a0b-4992-8ad9-9454441153be)
+  )
+  (bus (pts (xy 271.145 119.38) (xy 266.065 119.38))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 26482593-9e87-46df-b4f7-c554ce2efe28)
+  )
+  (bus (pts (xy 263.525 121.92) (xy 266.065 119.38))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 32311aa9-a43b-4f85-a2e2-a2979802b3d1)
+  )
+
+  (wire (pts (xy 260.985 128.27) (xy 232.41 128.27))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 833537ac-3993-4142-89e0-7ecb6c66e8ec)
+  )
+
+  (label "FLASH.CLK" (at 259.715 128.27 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 10e4d1c1-e841-444b-84e5-3ba9f476b8a1)
+  )
+
+  (hierarchical_label "FLASH{SPI-FLASH}" (shape bidirectional) (at 271.145 119.38 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b9d76b7f-e135-4ff4-b6af-c8d20cf35283)
+  )
+
   (symbol (lib_id "antmicroMicrocontrollers:XC7K410T-2FFG900I") (at 215.9 146.05 0) (unit 8)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8fdd15e0-56bd-46f8-98ee-1dd00fddcf58)
