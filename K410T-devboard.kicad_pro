@@ -459,7 +459,11 @@
     ],
     [
       "dc541af2-96d1-4686-8434-6b99da36a1e1",
-      "DDR3L SDRAM"
+      "RAM"
+    ],
+    [
+      "f197fc77-508c-435d-932d-162b52b3ed75",
+      "Power supply"
     ]
   ],
   "text_variables": {}
