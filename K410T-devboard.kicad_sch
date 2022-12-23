@@ -219,6 +219,18 @@
     )
   )
 
+  (sheet (at 107.95 62.23) (size 64.77 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 92f84d48-430a-4861-a72f-ac293d5b94b2)
+    (property "Sheet name" "User GPIO + LED + button + DIP switch" (id 0) (at 107.95 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "user-gpio.kicad_sch" (id 1) (at 107.95 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 184.15 62.23) (size 64.77 35.56) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -294,6 +306,7 @@
     (path "/dc541af2-96d1-4686-8434-6b99da36a1e1" (page "8"))
     (path "/f197fc77-508c-435d-932d-162b52b3ed75" (page "9"))
     (path "/53e5e9d0-da1a-4e72-8926-4916ab1fc9d9" (page "10"))
+    (path "/92f84d48-430a-4861-a72f-ac293d5b94b2" (page "11"))
   )
 
   (symbol_instances

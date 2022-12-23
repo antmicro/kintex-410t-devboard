@@ -1,0 +1,16 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid c04da8bd-fcb0-433d-b8c2-5ef558cae08d)
+
+  (paper "A3")
+
+  (title_block
+    (title "K410T devboard")
+    (date "2022-12-20")
+    (rev "0.0.99")
+  )
+
+  (lib_symbols
+  )
+
+)
