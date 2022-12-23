@@ -468,6 +468,10 @@
     [
       "53e5e9d0-da1a-4e72-8926-4916ab1fc9d9",
       "SPI Flash + SD Card"
+    ],
+    [
+      "92f84d48-430a-4861-a72f-ac293d5b94b2",
+      "User GPIO + LED + button + DIP switch"
     ]
   ],
   "text_variables": {}
