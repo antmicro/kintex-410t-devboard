@@ -5366,7 +5366,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 631e3166-765c-4e3b-bb56-4a1692ad4113)
   )
-  (hierarchical_label "FLASH{SPI-FLASH}" (shape bidirectional) (at 181.61 125.73 180)
+  (hierarchical_label "SYSTEM_FLASH{SPI-FLASH}" (shape bidirectional) (at 181.61 125.73 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b9d76b7f-e135-4ff4-b6af-c8d20cf35283)
   )

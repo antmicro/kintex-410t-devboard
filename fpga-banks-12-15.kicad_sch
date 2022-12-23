@@ -4546,7 +4546,7 @@
     (uuid f5dbe470-d53f-48d6-a5c2-78ef67e1a4c6)
   )
 
-  (hierarchical_label "FLASH{SPI-FLASH}" (shape bidirectional) (at 232.41 71.755 180)
+  (hierarchical_label "SYSTEM_FLASH{SPI-FLASH}" (shape bidirectional) (at 232.41 71.755 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 430bfd35-7171-4d94-b503-4d673744009f)
   )
