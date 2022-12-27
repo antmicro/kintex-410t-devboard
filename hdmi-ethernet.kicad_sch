@@ -3486,11 +3486,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8b3d231e-9394-440d-8449-b8a17f606d99)
   )
+  (text "TODO:\n- add power rails connections" (at 15.875 157.48 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 90a88e2e-93fa-4616-891f-3df31fc61044)
+  )
   (text "NOTE:\nPlace close to HDMI connector" (at 233.68 226.06 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 91d5d56a-c4bd-4009-9488-13f9a8260cf4)
   )
-  (text "default:\nMODE[3:0] : 1100 (see datasheet table 3-8)\nPHYAD[4:0]: 00011 \nCLK125_EN: NO\nLED_MODE: Individual-LED\nALLPHYAD: NO"
+  (text "default:\nMODE[3:0] : 1100 (see datasheet table 3-8)\nPHYAD[4:0]: 00011 \nCLK125_EN: NO\nLED_MODE: Individual-LED\nALLPHYAD: NO (inverted logic)"
     (at 19.685 132.715 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 92f3d0d3-db6c-48f3-8a1d-4e11438c9315)
