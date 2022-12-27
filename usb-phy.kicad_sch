@@ -2425,7 +2425,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8fbe92c6-2520-4ecf-9f3c-92f426a09a67)
   )
-  (hierarchical_label "USB_USER{USB-FPGA-PHY}" (shape input) (at 346.075 101.6 180)
+  (hierarchical_label "USB_USER{USB-FPGA-PHY}" (shape bidirectional) (at 346.075 101.6 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bd468cfc-d2d2-4e3e-939e-855023102c1e)
   )

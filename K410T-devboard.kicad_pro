@@ -476,6 +476,10 @@
     [
       "32cc216c-573a-42da-8552-2904507ceea0",
       "USB PHY"
+    ],
+    [
+      "677e70f4-c662-4db0-90ce-7e9c457b20f1",
+      "HDMI + Ethernet"
     ]
   ],
   "text_variables": {}

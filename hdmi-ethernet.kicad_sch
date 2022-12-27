@@ -1,0 +1,30 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 45eecbce-264c-4467-8f45-fe3660eb8fea)
+
+  (paper "A3")
+
+  (title_block
+    (title "K410T devboard")
+    (date "2022-12-20")
+    (rev "0.0.99")
+  )
+
+  (lib_symbols
+  )
+
+
+  (polyline (pts (xy 13.335 146.05) (xy 406.4 146.05))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 13e5cb19-a548-44f4-b4b4-1837e0e45269)
+  )
+
+  (text "HDMI" (at 15.24 151.765 0)
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (uuid a4a4e7d2-d21d-4be4-a674-3303f4007322)
+  )
+  (text "Ethernet" (at 14.605 18.415 0)
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (uuid d991241d-53ae-4b38-a47f-945ccea45845)
+  )
+)

@@ -177,6 +177,14 @@
     (property "Sheet file" "usb-phy.kicad_sch" (id 1) (at 107.95 141.5546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "USB_HOST{SPI-USB}" bidirectional (at 172.72 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 602d3f90-543b-4489-ab04-86f0f9c96e9d)
+    )
+    (pin "USB_USER{USB-FPGA-PHY}" bidirectional (at 172.72 127 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c42a6a04-245a-401a-a022-08d46813b07a)
+    )
   )
 
   (sheet (at 184.15 19.05) (size 64.77 34.29) (fields_autoplaced)
@@ -220,6 +228,18 @@
     (pin "USR_FLASH_1{SPI-FLASH}" bidirectional (at 293.37 168.275 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a10aaf76-3161-4ca9-9954-239e9d92deb7)
+    )
+  )
+
+  (sheet (at 107.95 148.59) (size 64.77 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 677e70f4-c662-4db0-90ce-7e9c457b20f1)
+    (property "Sheet name" "HDMI + Ethernet" (id 0) (at 107.95 147.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "hdmi-ethernet.kicad_sch" (id 1) (at 107.95 184.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
@@ -324,6 +344,7 @@
     (path "/53e5e9d0-da1a-4e72-8926-4916ab1fc9d9" (page "10"))
     (path "/92f84d48-430a-4861-a72f-ac293d5b94b2" (page "11"))
     (path "/32cc216c-573a-42da-8552-2904507ceea0" (page "12"))
+    (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1" (page "13"))
   )
 
   (symbol_instances
