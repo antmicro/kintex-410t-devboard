@@ -589,7 +589,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a8343693-ebc9-4483-8d0e-c7e4a65fd886)
   )
-  (polyline (pts (xy 203.835 283.845) (xy 203.2 133.35))
+  (polyline (pts (xy 203.2 283.845) (xy 203.2 133.35))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid aa35cdbc-eedb-4e6f-92a2-f38cec2820e6)
   )
