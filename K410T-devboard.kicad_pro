@@ -480,6 +480,10 @@
     [
       "677e70f4-c662-4db0-90ce-7e9c457b20f1",
       "HDMI + Ethernet"
+    ],
+    [
+      "03f686ad-e1cc-4993-b908-c2b90876b432",
+      "FMC+ HSPC"
     ]
   ],
   "text_variables": {}
