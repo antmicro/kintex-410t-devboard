@@ -484,6 +484,10 @@
     [
       "03f686ad-e1cc-4993-b908-c2b90876b432",
       "FMC+ HSPC"
+    ],
+    [
+      "68671351-8adf-4d3d-acf4-3cd3079d5c5c",
+      "DC-DC Converters"
     ]
   ],
   "text_variables": {}
