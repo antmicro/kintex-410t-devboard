@@ -2902,7 +2902,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d74b0f30-da9c-4890-9ca3-dd3637ee1585)
   )
-  (label "PMOD_A.I10" (at 61.595 38.1 0)
+  (label "PMOD_A.IO10" (at 61.595 38.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dc873d7f-ad63-4865-8581-ceb9b3965c0c)
   )
