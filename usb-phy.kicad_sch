@@ -4230,7 +4230,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 40d48d01-329d-41db-a4ac-520280e50390)
   )
-  (label "USB_USER.VPM" (at 356.87 60.96 0)
+  (label "USB_USER.VMO" (at 356.87 60.96 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 435cba67-f63b-4a8e-b770-1364983f6be6)
   )
