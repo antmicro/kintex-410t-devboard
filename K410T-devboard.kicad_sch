@@ -1162,6 +1162,9 @@
     (path "/32cc216c-573a-42da-8552-2904507ceea0/6eca5b43-7615-4af0-9cd3-ccc479d7d2af"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/6f73d6a0-e45b-4380-8c28-e80ae312b49a"
+      (reference "#PWR?") (unit 1) (value "+0V675_VTT") (footprint "")
+    )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/6f7b4f95-3f7d-4e7a-823c-628fa083ad11"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
