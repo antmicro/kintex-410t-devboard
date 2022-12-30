@@ -488,6 +488,10 @@
     [
       "68671351-8adf-4d3d-acf4-3cd3079d5c5c",
       "DC-DC Converters"
+    ],
+    [
+      "6f87fdae-ef68-4ca8-bf9b-a9fba15db4cd",
+      "Clocks"
     ]
   ],
   "text_variables": {}
