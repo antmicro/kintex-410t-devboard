@@ -4,6 +4,12 @@
 
   (paper "A3")
 
+  (title_block
+    (title "K410T devboard")
+    (date "2023-01-02")
+    (rev "0.0.99")
+  )
+
   (lib_symbols
     (symbol "antmicroCapacitors0402:C_100n_0402" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at -1.397 3.429 0)

@@ -446,18 +446,6 @@
       "FPGA MGT Interface"
     ],
     [
-      "a3957483-213a-470c-a1de-fe57857f88c1",
-      "FPGA banks 12-15"
-    ],
-    [
-      "78b11f42-e2e4-43af-ae41-29688942d4ca",
-      "FPGA banks 16-32"
-    ],
-    [
-      "317e09ad-195f-4335-af98-5bdb3ee7dd66",
-      "FPGA banks 33-34"
-    ],
-    [
       "dc541af2-96d1-4686-8434-6b99da36a1e1",
       "DRAM + SRAM"
     ],
@@ -492,6 +480,46 @@
     [
       "9a0374cb-9a33-4819-a0e9-e1b565134863",
       "Clocks"
+    ],
+    [
+      "da04edaf-ffc5-4ca5-8165-171978fe05bc",
+      "FPGA Bank 13"
+    ],
+    [
+      "429ead79-12f0-47b8-8167-aee96d75a5d4",
+      "FPGA Bank 14"
+    ],
+    [
+      "5023398f-fd26-406d-86c0-7c0526b2a102",
+      "FPGA Bank 15"
+    ],
+    [
+      "64dc573c-4102-47be-8d75-9c1435db537b",
+      "FPGA Bank 16"
+    ],
+    [
+      "388f73a6-c016-499f-a752-df110c1ef9d6",
+      "FPGA Bank 17"
+    ],
+    [
+      "5ac9c24f-ace8-47cc-a17e-22f5cbe0e59f",
+      "FPGA Bank 18"
+    ],
+    [
+      "8e3c1fd4-00b3-4241-a4be-4f49c343a1b2",
+      "FPGA Bank 32"
+    ],
+    [
+      "44e9e439-cc37-4559-9167-3c4b957a5aff",
+      "FPGA Bank 33"
+    ],
+    [
+      "379b1f53-51c1-46d8-ac52-98e1a4cea45d",
+      "FPGA Bank 34"
+    ],
+    [
+      "60d072bf-b5b1-474c-abe1-1c47165e243b",
+      "FPGA Bank 12"
     ]
   ],
   "text_variables": {}
