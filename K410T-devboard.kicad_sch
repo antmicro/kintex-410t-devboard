@@ -1965,6 +1965,9 @@
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/15ce6987-c48e-4668-b055-b8a34eb7f398"
       (reference "#PWR?") (unit 1) (value "+1V2_MGTAVTT") (footprint "")
     )
+    (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/1c173405-303c-477b-9f5f-6a064278176b"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/1c4f284b-5d17-4a69-8fad-3435355bed54"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
