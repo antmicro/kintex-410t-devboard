@@ -677,6 +677,18 @@
     (property "Sheet file" "clocks.kicad_sch" (id 1) (at 311.15 51.3846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "PLL{I2C}" input (at 311.15 37.465 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2f1497d5-2e50-454a-8245-9782f1980c54)
+    )
+    (pin "SYS{CLK}" output (at 311.15 43.815 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid d09f863e-0762-47ac-a007-56e67dd76fea)
+    )
+    (pin "PLL{PLL_CLK}" output (at 311.15 40.64 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 713a940a-4039-4535-856c-4e64ea2e6493)
+    )
   )
 
   (sheet (at 184.15 222.25) (size 31.75 19.05) (fields_autoplaced)
@@ -2066,6 +2078,9 @@
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/cd7347e5-4249-4d01-99ca-104bcf9832c1"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/9a0374cb-9a33-4819-a0e9-e1b565134863/cf2939d7-c7d7-4986-b1e0-f56817e24108"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/da46e669-eac9-40b5-b3f5-1a1c15608d39"
       (reference "#PWR?") (unit 1) (value "+1V2") (footprint "")
@@ -4419,6 +4434,9 @@
     (path "/32cc216c-573a-42da-8552-2904507ceea0/14750cfb-2d0b-4af2-8d7d-75d2c77d9e51"
       (reference "R?") (unit 1) (value "R_47k_0402") (footprint "antmicro-footprints:0402-res")
     )
+    (path "/32cc216c-573a-42da-8552-2904507ceea0/201f69bb-9e62-41ce-a7fc-a298a3b0d69c"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/232b0b14-7b82-4959-b48e-f865b6dffbad"
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
@@ -4435,6 +4453,9 @@
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/39c32a45-0d7e-4d72-869b-c2cb5c8a1fc8"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/32cc216c-573a-42da-8552-2904507ceea0/441afba2-8030-4200-9e3e-492ae64fd342"
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/55e3b4ec-bdb1-44a9-a957-786892a61993"
