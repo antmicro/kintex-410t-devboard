@@ -1108,7 +1108,7 @@
           (name "INT" (effects (font (size 1.27 1.27))))
           (number "18" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at -15.24 -25.4 0) (length 2.54) hide
+        (pin passive line (at -15.24 -25.4 0) (length 2.54) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "19" (effects (font (size 1.27 1.27))))
         )
@@ -1156,7 +1156,7 @@
           (name "GPIN3" (effects (font (size 1.27 1.27))))
           (number "29" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at -15.24 -25.4 0) (length 2.54)
+        (pin passive line (at -15.24 -25.4 0) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -1172,7 +1172,7 @@
           (name "GPIN6" (effects (font (size 1.27 1.27))))
           (number "32" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at -15.24 -25.4 0) (length 2.54) hide
+        (pin passive line (at -15.24 -25.4 0) (length 2.54) hide
           (name "EP" (effects (font (size 1.27 1.27))))
           (number "33" (effects (font (size 1.27 1.27))))
         )

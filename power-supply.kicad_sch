@@ -1356,11 +1356,11 @@
       )
     )
     (symbol "antmicroPMICPowerDistributionSwitchesLoadDrivers:TPS2372-3RGWR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at -7.62 27.94 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
+      (property "Reference" "U7" (id 0) (at -7.62 26.67 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "TPS2372-3RGWR" (id 1) (at -7.62 25.4 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom))
+      (property "Value" "TPS2372-3RGWR" (id 1) (at 6.35 26.67 0)
+        (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "antmicro-footprints:Texas_RGW0020B" (id 2) (at -6.35 -20.32 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
@@ -1399,11 +1399,11 @@
           (name "PG" (effects (font (size 1.016 1.016))))
           (number "13" (effects (font (size 1.016 1.016))))
         )
-        (pin output line (at 10.16 7.62 180) (length 2.54) hide
+        (pin no_connect line (at 7.62 7.62 180) (length 2.54) hide
           (name "NC" (effects (font (size 1.016 1.016))))
           (number "14" (effects (font (size 1.016 1.016))))
         )
-        (pin input line (at 10.16 12.7 180) (length 2.54) hide
+        (pin no_connect line (at 7.62 12.7 180) (length 2.54) hide
           (name "NC" (effects (font (size 1.016 1.016))))
           (number "15" (effects (font (size 1.016 1.016))))
         )

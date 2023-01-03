@@ -446,7 +446,7 @@
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type background))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08)
+        (pin passive line (at 18.415 -27.94 180) (length 5.08)
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "A1" (effects (font (size 1.016 1.016))))
         )
@@ -458,19 +458,19 @@
           (name "NF/TDQS#" (effects (font (size 1.016 1.016))))
           (number "A7" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "A8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 34.29 180) (length 5.08) hide
+        (pin passive line (at 18.415 34.29 180) (length 5.08) hide
           (name "VDD" (effects (font (size 1.016 1.016))))
           (number "A9" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "B1" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -30.48 180) (length 5.08)
+        (pin passive line (at 18.415 -30.48 180) (length 5.08)
           (name "VSSQ" (effects (font (size 1.016 1.016))))
           (number "B2" (effects (font (size 1.016 1.016))))
         )
@@ -482,7 +482,7 @@
           (name "DM/TDQS" (effects (font (size 1.016 1.016))))
           (number "B7" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -30.48 180) (length 5.08) hide
+        (pin passive line (at 18.415 -30.48 180) (length 5.08) hide
           (name "VSSQ" (effects (font (size 1.016 1.016))))
           (number "B8" (effects (font (size 1.016 1.016))))
         )
@@ -490,7 +490,7 @@
           (name "VDDQ" (effects (font (size 1.016 1.016))))
           (number "B9" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 31.75 180) (length 5.08) hide
+        (pin passive line (at 18.415 31.75 180) (length 5.08) hide
           (name "VDDQ" (effects (font (size 1.016 1.016))))
           (number "C1" (effects (font (size 1.016 1.016))))
         )
@@ -510,11 +510,11 @@
           (name "DQ3" (effects (font (size 1.016 1.016))))
           (number "C8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -30.48 180) (length 5.08) hide
+        (pin passive line (at 18.415 -30.48 180) (length 5.08) hide
           (name "VSSQ" (effects (font (size 1.016 1.016))))
           (number "C9" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -30.48 180) (length 5.08) hide
+        (pin passive line (at 18.415 -30.48 180) (length 5.08) hide
           (name "VSSQ" (effects (font (size 1.016 1.016))))
           (number "D1" (effects (font (size 1.016 1.016))))
         )
@@ -526,15 +526,15 @@
           (name "DQS#" (effects (font (size 1.016 1.016))))
           (number "D3" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 34.29 180) (length 5.08) hide
+        (pin passive line (at 18.415 34.29 180) (length 5.08) hide
           (name "VDD" (effects (font (size 1.016 1.016))))
           (number "D7" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "D8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -30.48 180) (length 5.08) hide
+        (pin passive line (at 18.415 -30.48 180) (length 5.08) hide
           (name "VSSQ" (effects (font (size 1.016 1.016))))
           (number "D9" (effects (font (size 1.016 1.016))))
         )
@@ -542,7 +542,7 @@
           (name "VREFDQ" (effects (font (size 1.016 1.016))))
           (number "E1" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 31.75 180) (length 5.08) hide
+        (pin passive line (at 18.415 31.75 180) (length 5.08) hide
           (name "VDDQ" (effects (font (size 1.016 1.016))))
           (number "E2" (effects (font (size 1.016 1.016))))
         )
@@ -558,11 +558,11 @@
           (name "NF/DQ5" (effects (font (size 1.016 1.016))))
           (number "E8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 31.75 180) (length 5.08) hide
+        (pin passive line (at 18.415 31.75 180) (length 5.08) hide
           (name "VDDQ" (effects (font (size 1.016 1.016))))
           (number "E9" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "F2" (effects (font (size 1.016 1.016))))
         )
@@ -574,7 +574,7 @@
           (name "CK" (effects (font (size 1.016 1.016))))
           (number "F7" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "F8" (effects (font (size 1.016 1.016))))
         )
@@ -582,7 +582,7 @@
           (name "ODT" (effects (font (size 1.016 1.016))))
           (number "G1" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 34.29 180) (length 5.08) hide
+        (pin passive line (at 18.415 34.29 180) (length 5.08) hide
           (name "VDD" (effects (font (size 1.016 1.016))))
           (number "G2" (effects (font (size 1.016 1.016))))
         )
@@ -594,7 +594,7 @@
           (name "CK#" (effects (font (size 1.016 1.016))))
           (number "G7" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 34.29 180) (length 5.08) hide
+        (pin passive line (at 18.415 34.29 180) (length 5.08) hide
           (name "VDD" (effects (font (size 1.016 1.016))))
           (number "G8" (effects (font (size 1.016 1.016))))
         )
@@ -614,11 +614,11 @@
           (name "A10/AP" (effects (font (size 1.016 1.016))))
           (number "H7" (effects (font (size 1.016 1.016))))
         )
-        (pin bidirectional line (at 18.415 -24.13 180) (length 5.08)
+        (pin output line (at 18.415 -24.13 180) (length 5.08)
           (name "ZQ" (effects (font (size 1.016 1.016))))
           (number "H8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "J1" (effects (font (size 1.016 1.016))))
         )
@@ -638,11 +638,11 @@
           (name "VREFCA" (effects (font (size 1.016 1.016))))
           (number "J8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "J9" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 34.29 180) (length 5.08) hide
+        (pin passive line (at 18.415 34.29 180) (length 5.08) hide
           (name "VDD" (effects (font (size 1.016 1.016))))
           (number "K1" (effects (font (size 1.016 1.016))))
         )
@@ -662,11 +662,11 @@
           (name "BA1" (effects (font (size 1.016 1.016))))
           (number "K8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 34.29 180) (length 5.08) hide
+        (pin passive line (at 18.415 34.29 180) (length 5.08) hide
           (name "VDD" (effects (font (size 1.016 1.016))))
           (number "K9" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "L1" (effects (font (size 1.016 1.016))))
         )
@@ -686,11 +686,11 @@
           (name "A4" (effects (font (size 1.016 1.016))))
           (number "L8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "L9" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 34.29 180) (length 5.08) hide
+        (pin passive line (at 18.415 34.29 180) (length 5.08) hide
           (name "VDD" (effects (font (size 1.016 1.016))))
           (number "M1" (effects (font (size 1.016 1.016))))
         )
@@ -710,11 +710,11 @@
           (name "A6" (effects (font (size 1.016 1.016))))
           (number "M8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 34.29 180) (length 5.08) hide
+        (pin passive line (at 18.415 34.29 180) (length 5.08) hide
           (name "VDD" (effects (font (size 1.016 1.016))))
           (number "M9" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "N1" (effects (font (size 1.016 1.016))))
         )
@@ -734,7 +734,7 @@
           (name "A8" (effects (font (size 1.016 1.016))))
           (number "N8" (effects (font (size 1.016 1.016))))
         )
-        (pin power_in line (at 18.415 -27.94 180) (length 5.08) hide
+        (pin passive line (at 18.415 -27.94 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.016 1.016))))
           (number "N9" (effects (font (size 1.016 1.016))))
         )

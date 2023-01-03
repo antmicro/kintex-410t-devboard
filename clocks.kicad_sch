@@ -209,7 +209,7 @@
           (name "Y1" (effects (font (size 1.27 1.27))))
           (number "12" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 0 -15.24 90) (length 2.54) hide
+        (pin passive line (at 0 -15.24 90) (length 2.54) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "13" (effects (font (size 1.27 1.27))))
         )
@@ -225,7 +225,7 @@
           (name "Y3" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 0 -15.24 90) (length 2.54) hide
+        (pin passive line (at 0 -15.24 90) (length 2.54) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "17" (effects (font (size 1.27 1.27))))
         )
@@ -249,7 +249,7 @@
           (name "VCC" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 0 -15.24 90) (length 2.54)
+        (pin passive line (at 0 -15.24 90) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
@@ -261,11 +261,11 @@
           (name "CLK_IN1" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at -12.7 10.16 0) (length 2.54) hide
+        (pin passive line (at -12.7 10.16 0) (length 2.54) hide
           (name "VCC" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 0 -15.24 90) (length 2.54) hide
+        (pin passive line (at 0 -15.24 90) (length 2.54) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
@@ -630,8 +630,8 @@
   )
 
   (bus_alias "PLL_CLK" (members "CLK[0..2]"))
-  (bus_alias "CLK" (members "CLK_P" "CLK_N"))
   (bus_alias "I^{2}C" (members "SDA" "SCL"))
+  (bus_alias "CLK" (members "CLK_P" "CLK_N"))
   (junction (at 265.43 175.895) (diameter 0) (color 0 0 0 0)
     (uuid 1115a019-30ce-4b11-9b46-aa7dbcbe35ae)
   )
