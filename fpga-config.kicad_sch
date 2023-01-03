@@ -5904,7 +5904,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 631e3166-765c-4e3b-bb56-4a1692ad4113)
   )
-  (hierarchical_label "TEMP{I2C}" (shape bidirectional) (at 356.87 168.275 0)
+  (hierarchical_label "TEMP{I^{2}C}" (shape bidirectional) (at 356.87 168.275 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 997d6727-09f8-48bd-a2ae-3590d9a17825)
   )

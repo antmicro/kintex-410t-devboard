@@ -629,7 +629,7 @@
     )
   )
 
-  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "I^{2}C" (members "SDA" "SCL"))
   (bus_alias "PLL_CLK" (members "CLK[0..2]"))
   (bus_alias "CLK" (members "CLK_P" "CLK_N"))
   (junction (at 265.43 175.895) (diameter 0) (color 0 0 0 0)
@@ -1188,7 +1188,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 40e5838d-33c9-4b7c-b730-25b11495a2d1)
   )
-  (hierarchical_label "PLL{I2C}" (shape input) (at 275.59 228.6 0)
+  (hierarchical_label "PLL{I^{2}C}" (shape input) (at 275.59 228.6 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid add7b005-a94b-4a81-b74b-6e860b492956)
   )

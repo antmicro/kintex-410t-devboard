@@ -4645,7 +4645,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f6e19461-aadb-45eb-90be-de401582fe7a)
   )
-  (hierarchical_label "PD{I2C}" (shape bidirectional) (at 181.61 132.715 0)
+  (hierarchical_label "PD{I^{2}C}" (shape bidirectional) (at 181.61 132.715 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f7989732-b6c7-4068-9a5e-bb5983ce8281)
   )

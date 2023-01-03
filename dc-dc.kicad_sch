@@ -6175,7 +6175,7 @@
     )
   )
 
-  (hierarchical_label "VCCINT{I2C}" (shape bidirectional) (at 298.45 78.74 180)
+  (hierarchical_label "VCCINT{I^{2}C}" (shape bidirectional) (at 298.45 78.74 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f86477fe-d782-4fe0-a919-37bf6cd0d7d9)
   )
