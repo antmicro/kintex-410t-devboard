@@ -13,25 +13,25 @@
   (lib_symbols
   )
 
+  (bus_alias "SPI-FLASH" (members "~{CS}" "DQ[0..3]" "~{WP}" "~{HOLD}" "CLK"))
+  (bus_alias "SD-CARD" (members "DAT[0..3]" "~{CD}" "CLK" "CMD"))
+  (bus_alias "UART" (members "TX" "RX"))
   (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
   (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET"))
-  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
-  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
-  (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
-  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT"))
-  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
-  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
-  (bus_alias "CW-20PIN" (members "HS[1..2]" "IO[1..4]" "RST" "MISO" "MOSI" "TSCK" "TPDIC" "TPDID"))
-  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
-  (bus_alias "PMOD" (members "IO[1..4]" "IO[7..10]"))
-  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "CEC" "HPD" "UTL" "SDA" "SCL"))
   (bus_alias "MGTX" (members "TX0_P" "TX1_P" "TX2_P" "TX3_P" "TX0_n" "TX0_N" "TX1_N" "TX2_N" "TX3_N" "RX0_P" "RX1_P" "RX2_P" "RX3_P" "RX0_N" "RX1_N" "RX2_N" "RX3_N" "REFCLK0_P" "REFCLK0_N" "REFCLK1_P" "REFCLK1_N"))
-  (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
+  (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
   (bus_alias "POE" (members "VC[1..4]"))
+  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
+  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT"))
+  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
+  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
+  (bus_alias "CW-20PIN" (members "HS[1..2]" "IO[1..4]" "RST" "MISO" "MOSI" "TSCK" "TPDIC" "TPDID"))
   (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
-  (bus_alias "UART" (members "TX" "RX"))
-  (bus_alias "SD-CARD" (members "DAT[0..3]" "~{CD}" "CLK" "CMD"))
-  (bus_alias "SPI-FLASH" (members "~{CS}" "DQ[0..3]" "~{WP}" "~{HOLD}" "CLK"))
+  (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
+  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "CEC" "HPD" "UTL" "SDA" "SCL"))
+  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
+  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
+  (bus_alias "PMOD" (members "IO[1..4]" "IO[7..10]"))
   (junction (at 289.56 71.755) (diameter 0) (color 0 0 0 0)
     (uuid 14fce1ae-f03f-4d0f-836c-156b6d3e6abf)
   )
@@ -2085,6 +2085,9 @@
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/bcef294a-1fab-4058-8570-c580fae7a804"
       (reference "#PWR0355") (unit 1) (value "GND") (footprint "")
     )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/a37777a6-2a28-4388-8cb4-ecf70373db65"
+      (reference "#PWR0356") (unit 1) (value "+1V2") (footprint "")
+    )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/150b82e3-d9dc-4171-ab06-22d74776f882"
       (reference "#PWR0357") (unit 1) (value "+3V3") (footprint "")
     )
@@ -2156,6 +2159,9 @@
     )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/6b2b9a81-a613-449e-af34-1960fba502f7"
       (reference "#PWR0380") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/d9853756-4a9d-4400-9019-db2d98a53289"
+      (reference "#PWR0381") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/f8b3f518-6c0f-4e0d-aacd-db59f2d6c3ab"
       (reference "#PWR0382") (unit 1) (value "+1V35") (footprint "")
@@ -2292,6 +2298,21 @@
     (path "/379b1f53-51c1-46d8-ac52-98e1a4cea45d/37c4f709-ac11-470e-bd35-ea20c4d7df3a"
       (reference "#PWR0426") (unit 1) (value "GND") (footprint "")
     )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/863379ba-c44d-4ac1-b034-c3455608bf66"
+      (reference "#PWR0427") (unit 1) (value "+1V8") (footprint "")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/bbf6b1f2-f770-4c8f-9af8-446f85e1e776"
+      (reference "#PWR0428") (unit 1) (value "+1V8") (footprint "")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/1ff8994c-a877-43e9-ae69-7934f7758a89"
+      (reference "#PWR0429") (unit 1) (value "VCC_USR_A") (footprint "")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/ac1b7888-4a79-48fb-ad37-fb5fb7c996da"
+      (reference "#PWR0430") (unit 1) (value "VCC_USR_B") (footprint "")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/6faf6012-3a65-4c75-b892-9588a141179e"
+      (reference "#PWR0431") (unit 1) (value "+1V2") (footprint "")
+    )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/77cb16c1-c26a-4f47-9adf-754fc6440cd0"
       (reference "#PWR0432") (unit 1) (value "+1V35") (footprint "")
     )
@@ -2301,65 +2322,44 @@
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/aa79ef68-927b-4c31-b98d-2c02786a8879"
       (reference "#PWR0434") (unit 1) (value "GND") (footprint "")
     )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/71bdd52d-b9f9-4ac5-aa2e-287ced7ab5bd"
+      (reference "#PWR0435") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/e4d1bfe5-544e-4625-8d2c-7f6fbd1cdc99"
       (reference "#PWR0436") (unit 1) (value "GND") (footprint "")
     )
-    (path "/53e5e9d0-da1a-4e72-8926-4916ab1fc9d9/1ed9770c-69ab-4194-a993-303f42e30105"
-      (reference "#PWR?") (unit 1) (value "VCC_USR_B") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/1ff8994c-a877-43e9-ae69-7934f7758a89"
-      (reference "#PWR?") (unit 1) (value "VCC_USR_A") (footprint "")
-    )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/3330cb11-56fc-432f-b133-040676c8728b"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/6faf6012-3a65-4c75-b892-9588a141179e"
-      (reference "#PWR?") (unit 1) (value "+1V2") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/71bdd52d-b9f9-4ac5-aa2e-287ced7ab5bd"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/75f0ae85-e0dc-4518-a2f3-ce1124d1e3bb"
-      (reference "#PWR?") (unit 1) (value "+1V0_MGTAVCC") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/863379ba-c44d-4ac1-b034-c3455608bf66"
-      (reference "#PWR?") (unit 1) (value "+1V8") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/981c51fb-50df-4102-9bf0-6b2818bc07f7"
-      (reference "#PWR?") (unit 1) (value "VCC_USR_B") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/a37777a6-2a28-4388-8cb4-ecf70373db65"
-      (reference "#PWR?") (unit 1) (value "+1V2") (footprint "")
-    )
-    (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/a61399fc-3d6d-46b8-b9a7-ce186e1125c5"
-      (reference "#PWR?") (unit 1) (value "+1V0_MGTAVCC") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/ac1b7888-4a79-48fb-ad37-fb5fb7c996da"
-      (reference "#PWR?") (unit 1) (value "VCC_USR_B") (footprint "")
-    )
-    (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/adc6eb05-be31-4e65-b2aa-e0691a00ee23"
-      (reference "#PWR?") (unit 1) (value "VCC_USR_A") (footprint "")
-    )
-    (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/b84504cc-437a-49c4-b2df-5935a96768ac"
-      (reference "#PWR?") (unit 1) (value "+1V0_MGTAVCC") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/bbf6b1f2-f770-4c8f-9af8-446f85e1e776"
-      (reference "#PWR?") (unit 1) (value "+1V8") (footprint "")
+      (reference "#PWR0437") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/ca467014-104b-4432-a391-443b1c7e9d22"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+      (reference "#PWR0438") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/53e5e9d0-da1a-4e72-8926-4916ab1fc9d9/d19aa5ab-8efb-41dd-a9d5-86180e43141f"
-      (reference "#PWR?") (unit 1) (value "VCC_USR_B") (footprint "")
-    )
-    (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/d4a346e9-73d8-4b8a-9c96-ab00d51358c5"
-      (reference "#PWR?") (unit 1) (value "VCC_USR_B") (footprint "")
-    )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/d9853756-4a9d-4400-9019-db2d98a53289"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/75f0ae85-e0dc-4518-a2f3-ce1124d1e3bb"
+      (reference "#PWR0439") (unit 1) (value "+1V0_MGTAVCC") (footprint "")
     )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/de910b83-04ea-42c5-a759-6e7fdfe8b6cf"
-      (reference "#PWR?") (unit 1) (value "VCC_USR_A") (footprint "")
+      (reference "#PWR0440") (unit 1) (value "VCC_USR_A") (footprint "")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/981c51fb-50df-4102-9bf0-6b2818bc07f7"
+      (reference "#PWR0441") (unit 1) (value "VCC_USR_B") (footprint "")
+    )
+    (path "/53e5e9d0-da1a-4e72-8926-4916ab1fc9d9/1ed9770c-69ab-4194-a993-303f42e30105"
+      (reference "#PWR0442") (unit 1) (value "VCC_USR_B") (footprint "")
+    )
+    (path "/53e5e9d0-da1a-4e72-8926-4916ab1fc9d9/d19aa5ab-8efb-41dd-a9d5-86180e43141f"
+      (reference "#PWR0443") (unit 1) (value "VCC_USR_B") (footprint "")
+    )
+    (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/d4a346e9-73d8-4b8a-9c96-ab00d51358c5"
+      (reference "#PWR0444") (unit 1) (value "VCC_USR_B") (footprint "")
+    )
+    (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/adc6eb05-be31-4e65-b2aa-e0691a00ee23"
+      (reference "#PWR0445") (unit 1) (value "VCC_USR_A") (footprint "")
+    )
+    (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/a61399fc-3d6d-46b8-b9a7-ce186e1125c5"
+      (reference "#PWR0446") (unit 1) (value "+1V0_MGTAVCC") (footprint "")
+    )
+    (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/b84504cc-437a-49c4-b2df-5935a96768ac"
+      (reference "#PWR0447") (unit 1) (value "+1V0_MGTAVCC") (footprint "")
     )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/27e102e8-a0ac-4aaa-9679-9249ee625aa3"
       (reference "C1") (unit 1) (value "C_330u_KEMET_B") (footprint "antmicro-footprints:KEMET_B")
@@ -3693,17 +3693,17 @@
     (path "/03f686ad-e1cc-4993-b908-c2b90876b432/254bfc53-5283-473f-b480-1dadcf80c5a8"
       (reference "J18") (unit 7) (value "ASP-184329-01_mounting_holes_FMCPinout") (footprint "antmicro-footprints:ASP-184329-01_mounting_holes")
     )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/4c4b4b0e-ce7c-4d50-a6a5-3e906fbfcf58"
-      (reference "J?") (unit 1) (value "15910060") (footprint "antmicro-footprints:15910060")
-    )
-    (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/5f2873db-d5a6-48e0-88d7-48ca532f0ddf"
-      (reference "J?") (unit 1) (value "ERM5-030-02.0-L-DV-TR") (footprint "antmicro-footprints:SAMTEC_ERM5-030-02.0-L-DV-TR")
-    )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/90d501bc-88bc-410c-a2e5-38b77bfd6fa7"
-      (reference "J?") (unit 1) (value "15910060") (footprint "antmicro-footprints:15910060")
+      (reference "J19") (unit 1) (value "15910060") (footprint "antmicro-footprints:15910060")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/4c4b4b0e-ce7c-4d50-a6a5-3e906fbfcf58"
+      (reference "J20") (unit 1) (value "15910060") (footprint "antmicro-footprints:15910060")
     )
     (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/e78e34f9-1c53-4e17-a0a9-21b1a033e5a5"
-      (reference "J?") (unit 1) (value "ERM5-030-02.0-L-DV-TR") (footprint "antmicro-footprints:SAMTEC_ERM5-030-02.0-L-DV-TR")
+      (reference "J21") (unit 1) (value "ERM5-030-02.0-L-DV-TR") (footprint "antmicro-footprints:SAMTEC_ERM5-030-02.0-L-DV-TR")
+    )
+    (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/5f2873db-d5a6-48e0-88d7-48ca532f0ddf"
+      (reference "J22") (unit 1) (value "ERM5-030-02.0-L-DV-TR") (footprint "antmicro-footprints:SAMTEC_ERM5-030-02.0-L-DV-TR")
     )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/b9a7000a-9737-4e5d-840a-8cfdeddbe8e1"
       (reference "L1") (unit 1) (value " SRP6050CA-1R5M") (footprint "antmicro-footprints:Bourns-SRP6050CA")
