@@ -13,25 +13,25 @@
   (lib_symbols
   )
 
+  (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
+  (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET"))
   (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
-  (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
-  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
+  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
   (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
   (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT"))
-  (bus_alias "PMOD" (members "IO[1..4]" "IO[7..10]"))
-  (bus_alias "POE" (members "VC[1..4]"))
-  (bus_alias "UART" (members "TX" "RX"))
-  (bus_alias "MGTX" (members "TX0_P" "TX1_P" "TX2_P" "TX3_P" "TX0_n" "TX0_N" "TX1_N" "TX2_N" "TX3_N" "RX0_P" "RX1_P" "RX2_P" "RX3_P" "RX0_N" "RX1_N" "RX2_N" "RX3_N" "REFCLK0_P" "REFCLK0_N" "REFCLK1_P" "REFCLK1_N"))
-  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
+  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
+  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
   (bus_alias "CW-20PIN" (members "HS[1..2]" "IO[1..4]" "RST" "MISO" "MOSI" "TSCK" "TPDIC" "TPDID"))
+  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
+  (bus_alias "PMOD" (members "IO[1..4]" "IO[7..10]"))
+  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "CEC" "HPD" "UTL" "SDA" "SCL"))
+  (bus_alias "MGTX" (members "TX0_P" "TX1_P" "TX2_P" "TX3_P" "TX0_n" "TX0_N" "TX1_N" "TX2_N" "TX3_N" "RX0_P" "RX1_P" "RX2_P" "RX3_P" "RX0_N" "RX1_N" "RX2_N" "RX3_N" "REFCLK0_P" "REFCLK0_N" "REFCLK1_P" "REFCLK1_N"))
+  (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
+  (bus_alias "POE" (members "VC[1..4]"))
+  (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
+  (bus_alias "UART" (members "TX" "RX"))
   (bus_alias "SD-CARD" (members "DAT[0..3]" "~{CD}" "CLK" "CMD"))
   (bus_alias "SPI-FLASH" (members "~{CS}" "DQ[0..3]" "~{WP}" "~{HOLD}" "CLK"))
-  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
-  (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET"))
-  (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
-  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "CEC" "HPD" "UTL" "SDA" "SCL"))
-  (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
-  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
   (junction (at 289.56 71.755) (diameter 0) (color 0 0 0 0)
     (uuid 14fce1ae-f03f-4d0f-836c-156b6d3e6abf)
   )
@@ -1071,9 +1071,6 @@
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/4777d531-36d7-4c00-a1e7-494fe372a858"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/8fbe371c-97df-4072-b721-3d4a9c801d1b"
-      (reference "#PWR017") (unit 1) (value "+1V2_MGTAVCC") (footprint "")
-    )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/e4d267b5-7be1-4d71-b3c9-5446d8005eaa"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
@@ -2088,9 +2085,6 @@
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/bcef294a-1fab-4058-8570-c580fae7a804"
       (reference "#PWR0355") (unit 1) (value "GND") (footprint "")
     )
-    (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/c0698356-3dcd-4cae-8c13-30b6d93e7484"
-      (reference "#PWR0356") (unit 1) (value "+1V2_MGTAVCC") (footprint "")
-    )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/150b82e3-d9dc-4171-ab06-22d74776f882"
       (reference "#PWR0357") (unit 1) (value "+3V3") (footprint "")
     )
@@ -2307,9 +2301,6 @@
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/aa79ef68-927b-4c31-b98d-2c02786a8879"
       (reference "#PWR0434") (unit 1) (value "GND") (footprint "")
     )
-    (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/50b74643-a943-4aa1-b655-74ff191403e1"
-      (reference "#PWR0435") (unit 1) (value "+1V2_MGTAVCC") (footprint "")
-    )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/e4d1bfe5-544e-4625-8d2c-7f6fbd1cdc99"
       (reference "#PWR0436") (unit 1) (value "GND") (footprint "")
     )
@@ -2328,6 +2319,9 @@
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/71bdd52d-b9f9-4ac5-aa2e-287ced7ab5bd"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/75f0ae85-e0dc-4518-a2f3-ce1124d1e3bb"
+      (reference "#PWR?") (unit 1) (value "+1V0_MGTAVCC") (footprint "")
+    )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/863379ba-c44d-4ac1-b034-c3455608bf66"
       (reference "#PWR?") (unit 1) (value "+1V8") (footprint "")
     )
@@ -2337,11 +2331,17 @@
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/a37777a6-2a28-4388-8cb4-ecf70373db65"
       (reference "#PWR?") (unit 1) (value "+1V2") (footprint "")
     )
+    (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/a61399fc-3d6d-46b8-b9a7-ce186e1125c5"
+      (reference "#PWR?") (unit 1) (value "+1V0_MGTAVCC") (footprint "")
+    )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/ac1b7888-4a79-48fb-ad37-fb5fb7c996da"
       (reference "#PWR?") (unit 1) (value "VCC_USR_B") (footprint "")
     )
     (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/adc6eb05-be31-4e65-b2aa-e0691a00ee23"
       (reference "#PWR?") (unit 1) (value "VCC_USR_A") (footprint "")
+    )
+    (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/b84504cc-437a-49c4-b2df-5935a96768ac"
+      (reference "#PWR?") (unit 1) (value "+1V0_MGTAVCC") (footprint "")
     )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/bbf6b1f2-f770-4c8f-9af8-446f85e1e776"
       (reference "#PWR?") (unit 1) (value "+1V8") (footprint "")

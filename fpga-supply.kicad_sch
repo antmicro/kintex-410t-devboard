@@ -12005,11 +12005,11 @@
         )
       )
     )
-    (symbol "antmicroPower:+1V2_MGTAVCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "antmicroPower:+1V0_MGTAVCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR?" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+1V2_MGTAVCC" (id 1) (at 0 3.81 0)
+      (property "Value" "+1V0_MGTAVCC" (id 1) (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
@@ -12018,7 +12018,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+1V2_MGTAVCC_0_1"
+      (symbol "+1V0_MGTAVCC_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -12044,9 +12044,9 @@
           (fill (type none))
         )
       )
-      (symbol "+1V2_MGTAVCC_1_1"
+      (symbol "+1V0_MGTAVCC_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+1V2_MGTAVCC" (effects (font (size 1.27 1.27))))
+          (name "+1V0_MGTAVCC" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -22333,6 +22333,22 @@
     (pin "2" (uuid c10522d6-727d-4575-af25-049a4fd1b6f5))
   )
 
+  (symbol (lib_id "antmicroPower:+1V0_MGTAVCC") (at 133.985 108.585 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 75f0ae85-e0dc-4518-a2f3-ce1124d1e3bb)
+    (property "Reference" "#PWR?" (id 0) (at 133.985 112.395 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+1V0_MGTAVCC" (id 1) (at 133.985 105.0092 0))
+    (property "Footprint" "" (id 2) (at 133.985 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 133.985 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d101f58b-52e9-4fe0-9ab9-25c8e95acade))
+  )
+
   (symbol (lib_id "antmicroCapacitorsmisc:C_100n_0201") (at 245.11 48.26 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 76c0e853-e221-4e07-aebc-4a9c49cb559e)
@@ -22763,22 +22779,6 @@
     )
     (pin "1" (uuid 908420ae-5e24-4bae-ac16-8c3ee9ee76fd))
     (pin "2" (uuid 066456bb-34c3-4ba6-9889-e30d05eafac7))
-  )
-
-  (symbol (lib_id "antmicroPower:+1V2_MGTAVCC") (at 133.985 108.585 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 8fbe371c-97df-4072-b721-3d4a9c801d1b)
-    (property "Reference" "#PWR017" (id 0) (at 133.985 112.395 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+1V2_MGTAVCC" (id 1) (at 133.985 105.0092 0))
-    (property "Footprint" "" (id 2) (at 133.985 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 133.985 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c8e1f038-c30d-432f-aca9-52d2b4bc523a))
   )
 
   (symbol (lib_id "antmicroCapacitors0402:C_4u7_0402") (at 359.41 115.57 0) (mirror y) (unit 1)
