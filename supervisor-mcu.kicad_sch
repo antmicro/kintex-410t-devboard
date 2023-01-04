@@ -2,7 +2,13 @@
 
   (uuid 4166cabd-70ce-448c-a6e8-234ec50cf9b1)
 
-  (paper "A4")
+  (paper "A3")
+
+  (title_block
+    (title "K410T devboard")
+    (date "2023-01-04")
+    (rev "0.0.99")
+  )
 
   (lib_symbols
     (symbol "antmicroB2bConnectors:ERM5-030-02.0-L-DV-TR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
