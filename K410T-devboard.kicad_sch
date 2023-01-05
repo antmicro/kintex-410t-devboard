@@ -24,6 +24,9 @@
   (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
   (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
   (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
+  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
+  (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET"))
+  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT"))
   (bus_alias "UART" (members "TX" "RX"))
   (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
   (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
@@ -2373,10 +2376,10 @@
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/8fce28a7-e854-43bf-9c64-5cee9ddf2979"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0448") (unit 1) (value "GND") (footprint "")
     )
     (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/a5ad25a1-6b1a-4f1c-8443-c7639617c31c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0449") (unit 1) (value "GND") (footprint "")
     )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/27e102e8-a0ac-4aaa-9679-9249ee625aa3"
       (reference "C1") (unit 1) (value "C_330u_KEMET_B") (footprint "antmicro-footprints:KEMET_B")
@@ -2711,6 +2714,9 @@
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/60759a9e-4291-4694-8f11-a69d12ebdc25"
       (reference "C111") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-res")
     )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/60fbeb9d-6797-4a60-b11d-40b5933a68af"
+      (reference "C112") (unit 1) (value "C_47u_0603") (footprint "antmicro-footprints:0603-cap")
+    )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/f4fa1b84-8120-400f-a39e-9e587faee344"
       (reference "C113") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-res")
     )
@@ -2731,6 +2737,9 @@
     )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/133cad7b-7763-4d6e-a364-e295fa69932e"
       (reference "C119") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-res")
+    )
+    (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/2fbbbc89-cfbb-4b90-b2df-a12f7f4e2814"
+      (reference "C120") (unit 1) (value "C_47u_0603") (footprint "antmicro-footprints:0603-cap")
     )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/68bb7338-8cdb-4feb-93a9-5863c99b819c"
       (reference "C121") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-res")
@@ -3750,10 +3759,10 @@
       (reference "J20") (unit 1) (value "15910060") (footprint "antmicro-footprints:15910060")
     )
     (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/113b5c65-0ab5-4396-9495-5aabc1d0ab15"
-      (reference "J?") (unit 1) (value "ERF5-020-05.0-X-DV") (footprint "antmicro-footprints:ERF5-020-05.0-X-DV")
+      (reference "J21") (unit 1) (value "ERF5-020-05.0-X-DV") (footprint "antmicro-footprints:ERF5-020-05.0-X-DV")
     )
     (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/c277e2bb-5c1d-4e69-8ce6-3b743259f711"
-      (reference "J?") (unit 1) (value "ERF5-020-05.0-X-DV") (footprint "antmicro-footprints:ERF5-020-05.0-X-DV")
+      (reference "J22") (unit 1) (value "ERF5-020-05.0-X-DV") (footprint "antmicro-footprints:ERF5-020-05.0-X-DV")
     )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/b9a7000a-9737-4e5d-840a-8cfdeddbe8e1"
       (reference "L1") (unit 1) (value " SRP6050CA-1R5M") (footprint "antmicro-footprints:Bourns-SRP6050CA")
