@@ -6306,7 +6306,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 173.355 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9fa6144e-a233-44ee-a1f0-2ba3ca6fdc96)
-    (property "Reference" "R?" (id 0) (at 176.53 116.84 0)
+    (property "Reference" "R18" (id 0) (at 176.53 116.84 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "R_0R_0402" (id 1) (at 173.355 121.92 0)
