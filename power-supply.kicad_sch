@@ -4460,6 +4460,10 @@
     (uuid fd78a414-6806-466f-9f1e-ca7e26f2ea0a)
   )
 
+  (text "TODO:\n-Implement PoE DC/DC CTRL polarity fix" (at 0.635 5.08 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 08e77678-f74d-4d5a-8f3b-d1e572602d1c)
+  )
   (text "Power over Ethernet" (at 13.335 170.815 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 69986b46-b94b-4a28-bc44-c3e2c5b6126e)
