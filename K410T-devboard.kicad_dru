@@ -1,0 +1,16 @@
+(version 1)
+
+(rule "DDR_40OHM_SE_outer" 
+	(constraint track_width (opt 0.177mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '40Ohm-se_DQ')")
+	(layer outer)
+)
+
+(rule "DDR_80OHM_diff_outer" 
+	(constraint track_width (opt 0.107mm))
+	(constraint diff_pair_gap (opt 0.158mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '80Ohm-diff_DQS') ")
+	(layer outer)
+)
