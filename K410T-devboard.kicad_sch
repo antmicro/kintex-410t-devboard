@@ -13,32 +13,32 @@
   (lib_symbols
   )
 
+  (bus_alias "SD-CARD" (members "DAT[0..3]" "~{CD}" "CLK" "CMD"))
+  (bus_alias "UART" (members "TX" "RX"))
+  (bus_alias "POE" (members "VC[1..4]"))
+  (bus_alias "UART" (members "TX" "RX"))
+  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
+  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
+  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
   (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
   (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
   (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
-  (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
-  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT"))
+  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
   (bus_alias "SPI-FLASH" (members "~{CS}" "DQ[0..3]" "~{WP}" "~{HOLD}" "CLK"))
-  (bus_alias "CW-20PIN" (members "HS[1..2]" "IO[1..4]" "RST" "MISO" "MOSI" "TSCK" "TPDIC" "TPDID"))
   (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
-  (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
-  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT"))
+  (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET"))
+  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
+  (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
   (bus_alias "MGTX" (members "TX0_P" "TX1_P" "TX2_P" "TX3_P" "TX0_n" "TX0_N" "TX1_N" "TX2_N" "TX3_N" "RX0_P" "RX1_P" "RX2_P" "RX3_P" "RX0_N" "RX1_N" "RX2_N" "RX3_N" "REFCLK0_P" "REFCLK0_N" "REFCLK1_P" "REFCLK1_N"))
   (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT"))
-  (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET"))
-  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
-  (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
-  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
-  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
-  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
   (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "CEC" "HPD" "UTL" "SDA" "SCL"))
+  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT"))
+  (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
+  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT"))
   (bus_alias "PMOD" (members "IO[1..4]" "IO[7..10]"))
-  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
-  (bus_alias "UART" (members "TX" "RX"))
+  (bus_alias "CW-20PIN" (members "HS[1..2]" "IO[1..4]" "RST" "MISO" "MOSI" "TSCK" "TPDIC" "TPDID"))
+  (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
   (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET"))
-  (bus_alias "POE" (members "VC[1..4]"))
-  (bus_alias "UART" (members "TX" "RX"))
-  (bus_alias "SD-CARD" (members "DAT[0..3]" "~{CD}" "CLK" "CMD"))
   (junction (at 289.56 136.525) (diameter 0) (color 0 0 0 0)
     (uuid 1e7fdce6-777c-4141-af4b-6b772f1fd459)
   )
@@ -1455,12 +1455,6 @@
     )
     (path "/f197fc77-508c-435d-932d-162b52b3ed75/9c986f41-8638-4f02-be1e-d1f8ecec6ef9"
       (reference "#PWR0103") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/f197fc77-508c-435d-932d-162b52b3ed75/ca3c257a-3ac2-4734-99ca-13826504d42c"
-      (reference "#PWR0104") (unit 1) (value "GNDD") (footprint "")
-    )
-    (path "/f197fc77-508c-435d-932d-162b52b3ed75/93cd3ab3-7f1d-4d04-852b-ce30356b86c8"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/f197fc77-508c-435d-932d-162b52b3ed75/04bafcad-9d51-443c-8eba-265273752682"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
@@ -3829,9 +3823,6 @@
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/17fa6ca7-56ff-4ea4-a7bd-8817827b589f"
       (reference "FB11") (unit 1) (value "BLM15PD121SN1D") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/f197fc77-508c-435d-932d-162b52b3ed75/b6e4c6c8-d3d6-47b9-8150-98b8badc6e2c"
-      (reference "IC1") (unit 1) (value "ACPL-217-500E") (footprint "antmicro-footprints:SOIC127P700X242-4N")
-    )
     (path "/4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5/b37cfc00-f969-4aa8-8339-472dfa4c73d9"
       (reference "J1") (unit 1) (value "878321412") (footprint "antmicro-footprints:PinHeader_2x7_P2mm_SMD_no_locator")
     )
@@ -4219,14 +4210,8 @@
     (path "/f197fc77-508c-435d-932d-162b52b3ed75/78ee395a-29c7-48f3-8855-d87fbeda2804"
       (reference "R60") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/f197fc77-508c-435d-932d-162b52b3ed75/99ad0515-43ed-4e10-80c9-4b8c0c7c570b"
-      (reference "R61") (unit 1) (value "R_1k_0402") (footprint "antmicro-footprints:0402-res")
-    )
     (path "/f197fc77-508c-435d-932d-162b52b3ed75/e8c81b55-e38a-423a-b81a-a534b2a7c885"
       (reference "R62") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
-    )
-    (path "/f197fc77-508c-435d-932d-162b52b3ed75/577fb9a4-5699-4bb0-b117-328bdb8add63"
-      (reference "R63") (unit 1) (value "R_1k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/53e5e9d0-da1a-4e72-8926-4916ab1fc9d9/ba386739-1810-43e2-bc5e-fb3f38254d9f"
       (reference "R64") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
