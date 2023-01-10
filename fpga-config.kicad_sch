@@ -8085,7 +8085,7 @@
   (symbol (lib_id "antmicroShuntsJumpers:NetTie_2") (at 349.885 193.04 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f7277c0a-544c-4017-93e3-05ae802b92d0)
-    (property "Reference" "NT?" (id 0) (at 351.155 193.04 0)
+    (property "Reference" "NT21" (id 0) (at 351.155 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "NetTie_2" (id 1) (at 348.615 193.04 0)
