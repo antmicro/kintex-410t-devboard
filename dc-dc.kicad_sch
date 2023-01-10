@@ -6601,8 +6601,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 47144c87-c842-47cf-9f9c-0522595d47b9)
   )
-  (text "Todo:\nPOE_DC signal is not connected\nChange 5V_AON to 3.3V_AON"
-    (at 0.635 6.985 0)
+  (text "Todo:\nPOE_DC signal is not connected\nChange 5V_AON to 3.3V_AON\nConnect PB_CTRL_OUT and ~{PB_CTRL_INT} to FPGA"
+    (at 0.635 8.89 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 49b6d508-a406-4142-b3e9-823857615431)
   )
@@ -6721,6 +6721,11 @@
   (text "ON/OFF Button controller" (at 91.44 16.51 0)
     (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
     (uuid be2f8597-3c3c-4c36-ab13-482e007bd49a)
+  )
+  (text "Remove R302 and mount R295 after enabling dual phase"
+    (at 166.37 257.81 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c1809280-ed1d-444e-8c54-429fdd7a0fa9)
   )
   (text "NOTE:\nmount 1/2" (at 73.66 27.305 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -9022,7 +9027,6 @@
     (property "Val" "0R" (id 6) (at 193.04 234.3149 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "DNP" "DNP" (id 7) (at 190.5 232.41 0))
     (pin "1" (uuid 0003a3a0-777c-4bb7-9bbd-0dddb92e4d75))
     (pin "2" (uuid 785e2d12-0f98-4542-93fc-7348852f742e))
   )
@@ -10466,7 +10470,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 176.53 232.41 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid a9ce7ea0-9648-4028-9828-9518888bfbea)
     (property "Reference" "R295" (id 0) (at 178.308 231.5754 90)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -10489,6 +10493,7 @@
     (property "Val" "0R" (id 6) (at 178.308 234.3405 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
+    (property "DNP" "DNP" (id 7) (at 176.53 232.41 0))
     (pin "1" (uuid 5389aafd-2d08-41d4-9297-b8c82eea7522))
     (pin "2" (uuid 0527d340-60b8-492a-ae0b-0f2f6b5e71c2))
   )
