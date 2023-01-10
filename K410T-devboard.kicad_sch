@@ -3868,12 +3868,6 @@
     (path "/32cc216c-573a-42da-8552-2904507ceea0/af34955a-4493-4e37-b376-c447728900af"
       (reference "J12") (unit 1) (value "614004184726") (footprint "antmicro-footprints:614004184726")
     )
-    (path "/32cc216c-573a-42da-8552-2904507ceea0/bf164236-59bf-47d7-92e9-04485bfe17b3"
-      (reference "J13") (unit 1) (value "USB4105-GF-A") (footprint "antmicro-footprints:GCT_USB4105-GF-A")
-    )
-    (path "/32cc216c-573a-42da-8552-2904507ceea0/48e984ed-71de-47b7-8c91-9e58a03e3397"
-      (reference "J14") (unit 1) (value "USB4105-GF-A") (footprint "antmicro-footprints:GCT_USB4105-GF-A")
-    )
     (path "/03f686ad-e1cc-4993-b908-c2b90876b432/a4e45d05-cd36-4547-a1b7-989723b3ea84"
       (reference "J18") (unit 1) (value "ASP-184329-01_mounting_holes_FMCPinout") (footprint "antmicro-footprints:ASP-184329-01_mounting_holes")
     )
@@ -3910,8 +3904,14 @@
     (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/2cc0c9f2-6d66-4459-9aee-ad03ef778584"
       (reference "J?") (unit 1) (value "2007435-1") (footprint "antmicro-footprints:TE_2007435-1")
     )
+    (path "/32cc216c-573a-42da-8552-2904507ceea0/3bd4514d-3daf-49a6-835f-bb2ab1705435"
+      (reference "J?") (unit 1) (value "12402054M611A") (footprint "antmicro-footprints:12402054M611A")
+    )
     (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/5a833959-f7e4-4652-a394-990f8871e704"
       (reference "J?") (unit 1) (value "0895-2C1R-GVH") (footprint "antmicro-footprints:0895-2C1R-GVH")
+    )
+    (path "/32cc216c-573a-42da-8552-2904507ceea0/fa30b681-e09d-49fd-8e11-7a7f26af0012"
+      (reference "J?") (unit 1) (value "12402054M611A") (footprint "antmicro-footprints:12402054M611A")
     )
     (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/03725a71-803a-48ce-b1db-dfdfcd7f8c2c"
       (reference "J?") (unit 2) (value "0895-2C1R-GVH") (footprint "antmicro-footprints:0895-2C1R-GVH")
