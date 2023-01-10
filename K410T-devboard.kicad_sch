@@ -3874,9 +3874,6 @@
     (path "/32cc216c-573a-42da-8552-2904507ceea0/48e984ed-71de-47b7-8c91-9e58a03e3397"
       (reference "J14") (unit 1) (value "USB4105-GF-A") (footprint "antmicro-footprints:GCT_USB4105-GF-A")
     )
-    (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/423a9114-8a06-4f26-803d-d7d496024c3d"
-      (reference "J17") (unit 1) (value "685119134923_alt_symbol") (footprint "antmicro-footprints:HDMI_A_Female_685119134923")
-    )
     (path "/03f686ad-e1cc-4993-b908-c2b90876b432/a4e45d05-cd36-4547-a1b7-989723b3ea84"
       (reference "J18") (unit 1) (value "ASP-184329-01_mounting_holes_FMCPinout") (footprint "antmicro-footprints:ASP-184329-01_mounting_holes")
     )
@@ -3909,6 +3906,9 @@
     )
     (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/c277e2bb-5c1d-4e69-8ce6-3b743259f711"
       (reference "J22") (unit 1) (value "ERF5-020-05.0-X-DV") (footprint "antmicro-footprints:ERF5-020-05.0-X-DV")
+    )
+    (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/2cc0c9f2-6d66-4459-9aee-ad03ef778584"
+      (reference "J?") (unit 1) (value "2007435-1") (footprint "antmicro-footprints:TE_2007435-1")
     )
     (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/5a833959-f7e4-4652-a394-990f8871e704"
       (reference "J?") (unit 1) (value "0895-2C1R-GVH") (footprint "antmicro-footprints:0895-2C1R-GVH")
