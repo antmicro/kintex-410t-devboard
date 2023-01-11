@@ -3135,38 +3135,38 @@
     (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/a4356b29-774b-45c6-bad1-99c70c81bce0"
       (reference "C176") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/58c3a229-d36d-4d90-bf76-18256823d522"
-      (reference "C177") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/9d6451b4-fad2-49f9-b642-84c983efbc2a"
+      (reference "C177") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
     (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/669dd8da-52b5-4144-81f3-d0e42c36159c"
       (reference "C178") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/63e38805-ff21-4402-8c36-dd104b1945ba"
-      (reference "C179") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/808c6914-f2a6-408c-8fd6-b165629afccf"
+      (reference "C179") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
     (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/c3c5356d-6699-441b-9533-8415dc6d6d0d"
       (reference "C180") (unit 1) (value "C_10u_0402") (footprint "antmicro-footprints:0402-cap")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/81d01d7f-13be-46f3-9054-df02e7f7c7a0"
-      (reference "C181") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/b9785483-c4a6-413a-966a-b73f110486e8"
+      (reference "C181") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/0be3d90d-207b-4bb7-961f-2560a1d69ce8"
-      (reference "C182") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/ac8ac2e6-afe1-4737-9f56-db6bc50b67e5"
+      (reference "C182") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/a12d3fa9-8016-4070-8cb0-6749bce0f84c"
-      (reference "C183") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/6d83998e-1d76-49ee-a3f7-6255a19b9a19"
+      (reference "C183") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/03853935-e0d7-48d9-a436-37a817b6f5fb"
-      (reference "C184") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/ad6824a2-2113-4cdd-aee7-c62e19015feb"
+      (reference "C184") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/45d9ed29-ceca-49e5-acee-ce118f8e06cf"
-      (reference "C185") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/4e307cb8-7530-4e4a-94a1-a42b1a201f7a"
+      (reference "C185") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/286d1e4c-5f8e-4176-98f8-e7e5fd43ab32"
-      (reference "C186") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/595d8861-a9c1-4816-9f67-37441b872431"
+      (reference "C186") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/0b12a1eb-65de-4f60-bc9e-27e5b6b428b4"
-      (reference "C187") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/0c36eff7-606f-4d7d-bc2e-508eafdfe1fa"
+      (reference "C187") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
     (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/f0e02524-3d89-4514-8703-286685f1ec70"
       (reference "C188") (unit 1) (value "C_10u_0402") (footprint "antmicro-footprints:0402-cap")
@@ -3486,6 +3486,12 @@
     (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/dc01199d-9f34-4504-9b12-ecf77142c77a"
       (reference "C293") (unit 1) (value "C_10u_0402") (footprint "antmicro-footprints:0402-cap")
     )
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/8970e11c-80e3-4292-9957-8602fd80167e"
+      (reference "C294") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
+    )
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/dbfdeef1-cfb7-4981-8e27-118e55149cae"
+      (reference "C295") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
+    )
     (path "/03f686ad-e1cc-4993-b908-c2b90876b432/99d26c66-7369-48c5-a2a3-f57cc8d737cf"
       (reference "C296") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
@@ -3765,23 +3771,17 @@
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/9e40d413-3232-4a40-9b41-639de410e3ba"
       (reference "C388") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/63bc361d-e70d-44a5-9063-46475961169c"
-      (reference "C389") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/b1106895-d97a-4220-a7e6-ebe78e91fad9"
+      (reference "C389") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/75f52267-6014-4beb-9a1a-b0ad58359d6d"
-      (reference "C390") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/282f7de0-9b2e-42ad-8ea7-48cff85d8559"
+      (reference "C390") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/287fcdf1-e446-4180-8142-1288a2897787"
-      (reference "C391") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/857181d9-2d1c-4b8e-be20-c98558e6db06"
+      (reference "C391") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/2d05d6c0-620d-4048-bf78-3c3b48f9f84e"
-      (reference "C392") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
-    )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/799ab666-29cf-4288-a404-a20f414ee3f9"
-      (reference "C393") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
-    )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/6f972edd-fe6d-4f4a-ad8a-aa0297fcf983"
-      (reference "C394") (unit 1) (value "C_100n_0201") (footprint "antmicro-footprints:0201-cap")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/00516461-2f7d-4848-a046-e6602df37430"
+      (reference "C392") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
     (path "/4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5/975b8ebe-3bff-49e4-bb38-d55eb3fb4a45"
       (reference "D1") (unit 1) (value "KP-1608CGCK") (footprint "antmicro-footprints:LED_0603")
@@ -4230,20 +4230,11 @@
     (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/3bada11a-bf0c-43ff-ab11-87e799e72250"
       (reference "R35") (unit 1) (value "R_240R_1%_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/2fa8971b-65f4-437a-bf95-fa58527b17bc"
-      (reference "R36") (unit 1) (value "R_40R2_0201") (footprint "antmicro-footprints:0201-res")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/4f18b775-6217-4d66-a388-82648e712c32"
+      (reference "R36") (unit 1) (value "4x39R_0201_array") (footprint "antmicro-footprints:EXB18V")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/dddd5353-cced-47d7-9a32-fa5652d14475"
-      (reference "R37") (unit 1) (value "R_40R2_0201") (footprint "antmicro-footprints:0201-res")
-    )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/347959b9-3897-4f2b-90d2-b0318de2c475"
-      (reference "R38") (unit 1) (value "R_40R2_0201") (footprint "antmicro-footprints:0201-res")
-    )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/65ae147c-8d4b-4310-a48d-d4c74845d3d6"
-      (reference "R39") (unit 1) (value "R_40R2_0201") (footprint "antmicro-footprints:0201-res")
-    )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/4d6d1422-1193-4cc5-8216-a5b4cac71d28"
-      (reference "R40") (unit 1) (value "R_40R2_0201") (footprint "antmicro-footprints:0201-res")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/587395bf-f505-465a-b793-48f4f99f5969"
+      (reference "R40") (unit 1) (value "R_40R2_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/ae7adcf0-5ac6-421c-bbf4-a5ebf49c86f6"
       (reference "R41") (unit 1) (value "4x33R_0201_array") (footprint "antmicro-footprints:EXB18V")
@@ -4251,8 +4242,8 @@
     (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/0b8db518-3372-4d06-af74-001a35bbb578"
       (reference "R42") (unit 1) (value "4x33R_0201_array") (footprint "antmicro-footprints:EXB18V")
     )
-    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/ee8fd17b-0434-4502-a465-a2f02389c9b7"
-      (reference "R43") (unit 1) (value "R_40R2_0201") (footprint "antmicro-footprints:0201-res")
+    (path "/dc541af2-96d1-4686-8434-6b99da36a1e1/c224fdc9-8b3f-4ac5-af46-4e705654e1fd"
+      (reference "R43") (unit 1) (value "R_40R2_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/7d9cde2f-dddc-4745-ba9e-6423f5c75331/b2c57716-f06f-4e86-b999-da04352a1400"
       (reference "R44") (unit 1) (value "4x33R_0201_array") (footprint "antmicro-footprints:EXB18V")
