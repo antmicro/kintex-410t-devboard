@@ -5855,7 +5855,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8a6cc1cb-696f-4588-b97b-fca5a571ed24)
   )
-  (label "CW_20PIN_IO3" (at 319.405 51.435 0)
+  (label "CW_20PIN_IO4" (at 319.405 51.435 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8c65b7cc-98dc-4d9b-aa43-ffd793d1ca04)
   )
