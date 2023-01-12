@@ -1988,7 +1988,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4087d119-8b60-4925-959e-c5a1a4ccc895)
   )
-  (label "SUP_MCU.SDA" (at 47.625 104.14 0)
+  (label "SUP_MCU.SCL" (at 47.625 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4186e3bf-71a7-458e-809a-de41f730fa8c)
   )
