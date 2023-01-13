@@ -16,7 +16,7 @@
 	(layer outer)
 )
 
-(rule "DDR_50OHM_SE_outer" 
+(rule "50OHM_SE_outer" 
 	(constraint track_width (opt 0.184mm))
 	(constraint clearance (opt 0.1mm))
 	(condition "(A.NetClass == '50Ohm-se')")
@@ -24,10 +24,27 @@
 )
 
 #calculated as 100Ohm diff @ 55OHM SE 
-(rule "DDR_100OHM_diff_outer" 
+(rule "100OHM_diff_outer" 
 	(constraint track_width (opt 0.153mm))
 	(constraint diff_pair_gap (opt 0.208mm))
 	(constraint clearance (opt 0.1mm))
-	(condition "(A.NetClass == '10Ohm-diff') ")
+	(condition "(A.NetClass == '100Ohm-diff') ")
 	(layer outer)
 )
+
+(rule "50OHM_SE_inner" 
+	(constraint track_width (opt 0.1mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '50Ohm-se')")
+	(layer inner)
+)
+
+#calculated as 100Ohm diff @ 55OHM SE 
+(rule "100OHM_diff_inner" 
+	(constraint track_width (opt 0.153mm))
+	(constraint diff_pair_gap (opt 0.208mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '100Ohm-diff') ")
+	(layer inner)
+)
+
