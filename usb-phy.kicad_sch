@@ -9593,7 +9593,7 @@
   (symbol (lib_id "antmicroLogicShiftRegisters:SN74HC595B") (at 89.535 267.335 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d93f07d7-bdb1-409b-9d24-9d3f7d32958a)
-    (property "Reference" "U?" (id 0) (at 89.535 249.555 0)
+    (property "Reference" "U18" (id 0) (at 89.535 249.555 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "SN74HC595B" (id 1) (at 89.535 253.365 0)

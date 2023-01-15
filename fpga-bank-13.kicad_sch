@@ -4079,6 +4079,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 29d39bca-9709-4017-96e3-91037e4fe788)
   )
+  (bus (pts (xy 173.99 160.02) (xy 175.26 160.02))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 2a81dee2-b4bb-48f5-9ecf-7b1f2e30514d)
+  )
+
   (wire (pts (xy 143.51 93.98) (xy 157.48 93.98))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2c8976e5-02c0-46b2-99f3-893daefb8ebc)
@@ -4429,7 +4434,7 @@
     )
   )
 
-  (hierarchical_label "SUP_MCU{SUP-MCU}" (shape bidirectional) (at 173.99 160.02 0)
+  (hierarchical_label "SUP_MCU{SUP-MCU}" (shape bidirectional) (at 175.26 160.02 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3fbf9fc6-89d7-4fac-a809-003393a86bde)
   )
