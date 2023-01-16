@@ -45,8 +45,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.09999999999999999
+          "45_degree_only": true,
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -172,7 +172,8 @@
         0.182,
         0.198,
         0.256,
-        0.4
+        0.4,
+        2.0
       ],
       "via_dimensions": [
         {
@@ -940,7 +941,12 @@
           "+1V8",
           "+1V85_ADC",
           "+3V3",
-          "+5V"
+          "+5V",
+          "/Power supply/PD_VBUS",
+          "/Power supply/USB_DBG_PD.VBUS",
+          "/Power supply/USB_PD_VBUS",
+          "/USB PHY/USB_HOST_VBUS",
+          "/USB PHY/USB_USR_VBUS"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
