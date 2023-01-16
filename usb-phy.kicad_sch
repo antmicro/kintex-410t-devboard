@@ -6135,8 +6135,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ffed77d-763b-4276-98f7-df7a047061bc)
   )
-  (text "TODO:\nConnect USB_USER.VBUS_PEN to FPGA\nConnect USB_USER.VDET to FPGA"
-    (at 212.725 24.13 0)
+  (text "TODO:" (at 212.725 24.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a20fe067-21b9-4bde-b5e2-63610a6a94c4)
   )
@@ -6148,7 +6147,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid bbe8ba0e-ff80-4386-b9df-196f81cd7078)
   )
-  (text "TODO:\nConnect USB_HOST.VBUS_PEN to FPGA" (at 13.335 21.59 0)
+  (text "TODO:" (at 13.335 21.59 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c4f47054-1474-424a-9af0-8097aedc2178)
   )

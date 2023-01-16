@@ -4170,6 +4170,10 @@
     (uuid 501cf3a7-c13c-4570-ba7f-8d75fba0db21)
   )
 
+  (wire (pts (xy 143.51 132.08) (xy 146.05 132.08))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 522c21ae-bb56-497d-be87-e347f7dee53f)
+  )
   (wire (pts (xy 185.42 119.38) (xy 143.51 119.38))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 591e7369-b9ad-483c-9290-064d92da25d8)
@@ -4450,6 +4454,10 @@
   (hierarchical_label "SYS{CLK}" (shape input) (at 173.99 149.86 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a047230e-779a-42f2-b314-0aa76498bd95)
+  )
+  (hierarchical_label "LVDS_XO_200M_ENA" (shape output) (at 146.05 132.08 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e12af194-e0dd-4f46-b408-20b808297e08)
   )
 
   (symbol (lib_id "antmicroMicrocontrollers:XC7K410T-2FFG900I") (at 119.38 144.78 0) (unit 5)

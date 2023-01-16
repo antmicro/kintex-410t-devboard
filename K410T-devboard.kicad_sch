@@ -177,6 +177,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1af856c3-77a4-4f6f-ae61-e7e589426be4)
   )
+
+  (wire (pts (xy 287.655 208.28) (xy 279.4 208.28))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 1f7a25d0-03cf-44cb-af39-3dadc06807b0)
+  )
   (bus (pts (xy 133.35 37.465) (xy 154.94 37.465))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2016361b-e3e9-4f3b-8785-bacdcb1b68ed)
@@ -404,6 +409,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b3f39096-10fd-44ce-a77c-2463510d2bed)
   )
+
+  (wire (pts (xy 287.655 237.49) (xy 287.655 208.28))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b93a9e09-157d-4122-bc86-12176cce1bde)
+  )
   (bus (pts (xy 143.51 76.835) (xy 184.15 76.835))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ba93e053-2f22-497c-ba69-2b22de0f061d)
@@ -467,6 +477,11 @@
   (bus (pts (xy 327.66 99.06) (xy 327.66 71.12))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d2364a13-26f9-417c-bd23-4501c356b4dc)
+  )
+
+  (wire (pts (xy 330.2 237.49) (xy 287.655 237.49))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d559d942-ff82-4335-baa6-b095dca9c1ea)
   )
   (bus (pts (xy 133.35 126.365) (xy 154.94 126.365))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -787,14 +802,14 @@
     )
   )
 
-  (sheet (at 247.65 190.5) (size 31.75 19.05) (fields_autoplaced)
+  (sheet (at 247.65 190.5) (size 31.75 22.86) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 44e9e439-cc37-4559-9167-3c4b957a5aff)
     (property "Sheet name" "FPGA Bank 33" (id 0) (at 247.65 189.7884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "fpga-bank-33.kicad_sch" (id 1) (at 247.65 210.1346 0)
+    (property "Sheet file" "fpga-bank-33.kicad_sch" (id 1) (at 247.65 213.9446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "USER_IO{USER-IO}" bidirectional (at 279.4 195.58 0)
@@ -812,6 +827,10 @@
     (pin "SYS{CLK}" input (at 279.4 205.105 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 73e8cba9-bf55-4161-91a7-1c4e23ae6500)
+    )
+    (pin "LVDS_XO_200M_ENA" output (at 279.4 208.28 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid d72f32dc-0293-44c3-93cf-6ca318976f4c)
     )
   )
 
@@ -1104,6 +1123,10 @@
     (pin "PLL{PLL_CLK}" output (at 330.2 234.315 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 713a940a-4039-4535-856c-4e64ea2e6493)
+    )
+    (pin "LVDS_XO_200M_ENA" input (at 330.2 237.49 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 8a6c7e67-ee63-4e7f-ad64-5c2eb3d1c2cf)
     )
   )
 
@@ -2674,6 +2697,9 @@
     (path "/32cc216c-573a-42da-8552-2904507ceea0/13f86aac-ce28-4308-bbb1-757463acea17"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/9a0374cb-9a33-4819-a0e9-e1b565134863/250931a7-9538-4d62-9a90-a52193062841"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/25697463-101b-401a-980f-bd3441e7e450"
       (reference "#PWR?") (unit 1) (value "+3V3_AON") (footprint "")
     )
@@ -2721,6 +2747,9 @@
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/92cabc69-47df-4b3f-a77d-60d2e1d05e1c"
       (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/9b7e2ddd-92e9-4521-8a74-36a21d599fa2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/ae050aff-953e-44a6-b228-c37e8718bd6c"
       (reference "#PWR?") (unit 1) (value "+3V3_AON") (footprint "")
@@ -3912,6 +3941,9 @@
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/52e05482-c978-4ee2-b322-ec15487ac0d6"
       (reference "C?") (unit 1) (value "C_10u_0402") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/677e70f4-c662-4db0-90ce-7e9c457b20f1/60fe0210-1cfd-44e9-978a-63d8c00eb9d4"
+      (reference "C?") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/7a5360d9-ee89-434a-bbca-c87ede85acc1"
       (reference "C?") (unit 1) (value "C_100n_0402_EIA") (footprint "antmicro-footprints:0402-cap_EIA")
@@ -5307,6 +5339,9 @@
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/6662f583-8b79-412f-8ea6-6eca139f40c0"
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/9a0374cb-9a33-4819-a0e9-e1b565134863/89fac7ea-7d35-4968-8831-59861aa0e448"
+      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/b9e9c2d9-9001-432d-a078-344c0eff283b"
       (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
