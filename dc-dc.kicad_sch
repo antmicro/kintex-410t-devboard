@@ -6749,7 +6749,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0ab0cecd-1ed8-42f4-b72b-aabacaf3871a)
   )
-  (text "Always-ON 5V LDO" (at 13.335 16.51 0)
+  (text "Always-ON +3V3 LDO" (at 13.335 16.51 0)
     (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
     (uuid 0c4894cf-7c9f-4495-a0bc-69b2a4532176)
   )
