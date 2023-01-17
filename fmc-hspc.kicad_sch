@@ -20961,10 +20961,20 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2af9262a-cd97-4986-8709-e4a4a81ea605)
   )
+  (text "TODO:\n- Remove ETH_EXT\n- Check additional FPC+ control signals\n- Connect bank 117 and 118 refclocks\n"
+    (at 1.27 8.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4895fd5c-8522-4cab-baff-de9a6354cbd0)
+  )
   (text "Resistors needed to comply with standard HCSL PCIe clock.\nRoute REFCLK as 50 Ohm SE (or 100 Ohm diff)"
     (at 299.085 17.145 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 78a00230-a7e2-48ba-8bfa-17838f7ec2cc)
+  )
+  (text "- Connect FMC control signals\n- Think about 12V diode direction "
+    (at 42.545 6.35 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ac045f08-0242-4e08-ae7a-0dfc38c596f7)
   )
   (text "Place close to connector" (at 350.012 164.084 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
