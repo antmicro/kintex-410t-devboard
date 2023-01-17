@@ -946,7 +946,9 @@
           "/Power supply/USB_DBG_PD.VBUS",
           "/Power supply/USB_PD_VBUS",
           "/USB PHY/USB_HOST_VBUS",
-          "/USB PHY/USB_USR_VBUS"
+          "/USB PHY/USB_USR_VBUS",
+          "VCC_USR_A",
+          "VCC_USR_B"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -970,7 +972,6 @@
       "+1V8": "rgb(2, 71, 254)",
       "+3V3": "rgb(68, 36, 214)",
       "+5V": "rgb(254, 254, 51)",
-      "+5V_AON": "rgb(134, 1, 175)",
       "GND": "rgb(78, 78, 78)",
       "VCC_USR_A": "rgb(252, 204, 26)",
       "VCC_USR_B": "rgb(0, 255, 128)"
