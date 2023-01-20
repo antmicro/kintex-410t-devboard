@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.09999999999999999
         }
       },
@@ -190,6 +190,7 @@
         0.0,
         0.1,
         0.107,
+        0.114,
         0.15,
         0.177,
         0.182,
