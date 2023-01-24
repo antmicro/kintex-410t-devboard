@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.09999999999999999
         }
       },
@@ -970,7 +970,7 @@
       "+1V2": "rgb(252, 96, 10)",
       "+1V2_MGTAVTT": "rgb(52, 124, 152)",
       "+1V35": "rgb(251, 153, 2)",
-      "+1V8": "rgb(2, 71, 254)",
+      "+1V8": "rgb(19, 233, 254)",
       "+3V3": "rgb(68, 36, 214)",
       "+5V": "rgb(254, 254, 51)",
       "GND": "rgb(78, 78, 78)",
