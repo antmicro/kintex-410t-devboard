@@ -2125,7 +2125,7 @@
           (name "OUT" (effects (font (size 1.27 1.27))))
           (number "B1" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at -7.62 2.54 0) (length 2.54) hide
+        (pin passive line (at -7.62 2.54 0) (length 2.54) hide
           (name "IN" (effects (font (size 1.27 1.27))))
           (number "B2" (effects (font (size 1.27 1.27))))
         )
