@@ -428,6 +428,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b93a9e09-157d-4122-bc86-12176cce1bde)
   )
+  (bus (pts (xy 307.975 240.665) (xy 330.2 240.665))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ba04eb88-c52b-4378-94a3-1eb8988147b5)
+  )
   (bus (pts (xy 143.51 76.835) (xy 184.15 76.835))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ba93e053-2f22-497c-ba69-2b22de0f061d)
@@ -2700,6 +2704,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d1938c5b-fdbd-4f61-8476-60ebb6a20f2e)
   )
+  (label "SUP_MCU{SUP-MCU}" (at 307.975 240.665 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d453153a-4ebc-4278-a523-0a2ea1a1ec32)
+  )
 
   (symbol (lib_id "K410T-devboard:960-31-18-S-AB-0") (at 382.905 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
@@ -3184,14 +3192,14 @@
     )
   )
 
-  (sheet (at 330.2 222.25) (size 31.75 19.05) (fields_autoplaced)
+  (sheet (at 330.2 222.25) (size 31.75 21.59) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 9a0374cb-9a33-4819-a0e9-e1b565134863)
     (property "Sheet name" "Clocks" (id 0) (at 330.2 221.5384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "clocks.kicad_sch" (id 1) (at 330.2 241.8846 0)
+    (property "Sheet file" "clocks.kicad_sch" (id 1) (at 330.2 244.4246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "PLL{I^{2}C}" bidirectional (at 330.2 227.965 180)
@@ -3209,6 +3217,10 @@
     (pin "LVDS_XO_200M_ENA" input (at 330.2 237.49 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 8a6c7e67-ee63-4e7f-ad64-5c2eb3d1c2cf)
+    )
+    (pin "SUP_MCU{SUP-MCU}" bidirectional (at 330.2 240.665 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 14bcfeb4-d11a-43df-9793-3901d69dbb1d)
     )
   )
 
@@ -6130,9 +6142,6 @@
     (path "/4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5/0a4f40ba-ca2a-4d28-a3b5-b4298fe14aba"
       (reference "D2") (unit 1) (value "KP-1608CGCK") (footprint "K410T-devboard-footprints:LED_0603")
     )
-    (path "/f197fc77-508c-435d-932d-162b52b3ed75/a5c0071b-c29e-4635-ac62-3f03733c4e31"
-      (reference "D3") (unit 1) (value "SMF4L15CA") (footprint "K410T-devboard-footprints:SOD-123FL")
-    )
     (path "/f197fc77-508c-435d-932d-162b52b3ed75/047df22d-1f6b-493f-b815-b2fc143f7a91"
       (reference "D4") (unit 1) (value "CD-MMBL110S") (footprint "K410T-devboard-footprints:DFN3538")
     )
@@ -6224,6 +6233,9 @@
       (reference "D33") (unit 1) (value "BZX84C5V1-TP") (footprint "K410T-devboard-footprints:SOT-23-3")
     )
     (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/12a43b97-3f04-4f6f-a170-8e921427eda6"
+      (reference "D?") (unit 1) (value "ESDA25P35-1U1M") (footprint "K410T-devboard-footprints:0603-diode")
+    )
+    (path "/f197fc77-508c-435d-932d-162b52b3ed75/26648850-1b47-4ff5-adfe-9189dbb9099f"
       (reference "D?") (unit 1) (value "ESDA25P35-1U1M") (footprint "K410T-devboard-footprints:0603-diode")
     )
     (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/7d0c9e98-01cd-41d6-a824-c1a103b7519e"
@@ -6594,9 +6606,6 @@
     )
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/379fd746-cc0a-4930-a668-8737bb4de1df"
       (reference "R37") (unit 1) (value "R_0R_0603_HPWR") (footprint "K410T-devboard-footprints:0603-res")
-    )
-    (path "/f197fc77-508c-435d-932d-162b52b3ed75/e812b005-74d3-4ee9-b30d-de0bbf1776b9"
-      (reference "R38") (unit 1) (value "R_1k_0402") (footprint "K410T-devboard-footprints:0402-res")
     )
     (path "/f197fc77-508c-435d-932d-162b52b3ed75/fe1d44b3-83a4-4e87-90f3-48482cd8733c"
       (reference "R39") (unit 1) (value "R_0R_0402") (footprint "K410T-devboard-footprints:0402-res")
@@ -7546,6 +7555,9 @@
     (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/2c2e2f10-96e8-40e3-92dd-071412cd0ad5"
       (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
     )
+    (path "/f197fc77-508c-435d-932d-162b52b3ed75/304e5fc1-8581-4ec5-8b00-c2b1a031016c"
+      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/3f3f1715-9fa2-48b9-8c11-983dbb3cb87b"
       (reference "R?") (unit 1) (value "R_5k1_0402") (footprint "antmicro-footprints:0402-res")
     )
@@ -7564,10 +7576,16 @@
     (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/931e1204-f00a-4d01-ad7b-3034cb26d977"
       (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
     )
+    (path "/f197fc77-508c-435d-932d-162b52b3ed75/af98c931-57bc-43ac-b136-8400dd305f32"
+      (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/b5a89ec1-dcdc-4563-8ab0-c9771bff4a64"
       (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/dc19b579-70e9-433d-9280-3eae4a357906"
+      (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/92f84d48-430a-4861-a72f-ac293d5b94b2/e8c84392-1067-42c3-bc4d-1ed8bf1adc26"
       (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5/4e354b6f-2dd6-429c-a2d2-2850f1bf55fc"

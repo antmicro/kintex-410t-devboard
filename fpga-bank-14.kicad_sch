@@ -6815,12 +6815,6 @@
     )
   )
 
-  (text "TODO:\n-Check DQ2, DQ3, check PD resistor as in CW310\n"
-    (at 0.635 4.445 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fd0dd8ab-3e13-43b8-80be-3615d6107277)
-  )
-
   (label "SUP_MCU.SPARE3" (at 200.025 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c04a671-f542-4830-bd58-5fb3ac33ee1a)
