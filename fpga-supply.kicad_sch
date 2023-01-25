@@ -21138,7 +21138,7 @@
     (property "Reference" "C110" (id 0) (at 156.21 111.76 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "C_4u7_0402_EIA" (id 1) (at 155.575 118.11 0)
+    (property "Value" "C_4u7_0201" (id 1) (at 155.575 118.11 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "K410T-devboard-footprints:0201-cap" (id 2) (at 160.655 109.22 0)

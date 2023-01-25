@@ -9606,7 +9606,7 @@
     (property "Reference" "C349" (id 0) (at 313.69 198.755 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Value" "C_4u7_0402_EIA" (id 1) (at 312.42 205.105 0)
+    (property "Value" "C_4u7_0201" (id 1) (at 312.42 205.105 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "K410T-devboard-footprints:0201-cap" (id 2) (at 317.5 196.215 0)
