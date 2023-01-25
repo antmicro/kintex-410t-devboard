@@ -767,9 +767,9 @@
     )
   )
 
-  (bus_alias "CLK" (members "CLK_P" "CLK_N"))
-  (bus_alias "I^{2}C" (members "SDA" "SCL"))
   (bus_alias "PLL_CLK" (members "CLK[0..2]"))
+  (bus_alias "I^{2}C" (members "SDA" "SCL"))
+  (bus_alias "CLK" (members "CLK_P" "CLK_N"))
   (junction (at 176.53 175.895) (diameter 0) (color 0 0 0 0)
     (uuid 019deadd-2975-4fc7-b96f-03f0bbdc1420)
   )
