@@ -13210,7 +13210,7 @@
   (symbol (lib_id "K410T-devboard:VDC") (at 247.65 248.92 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4c6115c2-b2d7-4190-9571-c0a370d45fc7)
-    (property "Reference" "#PWR?" (id 0) (at 247.65 251.46 0)
+    (property "Reference" "#PWR0494" (id 0) (at 247.65 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDC" (id 1) (at 247.65 245.11 0))

@@ -8362,7 +8362,7 @@
   (symbol (lib_id "antmicroResistorNetworksArrays:4x10k_0201_array") (at 194.945 240.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6705e222-b00e-4049-a764-23761b682c53)
-    (property "Reference" "R?" (id 0) (at 194.31 227.33 0))
+    (property "Reference" "R36" (id 0) (at 194.31 227.33 0))
     (property "Value" "4x10k_0201_array" (id 1) (at 194.945 242.57 0)
       (effects (font (size 1.524 1.524)) hide)
     )
