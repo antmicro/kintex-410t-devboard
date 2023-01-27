@@ -5255,8 +5255,8 @@
   )
 
   (no_connect (at 232.41 140.97) (uuid 10e76c98-ee63-419a-9f2f-120bcbf558d6))
-  (no_connect (at 232.41 146.05) (uuid 10e76c98-ee63-419a-9f2f-120bcbf558d6))
-  (no_connect (at 232.41 148.59) (uuid 10e76c98-ee63-419a-9f2f-120bcbf558d6))
+  (no_connect (at 232.41 146.05) (uuid 10e76c98-ee63-419a-9f2f-120bcbf558d7))
+  (no_connect (at 232.41 148.59) (uuid 10e76c98-ee63-419a-9f2f-120bcbf558d8))
   (no_connect (at 49.53 234.95) (uuid b6435817-6e91-4a63-ab0a-2d6a45af6da3))
 
   (bus_entry (at 158.75 105.41) (size 1.27 1.27)
