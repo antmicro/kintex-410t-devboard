@@ -2,7 +2,7 @@
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
-![K410T devboard](/img/K410T-devboard.png)
+![K410T devboard](/img/k410t-devboard.png)
 
 ### Overview
 
