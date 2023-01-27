@@ -1,6 +1,6 @@
-# K410T devboard
+# Kintex K410T Devboard
 
-Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
 
 ![K410T devboard](/img/k410t-devboard.png)
 
