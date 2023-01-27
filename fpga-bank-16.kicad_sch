@@ -6,8 +6,9 @@
 
   (title_block
     (title "K410T devboard")
-    (date "2023-01-04")
+    (date "2023-01-27")
     (rev "0.0.99")
+    (company "Antmicro Ltd.")
   )
 
   (lib_symbols
