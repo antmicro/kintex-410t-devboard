@@ -4996,17 +4996,17 @@
     (path "/03f686ad-e1cc-4993-b908-c2b90876b432/b0b40145-a901-45d9-9ddd-85329eb420c8"
       (reference "#PWR0511") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/32cc216c-573a-42da-8552-2904507ceea0/13fd4cc6-bc6a-49e5-83e6-600f43f47349"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/32cc216c-573a-42da-8552-2904507ceea0/981521ae-986a-4ed9-8f45-014129ddb99b"
+      (reference "#PWR0512") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/1c8a7b1a-c470-462e-946f-eec7a28211f1"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0513") (unit 1) (value "GND") (footprint "")
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/29ce932b-2253-4133-ab5b-514fc4b40a77"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0514") (unit 1) (value "GND") (footprint "")
     )
-    (path "/32cc216c-573a-42da-8552-2904507ceea0/981521ae-986a-4ed9-8f45-014129ddb99b"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    (path "/32cc216c-573a-42da-8552-2904507ceea0/13fd4cc6-bc6a-49e5-83e6-600f43f47349"
+      (reference "#PWR0515") (unit 1) (value "GND") (footprint "")
     )
     (path "/020031b8-7f27-4e26-b74c-26be7f0881a9/27e102e8-a0ac-4aaa-9679-9249ee625aa3"
       (reference "C1") (unit 1) (value "C_330u_KEMET_B") (footprint "K410T-devboard-footprints:KEMET_B")
@@ -6208,11 +6208,11 @@
     (path "/68671351-8adf-4d3d-acf4-3cd3079d5c5c/4322362c-24b2-4ddb-be80-b25950a96039"
       (reference "C400") (unit 1) (value "C_100n_0402") (footprint "K410T-devboard-footprints:0402-cap")
     )
-    (path "/32cc216c-573a-42da-8552-2904507ceea0/17a209ed-cc77-4988-9ecd-be56d8fa6178"
-      (reference "C?") (unit 1) (value "C_100n_0402_EIA") (footprint "K410T-devboard-footprints:0402-cap_EIA")
-    )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/5d69194e-8403-4a72-b2e7-5592b0ef892d"
-      (reference "C?") (unit 1) (value "C_100n_0402_EIA") (footprint "K410T-devboard-footprints:0402-cap_EIA")
+      (reference "C401") (unit 1) (value "C_100n_0402_EIA") (footprint "K410T-devboard-footprints:0402-cap_EIA")
+    )
+    (path "/32cc216c-573a-42da-8552-2904507ceea0/17a209ed-cc77-4988-9ecd-be56d8fa6178"
+      (reference "C402") (unit 1) (value "C_100n_0402_EIA") (footprint "K410T-devboard-footprints:0402-cap_EIA")
     )
     (path "/4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5/975b8ebe-3bff-49e4-bb38-d55eb3fb4a45"
       (reference "D1") (unit 1) (value "KP-1608CGCK") (footprint "K410T-devboard-footprints:LED_0603")
@@ -7910,7 +7910,7 @@
       (reference "U47") (unit 1) (value "74LVC1T45GM") (footprint "antmicro-footprints:SOT-886")
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/cf93a911-7ae1-4228-8ed2-5128334e08f8"
-      (reference "U?") (unit 1) (value "74LVC1T45GM") (footprint "antmicro-footprints:SOT-886")
+      (reference "U48") (unit 1) (value "74LVC1T45GM") (footprint "antmicro-footprints:SOT-886")
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/4b0ed24b-3dc3-46e0-849c-6bea4d2ac3f9"
       (reference "Y1") (unit 1) (value "ABM8G-12.000MHZ-18-D2Y-T ") (footprint "K410T-devboard-footprints:KX-7")
