@@ -1,4 +1,4 @@
-# K410R devboard
+# K410T devboard
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
@@ -6,7 +6,7 @@ Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
 ### Overview
 
-his repository contains open hardware design files for a devkit created for AMD-Xilinx [Kintex-7 K410T](https://www.xilinx.com/products/silicon-devices/fpga/kintex-7.html) FPGA.
+This repository contains open hardware design files for a devkit created for AMD-Xilinx [Kintex-7 K410T](https://www.xilinx.com/products/silicon-devices/fpga/kintex-7.html) FPGA.
 
 This development board routes the I/O interfaces from the SoM and provides the necessary power buses.
 The design files were prepared in KiCad 6.
