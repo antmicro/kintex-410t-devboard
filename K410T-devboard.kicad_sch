@@ -7810,8 +7810,8 @@
     (path "/53e5e9d0-da1a-4e72-8926-4916ab1fc9d9/b9b44ab6-b962-48c8-989c-ddf88d514129"
       (reference "U14") (unit 1) (value "MT25QL256ABA1EW7-0SIT") (footprint "K410T-devboard-footprints:WSON8x6_WSON6x5_dual")
     )
-    (path "/32cc216c-573a-42da-8552-2904507ceea0/b21996e1-39a5-4838-86a6-99cb5d35754e"
-      (reference "U15") (unit 1) (value "TPS7B8133DRVR") (footprint "K410T-devboard-footprints:WSON6_TI_2x2mm")
+    (path "/32cc216c-573a-42da-8552-2904507ceea0/9d6f6a17-a69f-4937-92d3-161ea715eec1"
+      (reference "U15") (unit 1) (value "NCP718BSN330T1G") (footprint "K410T-devboard-footprints:SOT-23-5")
     )
     (path "/32cc216c-573a-42da-8552-2904507ceea0/c0d17e19-a1b2-4553-addb-0319d3f8ff07"
       (reference "U16") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "K410T-devboard-footprints:USON-10_2.5x1.0mm_P0.5mm")
