@@ -31,3 +31,6 @@ fp-info-cache
 
 # lengthMatching configuration files
 lengthMatching.json
+
+# License report
+license_report.log
