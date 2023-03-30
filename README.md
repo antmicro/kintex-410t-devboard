@@ -2,9 +2,11 @@
 
 Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
 
+[![View on opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/kintex-410t-devboard)
+
 ![K410T devboard](/img/k410t-devboard.png)
 
-### Overview
+## Overview
 
 This repository contains open hardware design files for a devkit created for AMD-Xilinx [Kintex-7 K410T](https://www.xilinx.com/products/silicon-devices/fpga/kintex-7.html) FPGA.
 
@@ -26,14 +28,17 @@ The remaining files are stored in the following directories:
 * 512MB of DDR3L memory
 * 256MB of SPI NOR flash
 * 8MB of SRAM memory
-* mounting option for 2x QSPI
+* Assembly option for 2x QSPI
 * Gigabit Ethernet
 * HDMI output
 * USB Type-C connector for FTDI JTAG and debug
 * 2x PMOD
 * FMC+ connector
 
+## Block diagram
+
+![K410T devboard block diagram](/doc/kintex-410t-devboard-block-diagram.png)
 
 ## Licensing
 
-This project is published under the [Apache-2.0](LICENSE) License.
+This project is published under the [Apache-2.0](LICENSE) license.
