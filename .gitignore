@@ -27,10 +27,4 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
-# lengthMatching configuration files
-lengthMatching.json
-
-# License report
-license_report.log
