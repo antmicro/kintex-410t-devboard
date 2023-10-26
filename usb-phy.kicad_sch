@@ -11,6 +11,56 @@
   )
 
   (lib_symbols
+    (symbol "K410T-devboard:+1V8" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 15.24 -2.54 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Value" "+1V8" (id 1) (at 15.24 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      )
+      (property "Footprint" "" (id 2) (at 15.24 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 15.24 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Author" "Antmicro" (id 4) (at 15.24 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (id 5) (at 15.24 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (symbol "+1V8_1_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (pin power_in line (at 0 0 90) (length 0)
+          (name "+1V8" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "K410T-devboard:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2348,6 +2398,44 @@
         (pin power_in line (at 0 -12.7 0) (length 2.54)
           (name "V_{PLL}" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "K410T-devboard:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Value" "GND" (id 1) (at 8.89 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      )
+      (property "Footprint" "" (id 2) (at 8.89 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 8.89 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Author" "Antmicro" (id 4) (at 8.89 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (id 5) (at 8.89 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (symbol "GND_1_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin power_in line (at 0 0 270) (length 0)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -5141,94 +5229,6 @@
         (pin passive line (at 0 -30.48 0) (length 3.81)
           (name "SHIELD" (effects (font (size 1.27 1.27))))
           (number "SH" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicropower:+1V8" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 15.24 -2.54 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Value" "+1V8" (id 1) (at 15.24 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Footprint" "" (id 2) (at 15.24 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 15.24 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (id 4) (at 15.24 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (id 5) (at 15.24 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (symbol "+1V8_1_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (pin power_in line (at 0 0 90) (length 0)
-          (name "+1V8" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Value" "GND" (id 1) (at 8.89 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Footprint" "" (id 2) (at 8.89 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 8.89 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (id 4) (at 8.89 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (id 5) (at 8.89 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (symbol "GND_1_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin power_in line (at 0 0 270) (length 0)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -11209,7 +11209,7 @@
     (uuid f7c97911-d85f-416b-b577-cabb7e83c923)
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 140.97 217.805 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 140.97 217.805 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 006c4bd9-5224-45a5-bb33-0740e04970de)
     (property "Reference" "#PWR0226" (id 0) (at 140.97 224.155 0)
@@ -11231,7 +11231,7 @@
     (pin "1" (uuid 553af0a7-294c-4157-93a2-7d195435ce26))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 114.935 134.62 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 114.935 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 02665ccf-1aba-4ca7-9740-03f7a6c08d97)
     (property "Reference" "#PWR0215" (id 0) (at 114.935 140.97 0)
@@ -11340,7 +11340,7 @@
     (pin "2" (uuid e6d62661-464b-435a-8858-27b603487c3e))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 330.835 246.38 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 330.835 246.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 07483067-e65c-4af5-9e8b-fbea14f0bf27)
     (property "Reference" "#PWR0268" (id 0) (at 330.835 252.73 0)
@@ -11482,7 +11482,7 @@
     (pin "2" (uuid 3d0b5217-ca27-43a6-a79c-fd7d95270440))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 312.42 154.94 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 312.42 154.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0ddbdd96-7670-4c44-8ed0-503beb42f9e4)
     (property "Reference" "#PWR0262" (id 0) (at 312.42 161.29 0)
@@ -11544,7 +11544,7 @@
     (pin "2" (uuid 40ffaaef-e367-41c4-82ba-7fda522c9e2e))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 116.205 96.52 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 116.205 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 10df07f6-33fc-4486-8423-741916312498)
     (property "Reference" "#PWR0217" (id 0) (at 116.205 102.87 0)
@@ -11686,7 +11686,7 @@
     (pin "2" (uuid 9213a6c2-0888-4e95-92d1-a6b7d7afabab))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 381.635 99.695 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 381.635 99.695 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 13f86aac-ce28-4308-bbb1-757463acea17)
     (property "Reference" "#PWR0277" (id 0) (at 381.635 106.045 0)
@@ -11708,7 +11708,7 @@
     (pin "1" (uuid 821a6fea-5780-4303-bef6-cd547c63c042))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 270.51 149.225 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 270.51 149.225 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 13fd4cc6-bc6a-49e5-83e6-600f43f47349)
     (property "Reference" "#PWR0248" (id 0) (at 270.51 155.575 0)
@@ -11927,7 +11927,7 @@
     (pin "2" (uuid 92d617e7-6641-421a-9acd-b4c5060ac123))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 252.095 249.555 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 252.095 249.555 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1c4f284b-5d17-4a69-8fad-3435355bed54)
     (property "Reference" "#PWR0245" (id 0) (at 252.095 255.905 0)
@@ -11949,7 +11949,7 @@
     (pin "1" (uuid b75caef5-1fee-4e6f-ae5b-b40fbd2a3b0b))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 321.31 246.38 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 321.31 246.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1c8a7b1a-c470-462e-946f-eec7a28211f1)
     (property "Reference" "#PWR0266" (id 0) (at 321.31 252.73 0)
@@ -12075,7 +12075,7 @@
     (pin "2" (uuid cb7225bd-2731-42fb-ac15-a2d5934228ff))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 125.73 153.035 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 125.73 153.035 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 21649c5f-3ca0-4b78-baaa-444285179b6f)
     (property "Reference" "#PWR0221" (id 0) (at 125.73 159.385 0)
@@ -12135,7 +12135,7 @@
     (pin "2" (uuid c562bf21-f762-4929-89ee-863e0fbad69e))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 159.385 217.805 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 159.385 217.805 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 237004f3-14bb-4b7e-840b-f71561a2852b)
     (property "Reference" "#PWR0234" (id 0) (at 159.385 224.155 0)
@@ -12309,7 +12309,7 @@
     (pin "2" (uuid 5867d75e-e94d-4161-b254-1b54bfa31c36))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 397.51 246.38 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 397.51 246.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 29ce932b-2253-4133-ab5b-514fc4b40a77)
     (property "Reference" "#PWR0281" (id 0) (at 397.51 252.73 0)
@@ -12331,7 +12331,7 @@
     (pin "1" (uuid baa82b9f-35b3-4b25-b24e-94ffc3d3f8a9))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 287.02 73.025 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 287.02 73.025 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2a8daf08-f473-4803-8bd9-88dd63bbb4f7)
     (property "Reference" "#PWR0257" (id 0) (at 287.02 79.375 0)
@@ -12395,7 +12395,7 @@
     (pin "2" (uuid 449f770e-eac5-4b9d-a4b3-9ffccce60e6b))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 400.05 99.695 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 400.05 99.695 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2c7d2140-bce4-404c-b77d-0c12f10b208e)
     (property "Reference" "#PWR0282" (id 0) (at 400.05 106.045 0)
@@ -12563,7 +12563,7 @@
     (pin "6" (uuid cb190cce-5619-4b95-8143-7427d0f7bceb))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 88.265 96.52 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 88.265 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2ea09c77-8257-4228-8dee-0a9140c1b194)
     (property "Reference" "#PWR0210" (id 0) (at 88.265 102.87 0)
@@ -12585,7 +12585,7 @@
     (pin "1" (uuid 4661cb22-5e37-4a17-8971-5d16bd026063))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 149.225 34.925 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 149.225 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2f91d929-b9e7-46d2-bf32-7e46e83a1f13)
     (property "Reference" "#PWR0231" (id 0) (at 149.225 41.275 0)
@@ -12623,7 +12623,7 @@
     (pin "1" (uuid a648f39c-3b2d-426f-91a3-187cb91f97af))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 147.32 153.035 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 147.32 153.035 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3253b324-83f0-4693-a3ea-0d44fab7df3d)
     (property "Reference" "#PWR0230" (id 0) (at 147.32 159.385 0)
@@ -12705,7 +12705,7 @@
     (pin "9" (uuid 4e96e62c-7906-4a40-bf7c-dacc353bd540))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 46.355 77.47 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 46.355 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 33634233-9419-4b30-98e5-0d2bbe56188d)
     (property "Reference" "#PWR0201" (id 0) (at 46.355 83.82 0)
@@ -12729,7 +12729,7 @@
     (pin "1" (uuid 8f024ab7-bdc1-4da8-a953-740aa7a16fb0))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 312.42 222.25 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 312.42 222.25 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 33b30b08-7b76-4b5b-a8a7-930d0f1cb736)
     (property "Reference" "#PWR0264" (id 0) (at 312.42 228.6 0)
@@ -12830,7 +12830,7 @@
     (pin "2" (uuid 8e2801b2-2beb-44bd-80f0-fcd5801affd3))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 95.885 96.52 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 95.885 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3853f342-44cd-4f39-9803-bb75702f4e8f)
     (property "Reference" "#PWR0211" (id 0) (at 95.885 102.87 0)
@@ -12974,7 +12974,7 @@
     (pin "9" (uuid 369bc5eb-62bf-4459-a4dc-01f2b2e694f1))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 281.94 278.765 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 281.94 278.765 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3b692750-6419-4b8a-81e2-cef4463f4676)
     (property "Reference" "#PWR0253" (id 0) (at 281.94 285.115 0)
@@ -13012,7 +13012,7 @@
     (pin "1" (uuid bf20d744-366b-4ff0-8110-9198e5ee6a38))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 173.355 134.62 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 173.355 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3c33a84b-d877-416a-a490-924c56ebf8a3)
     (property "Reference" "#PWR0243" (id 0) (at 173.355 140.97 0)
@@ -13034,7 +13034,7 @@
     (pin "1" (uuid 71fc1e6d-fe57-4a5d-b08b-ab7ce9ba3555))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 163.83 237.49 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 163.83 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3cdd9771-94cb-43fb-86d5-281196844135)
     (property "Reference" "#PWR0239" (id 0) (at 163.83 243.84 0)
@@ -13056,7 +13056,7 @@
     (pin "1" (uuid dc82acf6-5a98-4b01-8137-c367054eb92f))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 136.525 153.035 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 136.525 153.035 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3db9f5e9-ffce-48ed-a057-3afae3b67ae6)
     (property "Reference" "#PWR0225" (id 0) (at 136.525 159.385 0)
@@ -13078,7 +13078,7 @@
     (pin "1" (uuid a7555f57-61ba-4405-8805-6823fab335f1))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 365.125 246.38 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 365.125 246.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3ee6e72a-ebe1-41e8-94fe-e7270f757bb3)
     (property "Reference" "#PWR0274" (id 0) (at 365.125 252.73 0)
@@ -13166,7 +13166,7 @@
     (pin "2" (uuid 9a3ca62c-8b9d-4f8a-9a50-fb900437488a))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 375.92 246.38 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 375.92 246.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 439f5ec2-cad4-4081-b552-71d1901a423c)
     (property "Reference" "#PWR0275" (id 0) (at 375.92 252.73 0)
@@ -13266,7 +13266,7 @@
     (pin "2" (uuid 6551182d-ef17-4540-8d25-c095a4d61ce1))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 63.5 173.99 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 63.5 173.99 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4a15f076-e8f1-4b6d-a36c-18b594a2fd5f)
     (property "Reference" "#PWR0205" (id 0) (at 63.5 180.34 0)
@@ -13288,7 +13288,7 @@
     (pin "1" (uuid a34f7c12-f44a-4519-87e1-b6414533f237))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 147.32 90.17 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 147.32 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4aef4b30-5d63-4a21-8cc5-72351119e507)
     (property "Reference" "#PWR0228" (id 0) (at 147.32 96.52 0)
@@ -13509,7 +13509,7 @@
     (pin "2" (uuid 9c058dce-3d6b-46c2-8ed1-8268d9357300))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 106.045 96.52 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 106.045 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 53166539-86c0-4bf9-9ee2-9fc19c24f840)
     (property "Reference" "#PWR0214" (id 0) (at 106.045 102.87 0)
@@ -13590,7 +13590,7 @@
     (pin "2" (uuid 880b3b98-cedd-4edf-871b-c3473c841746))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 150.495 217.805 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 150.495 217.805 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 556a0ce1-5ab1-4351-9c91-72653609c8f5)
     (property "Reference" "#PWR0232" (id 0) (at 150.495 224.155 0)
@@ -13647,7 +13647,7 @@
     (pin "2" (uuid dfc19745-5dc4-4038-8856-e62c91fe3109))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 386.715 246.38 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 386.715 246.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 55fd7994-b175-4db0-885a-59f5f3314413)
     (property "Reference" "#PWR0278" (id 0) (at 386.715 252.73 0)
@@ -13669,7 +13669,7 @@
     (pin "1" (uuid bf974e41-a62b-4b0b-8096-ce02e30fff79))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 324.485 67.945 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 324.485 67.945 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5671399a-2d91-4d56-b93d-e6b7da4665f7)
     (property "Reference" "#PWR0267" (id 0) (at 324.485 74.295 0)
@@ -13691,7 +13691,7 @@
     (pin "1" (uuid 730f96dd-a138-4ec9-82ed-d6ef610c332a))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 64.77 143.51 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 64.77 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 577c33f2-8cf3-4421-8c66-a517a7ed2ee7)
     (property "Reference" "#PWR0206" (id 0) (at 64.77 149.86 0)
@@ -13868,7 +13868,7 @@
     (pin "2" (uuid 0dc0e979-889f-4d56-a8a0-9d5b276646ae))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 312.42 189.23 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 312.42 189.23 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5dd956d3-cec3-4028-b10b-4c6ceccd39e7)
     (property "Reference" "#PWR0263" (id 0) (at 312.42 195.58 0)
@@ -13925,7 +13925,7 @@
     (pin "2" (uuid ca4e43b0-8535-46cf-9d9b-31607d67ae4f))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 360.68 100.965 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 360.68 100.965 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5e9c68d2-1f01-448e-9179-9125bf52b39e)
     (property "Reference" "#PWR0273" (id 0) (at 360.68 107.315 0)
@@ -14078,7 +14078,7 @@
     (pin "1" (uuid 493c73d5-e38a-497c-8471-9c0cb2764475))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 165.1 90.17 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 165.1 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 62aa13f6-9397-4829-9d31-2ae1f55cf045)
     (property "Reference" "#PWR0241" (id 0) (at 165.1 96.52 0)
@@ -14135,7 +14135,7 @@
     (pin "2" (uuid 1fcc2298-df42-45bb-a2f4-b1ab13efe977))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 104.14 176.53 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 104.14 176.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6326f129-c8d3-466e-a362-77f3546ff343)
     (property "Reference" "#PWR0213" (id 0) (at 104.14 182.88 0)
@@ -14232,7 +14232,7 @@
     (pin "2" (uuid 30bb2564-7692-4790-bce6-c0663fa61cbe))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 258.445 69.85 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 258.445 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 67525c8a-9d49-4e0c-beb7-8ffd4df976ef)
     (property "Reference" "#PWR0246" (id 0) (at 258.445 76.2 0)
@@ -14256,7 +14256,7 @@
     (pin "1" (uuid a1b62964-0b9a-497c-a80c-0dcf85222327))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 392.43 99.695 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 392.43 99.695 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 680fac08-435e-48d5-94db-8b646bfa1f10)
     (property "Reference" "#PWR0279" (id 0) (at 392.43 106.045 0)
@@ -14320,7 +14320,7 @@
     (pin "9" (uuid 26b99a52-f48c-4e11-acd1-7d1514858c03))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 56.515 99.06 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 56.515 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6ccc3434-f6eb-4fee-ab48-584f3ca0718b)
     (property "Reference" "#PWR0202" (id 0) (at 56.515 105.41 0)
@@ -14398,7 +14398,7 @@
     (pin "1" (uuid 2501b472-00c7-4f6c-a9c6-9d2a1442f6f0))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 236.855 76.2 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 236.855 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6f7b4f95-3f7d-4e7a-823c-628fa083ad11)
     (property "Reference" "#PWR0244" (id 0) (at 236.855 82.55 0)
@@ -14420,7 +14420,7 @@
     (pin "1" (uuid 769dc423-8e8a-4ca8-9425-c2d8110cfb93))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 352.425 83.185 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 352.425 83.185 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 70e8b55a-e3e6-4009-ad78-da9849dbbc24)
     (property "Reference" "#PWR0270" (id 0) (at 352.425 89.535 0)
@@ -14444,7 +14444,7 @@
     (pin "1" (uuid 1127e28c-9ccc-488d-922f-ba4ce5aa723d))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 77.47 97.155 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 77.47 97.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 71d2a1b3-612c-4521-8c93-1e2066fa942f)
     (property "Reference" "#PWR0208" (id 0) (at 77.47 103.505 0)
@@ -14537,7 +14537,7 @@
     (pin "2" (uuid 34d4769c-0667-4f33-ae70-da7678a08e70))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 307.34 33.655 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 307.34 33.655 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 784b0ac1-959c-4553-b7e1-a05e21ea2893)
     (property "Reference" "#PWR0260" (id 0) (at 307.34 40.005 0)
@@ -14559,7 +14559,7 @@
     (pin "1" (uuid 90096b32-8745-4ba2-a30f-d169f24e02a2))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 59.69 143.51 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 59.69 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 78910ae8-fff1-4e3d-aa26-b4f6b8adc812)
     (property "Reference" "#PWR0204" (id 0) (at 59.69 149.86 0)
@@ -14637,7 +14637,7 @@
     (pin "1" (uuid eafb4f3a-16ce-47d4-b255-74288d33ad48))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 34.29 260.35 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 34.29 260.35 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 80814312-83a1-4940-b13a-69ced1fb218a)
     (property "Reference" "#PWR0198" (id 0) (at 34.29 266.7 0)
@@ -14735,7 +14735,7 @@
     (pin "2" (uuid 2076748a-a61a-4c1f-bbb7-8f108201fa56))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 29.845 143.51 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 29.845 143.51 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 874cc702-2464-44ed-8e76-3692ead97649)
     (property "Reference" "#PWR0197" (id 0) (at 29.845 149.86 0)
@@ -14869,7 +14869,7 @@
     (pin "2" (uuid b50d3f1d-14de-4e24-9d1a-e082d35c176a))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 80.645 203.2 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 80.645 203.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 895ea1ba-9c57-46bf-8ebf-fc88445e4f40)
     (property "Reference" "#PWR0209" (id 0) (at 80.645 209.55 0)
@@ -14947,7 +14947,7 @@
     (pin "2" (uuid e61e7855-c561-4201-bba4-be0938f09962))
   )
 
-  (symbol (lib_id "antmicropower:+1V8") (at 404.495 44.45 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:+1V8") (at 404.495 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8c1ca4df-696c-4a79-af48-755edc2583e6)
     (property "Reference" "#PWR0250" (id 0) (at 404.495 48.26 0)
@@ -14969,7 +14969,7 @@
     (pin "1" (uuid 80c31112-6800-407d-8443-a4ab73312e5d))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 104.14 153.035 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 104.14 153.035 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8d1daeb9-93b7-46a0-9fc7-620072fc78ef)
     (property "Reference" "#PWR0212" (id 0) (at 104.14 159.385 0)
@@ -15031,7 +15031,7 @@
     (pin "2" (uuid 6221c7ef-e9df-48c7-a632-2e1e6488bf23))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 58.42 209.55 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 58.42 209.55 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8fb2e184-4eaa-4fb7-ab1c-0b374d526478)
     (property "Reference" "#PWR0203" (id 0) (at 58.42 215.9 0)
@@ -15320,7 +15320,7 @@
     (pin "5" (uuid 806c3b7c-5746-4533-85c9-baee52e884ef))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 341.63 246.38 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 341.63 246.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9ee12655-a348-43e4-884c-470f86f441d9)
     (property "Reference" "#PWR0269" (id 0) (at 341.63 252.73 0)
@@ -15342,7 +15342,7 @@
     (pin "1" (uuid 8eddc803-3704-475a-b0c7-845d5b862ebe))
   )
 
-  (symbol (lib_id "antmicropower:+1V8") (at 355.6 22.225 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:+1V8") (at 355.6 22.225 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a0afa02c-420d-4b4f-9070-20b6c5bbdd4d)
     (property "Reference" "#PWR0240" (id 0) (at 355.6 26.035 0)
@@ -15500,7 +15500,7 @@
     (pin "2" (uuid 6f3eefc0-114f-44b2-a53c-af60ebbc6a02))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 125.73 134.62 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 125.73 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a59e5617-1711-4d10-9084-bf8a4ee8a307)
     (property "Reference" "#PWR0220" (id 0) (at 125.73 140.97 0)
@@ -15524,7 +15524,7 @@
     (pin "1" (uuid 90670c14-41a0-4425-b544-1b6202aa4193))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 116.205 176.53 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 116.205 176.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a76e3ab4-427d-4e56-ac4b-e9d141907873)
     (property "Reference" "#PWR0218" (id 0) (at 116.205 182.88 0)
@@ -15546,7 +15546,7 @@
     (pin "1" (uuid 337371cc-43d5-414e-9012-1f3f65273820))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 352.425 246.38 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 352.425 246.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a7ddf3cb-7474-4350-b310-90ba4d195cc4)
     (property "Reference" "#PWR0271" (id 0) (at 352.425 252.73 0)
@@ -15681,7 +15681,7 @@
     (pin "2" (uuid a579765c-2a11-41c8-ad46-f5e9f6e9c7a7))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 114.935 153.035 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 114.935 153.035 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ae4a3308-f422-449e-933f-77427ff2b689)
     (property "Reference" "#PWR0216" (id 0) (at 114.935 159.385 0)
@@ -16325,7 +16325,7 @@
     (pin "1" (uuid e4e77179-2064-432c-8dde-b6755153cf7a))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 43.18 52.07 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 43.18 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c4982155-f2e1-448e-9182-87abc0224686)
     (property "Reference" "#PWR0200" (id 0) (at 43.18 58.42 0)
@@ -16347,7 +16347,7 @@
     (pin "1" (uuid 8f2bf700-6260-4e7a-a292-b0edb301b692))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 67.31 52.07 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 67.31 52.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c63b32b9-1115-49e5-ab43-0bbe04daf975)
     (property "Reference" "#PWR0207" (id 0) (at 67.31 58.42 0)
@@ -16385,7 +16385,7 @@
     (pin "1" (uuid 13940a60-cc76-420a-bf95-2b7954c9d554))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 128.27 176.53 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 128.27 176.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ca585148-8324-47c8-a0a0-b21c857bbb75)
     (property "Reference" "#PWR0223" (id 0) (at 128.27 182.88 0)
@@ -16469,7 +16469,7 @@
     (pin "1" (uuid 13b5ea07-21ae-4011-a417-d97aab918846))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 122.555 255.905 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 122.555 255.905 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ced9fcca-0da1-4670-b81d-889ec4b0c4ab)
     (property "Reference" "#PWR0219" (id 0) (at 122.555 262.255 0)
@@ -16491,7 +16491,7 @@
     (pin "1" (uuid e80323fb-bc24-4ca4-a286-bfda8ec1a28f))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 157.48 34.925 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 157.48 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cf5fe063-7a4e-4635-8795-21b7ae9f705b)
     (property "Reference" "#PWR0233" (id 0) (at 157.48 41.275 0)
@@ -16548,7 +16548,7 @@
     (pin "2" (uuid e71e2fd4-e85a-47b0-9efc-ceafb6491665))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 355.6 33.02 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 355.6 33.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cf906a3e-a063-4e0d-a918-446e41edc976)
     (property "Reference" "#PWR0272" (id 0) (at 355.6 39.37 0)
@@ -16669,7 +16669,7 @@
     (pin "2" (uuid eb7f7a5e-cf7d-4b3f-ad2a-7210742ea536))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 145.415 238.125 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 145.415 238.125 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d0058cd1-d2db-454f-b2cb-afc2fa42c1c9)
     (property "Reference" "#PWR0227" (id 0) (at 145.415 244.475 0)
@@ -16885,7 +16885,7 @@
     (pin "1" (uuid 49747530-00a1-4e5e-9148-3ccdda612a6e))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 318.77 33.655 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 318.77 33.655 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d694908d-1c65-40c6-9c1a-50334ae4cac9)
     (property "Reference" "#PWR0265" (id 0) (at 318.77 40.005 0)
@@ -16951,7 +16951,7 @@
     (pin "9" (uuid 5c6fbc20-1526-439e-a717-c3ad7fc6be4e))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 309.88 102.235 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 309.88 102.235 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid da5bc347-562f-4dd8-9718-b9657a4ce231)
     (property "Reference" "#PWR0261" (id 0) (at 309.88 108.585 0)
@@ -17129,7 +17129,7 @@
     (pin "2" (uuid 4ac6c31b-b040-4d54-8fde-3d601a0e694c))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 162.56 134.62 0) (mirror y) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 162.56 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dff92522-9aa0-465e-8884-855dabc73027)
     (property "Reference" "#PWR0238" (id 0) (at 162.56 140.97 0)
@@ -17191,7 +17191,7 @@
     (pin "2" (uuid 87b6f9ba-5e87-4f51-b278-46127c6ca73c))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 170.815 237.49 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 170.815 237.49 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e08f1ad5-ff42-450f-84d8-307b87d269f2)
     (property "Reference" "#PWR0242" (id 0) (at 170.815 243.84 0)
@@ -17253,7 +17253,7 @@
     (pin "2" (uuid 9989bfb7-dd9e-4139-985c-31311d25850a))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 126.365 96.52 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 126.365 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e1e76a1b-4943-470a-9c75-185dcae8f70c)
     (property "Reference" "#PWR0222" (id 0) (at 126.365 102.87 0)
@@ -17587,7 +17587,7 @@
     (pin "2" (uuid dc220fa6-79b7-4014-b858-bdf89beced57))
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 283.845 52.07 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:GND") (at 283.845 52.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid edebd098-e7ef-46a1-998c-4f7e581ec728)
     (property "Reference" "#PWR0255" (id 0) (at 283.845 58.42 0)
