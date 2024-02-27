@@ -77,19 +77,6 @@
         "silk_over_copper|173190500|174475000|0a4dd9b5-3c60-4408-bcad-0a3cac641fbb|8f2ccade-e500-4ef4-a9ab-dcb087e754eb",
         "silk_over_copper|179038500|167177000|5c0e1893-95ed-49a9-bcae-74b1b87cce11|9b8e0763-32ec-40fc-a22e-9d3c4fa108fc",
         "silk_over_copper|179052500|174478000|9258731e-0366-4536-b846-2fd3162710d3|124d3412-6312-4d97-889f-fe58c9a4c88d",
-        "silk_over_copper|189810000|129598000|43672022-f193-44f0-ac2a-1fd741a7f8c7|c9a11723-15ef-4d42-857c-104c1e19f2d8",
-        "silk_over_copper|189810000|131598000|43672022-f193-44f0-ac2a-1fd741a7f8c7|21296d19-d3de-4318-9d69-7381ba10e48b",
-        "silk_over_copper|189850000|121398000|43672022-f193-44f0-ac2a-1fd741a7f8c7|a8266217-a435-4fce-a58c-cf61c9a7e6d7",
-        "silk_over_copper|189850000|123398000|43672022-f193-44f0-ac2a-1fd741a7f8c7|15cef780-8d78-4cf3-a71f-9385b24a4cfe",
-        "silk_over_copper|189850000|125398000|43672022-f193-44f0-ac2a-1fd741a7f8c7|549caa4b-0da7-40cf-97de-96641979b972",
-        "silk_over_copper|189850000|127398000|43672022-f193-44f0-ac2a-1fd741a7f8c7|b6e712bc-b5ac-41a8-8a3e-1884695fc9b2",
-        "silk_over_copper|189991000|119598000|43672022-f193-44f0-ac2a-1fd741a7f8c7|6e4b5799-181d-4b80-84ac-af2faedc1ff2",
-        "silk_over_copper|190950392|119650000|43672022-f193-44f0-ac2a-1fd741a7f8c7|2fe9df8b-e4cf-4508-8e2c-99fe1fcb7a24",
-        "silk_over_copper|192050392|119650000|43672022-f193-44f0-ac2a-1fd741a7f8c7|ef5acace-92c6-4dcf-bd98-5cee6527e667",
-        "silk_over_copper|196350000|119650000|43672022-f193-44f0-ac2a-1fd741a7f8c7|3d6d6963-9d47-4494-b7ac-2a451219fabd",
-        "silk_over_copper|197348000|119650000|43672022-f193-44f0-ac2a-1fd741a7f8c7|1d9213d1-97ab-4b17-8082-cd973ce8ef38",
-        "silk_over_copper|200280000|136950000|43672022-f193-44f0-ac2a-1fd741a7f8c7|ded9f535-ceec-484b-95c2-01d4f5c96e29",
-        "silk_over_copper|205930000|130280000|43672022-f193-44f0-ac2a-1fd741a7f8c7|45014734-b50f-4182-81f2-a8d0f4432b73",
         "silk_over_copper|206416700|98300000|ac5e5868-fa69-450c-b851-93665e8f3ce9|f744ce2c-3854-494e-b46e-0d441d8ddde6",
         "silk_over_copper|208100000|98300000|ac5e5868-fa69-450c-b851-93665e8f3ce9|e7e42f90-abf5-4152-86e8-448be8478957",
         "silk_over_copper|208100000|98419300|b6a3a4e4-9e80-456e-8c9d-2d85145ee2ed|e7e42f90-abf5-4152-86e8-448be8478957",
@@ -131,12 +118,8 @@
         "silk_overlap|188590000|189172000|d4e76248-227d-45ee-b11b-27145003af47|ec65dbca-9f17-4cad-b80f-a2877ab60989",
         "silk_overlap|190795000|170764000|9ebdcb4b-6837-4738-846a-5afa8d8a9f99|585dbef0-054a-46ed-a808-a316fe2428de",
         "silk_overlap|197501000|171500000|2b791693-08e8-4298-a5ad-e7b93a7f2e57|9ef86cae-973b-4568-bcba-70644db5286e",
-        "silk_overlap|199700000|136900000|46c55099-418e-40cf-89fa-eef0b1ab3d57|43672022-f193-44f0-ac2a-1fd741a7f8c7",
-        "silk_overlap|200300000|136900000|d8c28a33-bef2-4af8-a9a8-0c962c9034e8|43672022-f193-44f0-ac2a-1fd741a7f8c7",
         "silk_overlap|207234000|98300000|ac5e5868-fa69-450c-b851-93665e8f3ce9|50c4b7a3-78b8-4a24-a307-f961ce23be13",
         "silk_overlap|208750000|100600371|258ff44a-2654-4fa8-84cc-e491c53d0eae|ab07cb8d-de62-47a7-91f2-93b301dd0f4c",
-        "silk_overlap|211100666|91816666|8bdbe55b-2722-4e87-b0a9-6c22ca5b6f5e|0e6053fb-7768-4424-b555-2d5a55aa376f",
-        "silk_overlap|211100666|91816666|8bdbe55b-2722-4e87-b0a9-6c22ca5b6f5e|419e9489-e692-4583-91e5-484248bd3cd1",
         "silk_overlap|242316357|90853677|4157d815-a58e-4f07-9545-2d97d5368944|869d0ca3-1b62-4e10-a6be-06162ec051ea",
         "silk_overlap|245001000|90853677|4157d815-a58e-4f07-9545-2d97d5368944|a4165d1d-e5b9-42a8-b825-9c3afa39f6b3",
         "silk_overlap|245880713|99176000|76ab514f-961c-4663-8c0e-04dbe2fa8e0c|a2768871-c45f-40e2-8d15-983b3d854bac",
@@ -152,20 +135,26 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -175,9 +164,14 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "error",
@@ -186,7 +180,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "error",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -465,18 +458,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "ignore",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "ignore",
@@ -486,6 +484,7 @@
       "pin_to_pin": "ignore",
       "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -503,7 +502,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -517,10 +516,10 @@
         "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -529,47 +528,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100Ohm-diff",
-        "nets": [
-          "/FPGA Bank 17/HDMI.CLK_N",
-          "/FPGA Bank 17/HDMI.CLK_P",
-          "/FPGA Bank 17/HDMI.D0_N",
-          "/FPGA Bank 17/HDMI.D0_P",
-          "/FPGA Bank 17/HDMI.D1_N",
-          "/FPGA Bank 17/HDMI.D1_P",
-          "/FPGA Bank 17/HDMI.D2_N",
-          "/FPGA Bank 17/HDMI.D2_P",
-          "/FPGA Config/FPGA_CFG_DXN",
-          "/FPGA Config/FPGA_CFG_DXP",
-          "/HDMI + Ethernet/ETH1_N",
-          "/HDMI + Ethernet/ETH1_P",
-          "/HDMI + Ethernet/ETH2_N",
-          "/HDMI + Ethernet/ETH2_P",
-          "/HDMI + Ethernet/GBE1_N",
-          "/HDMI + Ethernet/GBE1_P",
-          "/HDMI + Ethernet/GBE2_N",
-          "/HDMI + Ethernet/GBE2_P",
-          "/HDMI + Ethernet/GBE3_N",
-          "/HDMI + Ethernet/GBE3_P",
-          "/HDMI + Ethernet/GBE4_N",
-          "/HDMI + Ethernet/GBE4_P",
-          "/HDMI + Ethernet/HDMI_CONN_CLK_N",
-          "/HDMI + Ethernet/HDMI_CONN_CLK_P",
-          "/HDMI + Ethernet/HDMI_CONN_D0_N",
-          "/HDMI + Ethernet/HDMI_CONN_D0_P",
-          "/HDMI + Ethernet/HDMI_CONN_D1_N",
-          "/HDMI + Ethernet/HDMI_CONN_D1_P",
-          "/HDMI + Ethernet/HDMI_CONN_D2_N",
-          "/HDMI + Ethernet/HDMI_CONN_D2_P"
-        ],
         "pcb_color": "rgb(0, 0, 132)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -578,53 +545,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "40Ohm-se_DQ",
-        "nets": [
-          "/DRAM + SRAM/DDR.A0",
-          "/DRAM + SRAM/DDR.A1",
-          "/DRAM + SRAM/DDR.A10",
-          "/DRAM + SRAM/DDR.A11",
-          "/DRAM + SRAM/DDR.A12",
-          "/DRAM + SRAM/DDR.A13",
-          "/DRAM + SRAM/DDR.A14",
-          "/DRAM + SRAM/DDR.A15",
-          "/DRAM + SRAM/DDR.A2",
-          "/DRAM + SRAM/DDR.A3",
-          "/DRAM + SRAM/DDR.A4",
-          "/DRAM + SRAM/DDR.A5",
-          "/DRAM + SRAM/DDR.A6",
-          "/DRAM + SRAM/DDR.A7",
-          "/DRAM + SRAM/DDR.A8",
-          "/DRAM + SRAM/DDR.A9",
-          "/DRAM + SRAM/DDR.BA0",
-          "/DRAM + SRAM/DDR.BA1",
-          "/DRAM + SRAM/DDR.BA2",
-          "/DRAM + SRAM/DDR.CKE",
-          "/DRAM + SRAM/DDR.DM",
-          "/DRAM + SRAM/DDR.DQ0",
-          "/DRAM + SRAM/DDR.DQ1",
-          "/DRAM + SRAM/DDR.DQ2",
-          "/DRAM + SRAM/DDR.DQ3",
-          "/DRAM + SRAM/DDR.DQ4",
-          "/DRAM + SRAM/DDR.DQ5",
-          "/DRAM + SRAM/DDR.DQ6",
-          "/DRAM + SRAM/DDR.DQ7",
-          "/DRAM + SRAM/DDR.ODT",
-          "/DRAM + SRAM/DDR.~{CAS}",
-          "/DRAM + SRAM/DDR.~{CS}",
-          "/DRAM + SRAM/DDR.~{RAS}",
-          "/DRAM + SRAM/DDR.~{RESET}",
-          "/DRAM + SRAM/DDR.~{WE}",
-          "/DRAM + SRAM/DDR_ZQ"
-        ],
         "pcb_color": "rgb(0, 132, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -633,124 +562,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "50Ohm-se",
-        "nets": [
-          "/Clocks/PLL_XI",
-          "/Clocks/PLL_XO",
-          "/Clocks/PLL_Y0",
-          "/Clocks/PLL_Y1",
-          "/Clocks/PLL_Y4",
-          "/DRAM + SRAM/SRAM.A0",
-          "/DRAM + SRAM/SRAM.A1",
-          "/DRAM + SRAM/SRAM.A10",
-          "/DRAM + SRAM/SRAM.A11",
-          "/DRAM + SRAM/SRAM.A12",
-          "/DRAM + SRAM/SRAM.A13",
-          "/DRAM + SRAM/SRAM.A14",
-          "/DRAM + SRAM/SRAM.A15",
-          "/DRAM + SRAM/SRAM.A16",
-          "/DRAM + SRAM/SRAM.A17",
-          "/DRAM + SRAM/SRAM.A18",
-          "/DRAM + SRAM/SRAM.A19",
-          "/DRAM + SRAM/SRAM.A2",
-          "/DRAM + SRAM/SRAM.A3",
-          "/DRAM + SRAM/SRAM.A4",
-          "/DRAM + SRAM/SRAM.A5",
-          "/DRAM + SRAM/SRAM.A6",
-          "/DRAM + SRAM/SRAM.A7",
-          "/DRAM + SRAM/SRAM.A8",
-          "/DRAM + SRAM/SRAM.A9",
-          "/DRAM + SRAM/SRAM.CE2",
-          "/DRAM + SRAM/SRAM.DQ0",
-          "/DRAM + SRAM/SRAM.DQ1",
-          "/DRAM + SRAM/SRAM.DQ2",
-          "/DRAM + SRAM/SRAM.DQ3",
-          "/DRAM + SRAM/SRAM.DQ4",
-          "/DRAM + SRAM/SRAM.DQ5",
-          "/DRAM + SRAM/SRAM.DQ6",
-          "/DRAM + SRAM/SRAM.DQ7",
-          "/DRAM + SRAM/SRAM.~{CE}",
-          "/DRAM + SRAM/SRAM.~{OE}",
-          "/DRAM + SRAM/SRAM.~{WE}",
-          "/FPGA Bank 17/GBE_RGMII.GTR_CLK",
-          "/FPGA Bank 17/GBE_RGMII.GTX_CLK",
-          "/FPGA Bank 17/GBE_RGMII.MDC",
-          "/FPGA Bank 17/GBE_RGMII.MDIO",
-          "/FPGA Bank 17/GBE_RGMII.REFCLK",
-          "/FPGA Bank 17/GBE_RGMII.RXD0",
-          "/FPGA Bank 17/GBE_RGMII.RXD1",
-          "/FPGA Bank 17/GBE_RGMII.RXD2",
-          "/FPGA Bank 17/GBE_RGMII.RXD3",
-          "/FPGA Bank 17/GBE_RGMII.RX_DV",
-          "/FPGA Bank 17/GBE_RGMII.TXD0",
-          "/FPGA Bank 17/GBE_RGMII.TXD1",
-          "/FPGA Bank 17/GBE_RGMII.TXD2",
-          "/FPGA Bank 17/GBE_RGMII.TXD3",
-          "/FPGA Bank 17/GBE_RGMII.TX_EN",
-          "/FPGA Bank 17/GBE_RGMII.~{INT}",
-          "/FPGA Bank 17/GBE_RGMII.~{RESET}",
-          "/FPGA Bank 32/ETH_RMII.MDC",
-          "/FPGA Bank 32/ETH_RMII.MDIO",
-          "/FPGA Bank 32/ETH_RMII.REFCLK",
-          "/FPGA Bank 32/ETH_RMII.RXD0",
-          "/FPGA Bank 32/ETH_RMII.RXD1",
-          "/FPGA Bank 32/ETH_RMII.RXER",
-          "/FPGA Bank 32/ETH_RMII.RX_DV",
-          "/FPGA Bank 32/ETH_RMII.TXD0",
-          "/FPGA Bank 32/ETH_RMII.TXD1",
-          "/FPGA Bank 32/ETH_RMII.TXEN",
-          "/FPGA Bank 32/ETH_RMII.~{RESET}",
-          "/FPGA Bank 33/SD_CARD.CLK",
-          "/FPGA Bank 33/SD_CARD.CMD",
-          "/FPGA Bank 33/SD_CARD.DAT0",
-          "/FPGA Bank 33/SD_CARD.DAT1",
-          "/FPGA Bank 33/SD_CARD.DAT2",
-          "/FPGA Bank 33/SD_CARD.DAT3",
-          "/FPGA Bank 33/SD_CARD.~{CD}",
-          "/FPGA Bank 33/USR_FLASH_0.CLK",
-          "/FPGA Bank 33/USR_FLASH_0.DQ0",
-          "/FPGA Bank 33/USR_FLASH_0.DQ1",
-          "/FPGA Bank 33/USR_FLASH_0.DQ2",
-          "/FPGA Bank 33/USR_FLASH_0.DQ3",
-          "/FPGA Bank 33/USR_FLASH_0.~{CS}",
-          "/HDMI + Ethernet/ETH_PHY_REFCLK",
-          "/HDMI + Ethernet/ETH_PHY_RXD1",
-          "/HDMI + Ethernet/ETH_PHY_RXDO",
-          "/HDMI + Ethernet/ETH_PHY_RXER",
-          "/HDMI + Ethernet/ETH_PHY_RX_DV",
-          "/HDMI + Ethernet/ETH_PHY_TXD1",
-          "/HDMI + Ethernet/ETH_PHY_TXDO",
-          "/HDMI + Ethernet/ETH_PHY_TXEN",
-          "/HDMI + Ethernet/ETH_XI",
-          "/HDMI + Ethernet/ETH_XO",
-          "/SPI Flash + SD Card/SD_CARD_~{CD}",
-          "/SPI Flash + SD Card/SYSTEM_FLASH_CLK",
-          "/SPI Flash + SD Card/SYSTEM_FLASH_DQ0",
-          "/SPI Flash + SD Card/SYSTEM_FLASH_DQ1",
-          "/SPI Flash + SD Card/SYSTEM_FLASH_DQ2",
-          "/SPI Flash + SD Card/SYSTEM_FLASH_DQ3",
-          "/SPI Flash + SD Card/SYSTEM_FLASH_~{CS}",
-          "/SPI Flash + SD Card/USR_FLASH_0_CLK",
-          "/SPI Flash + SD Card/USR_FLASH_0_DQ0",
-          "/SPI Flash + SD Card/USR_FLASH_0_DQ1",
-          "/SPI Flash + SD Card/USR_FLASH_0_DQ2",
-          "/SPI Flash + SD Card/USR_FLASH_0_DQ3",
-          "/SPI Flash + SD Card/USR_FLASH_0_~{CS}",
-          "/SPI Flash + SD Card/USR_FLASH_1_CLK",
-          "/SPI Flash + SD Card/USR_FLASH_1_DQ0",
-          "/SPI Flash + SD Card/USR_FLASH_1_DQ1",
-          "/SPI Flash + SD Card/USR_FLASH_1_DQ2",
-          "/SPI Flash + SD Card/USR_FLASH_1_DQ3",
-          "/SPI Flash + SD Card/USR_FLASH_1_~{CS}"
-        ],
         "pcb_color": "rgb(0, 132, 132)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -759,21 +579,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "80Ohm-diff_DQS",
-        "nets": [
-          "/DRAM + SRAM/DDR.CK_N",
-          "/DRAM + SRAM/DDR.CK_P",
-          "/DRAM + SRAM/DDR.DQS_N",
-          "/DRAM + SRAM/DDR.DQS_P"
-        ],
         "pcb_color": "rgb(132, 0, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -782,81 +596,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "85Ohm-diff_PCIe",
-        "nets": [
-          "/FMC+ HSPC/GTR_REFCLK0_R_N",
-          "/FMC+ HSPC/GTR_REFCLK0_R_P",
-          "/FMC+ HSPC/GTR_REFCLK1_R_N",
-          "/FMC+ HSPC/GTR_REFCLK1_R_P",
-          "/FMC+ HSPC/GTR_REFCLK2_R_N",
-          "/FMC+ HSPC/GTR_REFCLK2_R_P",
-          "/FMC+ HSPC/GTR_REFCLK3_R_N",
-          "/FMC+ HSPC/GTR_REFCLK3_R_P",
-          "/FMC+ HSPC/GTX115.REFCLK0_N",
-          "/FMC+ HSPC/GTX115.REFCLK0_P",
-          "/FMC+ HSPC/GTX115.REFCLK1_N",
-          "/FMC+ HSPC/GTX115.REFCLK1_P",
-          "/FMC+ HSPC/GTX115.RX0_N",
-          "/FMC+ HSPC/GTX115.RX0_P",
-          "/FMC+ HSPC/GTX115.RX1_N",
-          "/FMC+ HSPC/GTX115.RX1_P",
-          "/FMC+ HSPC/GTX115.RX2_N",
-          "/FMC+ HSPC/GTX115.RX2_P",
-          "/FMC+ HSPC/GTX115.RX3_N",
-          "/FMC+ HSPC/GTX115.RX3_P",
-          "/FMC+ HSPC/GTX115.TX0_N",
-          "/FMC+ HSPC/GTX115.TX0_P",
-          "/FMC+ HSPC/GTX115.TX1_N",
-          "/FMC+ HSPC/GTX115.TX1_P",
-          "/FMC+ HSPC/GTX115.TX2_N",
-          "/FMC+ HSPC/GTX115.TX2_P",
-          "/FMC+ HSPC/GTX115.TX3_N",
-          "/FMC+ HSPC/GTX115.TX3_P",
-          "/FMC+ HSPC/GTX116.REFCLK0_N",
-          "/FMC+ HSPC/GTX116.REFCLK0_P",
-          "/FMC+ HSPC/GTX116.REFCLK1_N",
-          "/FMC+ HSPC/GTX116.REFCLK1_P",
-          "/FMC+ HSPC/GTX116.RX0_N",
-          "/FMC+ HSPC/GTX116.RX0_P",
-          "/FMC+ HSPC/GTX116.RX1_N",
-          "/FMC+ HSPC/GTX116.RX1_P",
-          "/FMC+ HSPC/GTX116.RX2_N",
-          "/FMC+ HSPC/GTX116.RX2_P",
-          "/FMC+ HSPC/GTX116.RX3_N",
-          "/FMC+ HSPC/GTX116.RX3_P",
-          "/FMC+ HSPC/GTX116.TX0_N",
-          "/FMC+ HSPC/GTX116.TX0_P",
-          "/FMC+ HSPC/GTX116.TX1_N",
-          "/FMC+ HSPC/GTX116.TX1_P",
-          "/FMC+ HSPC/GTX116.TX2_N",
-          "/FMC+ HSPC/GTX116.TX2_P",
-          "/FMC+ HSPC/GTX116.TX3_N",
-          "/FMC+ HSPC/GTX116.TX3_P",
-          "/FMC+ HSPC/GTX_TX0_C_N",
-          "/FMC+ HSPC/GTX_TX0_C_P",
-          "/FMC+ HSPC/GTX_TX1_C_N",
-          "/FMC+ HSPC/GTX_TX1_C_P",
-          "/FMC+ HSPC/GTX_TX2_C_N",
-          "/FMC+ HSPC/GTX_TX2_C_P",
-          "/FMC+ HSPC/GTX_TX3_C_N",
-          "/FMC+ HSPC/GTX_TX3_C_P",
-          "/FMC+ HSPC/GTX_TX4_C_N",
-          "/FMC+ HSPC/GTX_TX4_C_P",
-          "/FMC+ HSPC/GTX_TX5_C_N",
-          "/FMC+ HSPC/GTX_TX5_C_P",
-          "/FMC+ HSPC/GTX_TX6_C_N",
-          "/FMC+ HSPC/GTX_TX6_C_P",
-          "/FMC+ HSPC/GTX_TX7_C_N",
-          "/FMC+ HSPC/GTX_TX7_C_P"
-        ],
         "pcb_color": "rgb(132, 0, 132)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -865,77 +613,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90Ohm-diff",
-        "nets": [
-          "/FMC+ HSPC/FMC.IO0",
-          "/FMC+ HSPC/FMC.IO10_N",
-          "/FMC+ HSPC/FMC.IO10_P",
-          "/FMC+ HSPC/FMC.IO11_N",
-          "/FMC+ HSPC/FMC.IO11_P",
-          "/FMC+ HSPC/FMC.IO12_N",
-          "/FMC+ HSPC/FMC.IO12_P",
-          "/FMC+ HSPC/FMC.IO13_N",
-          "/FMC+ HSPC/FMC.IO13_P",
-          "/FMC+ HSPC/FMC.IO14_N",
-          "/FMC+ HSPC/FMC.IO14_P",
-          "/FMC+ HSPC/FMC.IO15_N",
-          "/FMC+ HSPC/FMC.IO15_P",
-          "/FMC+ HSPC/FMC.IO16_N",
-          "/FMC+ HSPC/FMC.IO16_P",
-          "/FMC+ HSPC/FMC.IO17_N",
-          "/FMC+ HSPC/FMC.IO17_P",
-          "/FMC+ HSPC/FMC.IO18_N",
-          "/FMC+ HSPC/FMC.IO18_P",
-          "/FMC+ HSPC/FMC.IO19_N",
-          "/FMC+ HSPC/FMC.IO19_P",
-          "/FMC+ HSPC/FMC.IO1_N",
-          "/FMC+ HSPC/FMC.IO1_P",
-          "/FMC+ HSPC/FMC.IO20_N",
-          "/FMC+ HSPC/FMC.IO20_P",
-          "/FMC+ HSPC/FMC.IO21_N",
-          "/FMC+ HSPC/FMC.IO21_P",
-          "/FMC+ HSPC/FMC.IO22_N",
-          "/FMC+ HSPC/FMC.IO22_P",
-          "/FMC+ HSPC/FMC.IO23_N",
-          "/FMC+ HSPC/FMC.IO23_P",
-          "/FMC+ HSPC/FMC.IO24_N",
-          "/FMC+ HSPC/FMC.IO24_P",
-          "/FMC+ HSPC/FMC.IO25",
-          "/FMC+ HSPC/FMC.IO2_N",
-          "/FMC+ HSPC/FMC.IO2_P",
-          "/FMC+ HSPC/FMC.IO3_N",
-          "/FMC+ HSPC/FMC.IO3_P",
-          "/FMC+ HSPC/FMC.IO4_N",
-          "/FMC+ HSPC/FMC.IO4_P",
-          "/FMC+ HSPC/FMC.IO5_N",
-          "/FMC+ HSPC/FMC.IO5_P",
-          "/FMC+ HSPC/FMC.IO6_N",
-          "/FMC+ HSPC/FMC.IO6_P",
-          "/FMC+ HSPC/FMC.IO7_N",
-          "/FMC+ HSPC/FMC.IO7_P",
-          "/FMC+ HSPC/FMC.IO8_N",
-          "/FMC+ HSPC/FMC.IO8_P",
-          "/FMC+ HSPC/FMC.IO9_N",
-          "/FMC+ HSPC/FMC.IO9_P",
-          "/USB PHY/USB_DBG_CONN_D+",
-          "/USB PHY/USB_DBG_CONN_D-",
-          "/USB PHY/USB_HOST_CONN_D+",
-          "/USB PHY/USB_HOST_CONN_D-",
-          "/USB PHY/USB_HOST_D+",
-          "/USB PHY/USB_HOST_D-",
-          "/USB PHY/USB_USR_CONN_D+",
-          "/USB PHY/USB_USR_CONN_D-",
-          "/USB PHY/USB_USR_D+",
-          "/USB PHY/USB_USR_D-"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.26,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -944,25 +630,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "POE",
-        "nets": [
-          "/HDMI + Ethernet/POE_ETH.VC1",
-          "/HDMI + Ethernet/POE_ETH.VC2",
-          "/HDMI + Ethernet/POE_ETH.VC3",
-          "/HDMI + Ethernet/POE_ETH.VC4",
-          "/HDMI + Ethernet/POE_GBE.VC1",
-          "/HDMI + Ethernet/POE_GBE.VC2",
-          "/HDMI + Ethernet/POE_GBE.VC3",
-          "/HDMI + Ethernet/POE_GBE.VC4"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -971,36 +647,16 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Supply",
-        "nets": [
-          "+0V675_VREF",
-          "+0V675_VTT",
-          "+1V0",
-          "+1V0_MGTAVCC",
-          "+1V2",
-          "+1V2_MGTAVTT",
-          "+1V35",
-          "+1V8",
-          "+1V85_ADC",
-          "+3V3",
-          "+5V",
-          "/Power supply/PD_VBUS",
-          "/Power supply/USB_DBG_PD.VBUS",
-          "/Power supply/USB_PD_VBUS",
-          "/USB PHY/USB_HOST_VBUS",
-          "/USB PHY/USB_USR_VBUS",
-          "VCC_USR_A",
-          "VCC_USR_B"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
     "net_colors": {
       "+0V675_VREF": "rgb(178, 215, 50)",
@@ -1019,14 +675,6 @@
     },
     "netclass_assignments": null,
     "netclass_patterns": [
-      {
-        "netclass": "100Ohm-diff",
-        "pattern": "/Clocks/SYS.CLK_N"
-      },
-      {
-        "netclass": "100Ohm-diff",
-        "pattern": "/Clocks/SYS.CLK_P"
-      },
       {
         "netclass": "100Ohm-diff",
         "pattern": "/FPGA Bank 17/HDMI.CLK_N"
@@ -1058,6 +706,14 @@
       {
         "netclass": "100Ohm-diff",
         "pattern": "/FPGA Bank 17/HDMI.D2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Config/FPGA_CFG_DXN"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Config/FPGA_CFG_DXP"
       },
       {
         "netclass": "100Ohm-diff",
@@ -1109,35 +765,35 @@
       },
       {
         "netclass": "100Ohm-diff",
-        "pattern": "EXT_ETH1_N"
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_CLK_N"
       },
       {
         "netclass": "100Ohm-diff",
-        "pattern": "EXT_ETH1_P"
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_CLK_P"
       },
       {
         "netclass": "100Ohm-diff",
-        "pattern": "EXT_ETH2_N"
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D0_N"
       },
       {
         "netclass": "100Ohm-diff",
-        "pattern": "EXT_ETH2_P"
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D0_P"
       },
       {
         "netclass": "100Ohm-diff",
-        "pattern": "EXT_ETH3_N"
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D1_N"
       },
       {
         "netclass": "100Ohm-diff",
-        "pattern": "EXT_ETH3_P"
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D1_P"
       },
       {
         "netclass": "100Ohm-diff",
-        "pattern": "EXT_ETH4_N"
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D2_N"
       },
       {
         "netclass": "100Ohm-diff",
-        "pattern": "EXT_ETH4_P"
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D2_P"
       },
       {
         "netclass": "40Ohm-se_DQ",
@@ -1282,6 +938,26 @@
       {
         "netclass": "40Ohm-se_DQ",
         "pattern": "/DRAM + SRAM/DDR_ZQ"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_XI"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_XO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_Y0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_Y1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_Y4"
       },
       {
         "netclass": "50Ohm-se",
@@ -1550,6 +1226,70 @@
       {
         "netclass": "50Ohm-se",
         "pattern": "/FPGA Bank 33/SD_CARD.~{CD}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.DQ0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.DQ1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.DQ2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.DQ3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.~{CS}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_REFCLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_RXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_RXDO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_RXER"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_RX_DV"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_TXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_TXDO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_TXEN"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_XI"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_XO"
       },
       {
         "netclass": "50Ohm-se",
@@ -1900,388 +1640,244 @@
         "pattern": "/FMC+ HSPC/GTX_TX7_C_P"
       },
       {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.REFCLK0_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.REFCLK0_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.REFCLK1_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.REFCLK1_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.RX0_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.RX0_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.RX1_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.RX1_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.RX2_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.RX2_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.RX3_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.RX3_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.TX0_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.TX0_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.TX1_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.TX1_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.TX2_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.TX2_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.TX3_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX117.TX3_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.REFCLK0_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.REFCLK0_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.REFCLK1_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.REFCLK1_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.RX0_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.RX0_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.RX1_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.RX1_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.RX2_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.RX2_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.RX3_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.RX3_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.TX0_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.TX0_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.TX1_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.TX1_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.TX2_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.TX2_P"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.TX3_N"
-      },
-      {
-        "netclass": "85Ohm-diff_PCIe",
-        "pattern": "/FPGA MGT Interface/GTX118.TX3_P"
-      },
-      {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO0"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO10_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO10_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO11_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO11_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO12_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO12_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO13_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO13_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO14_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO14_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO15_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO15_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO16_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO16_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO17_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO17_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO18_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO18_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO19_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO19_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO1_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO1_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO20_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO20_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO21_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO21_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO22_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO22_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO23_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO23_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO24_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO24_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO25"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO2_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO2_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO3_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO3_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO4_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO4_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO5_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO5_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO6_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO6_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO7_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO7_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO8_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO8_P"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO9_N"
       },
       {
-        "netclass": "90Ohm-diff_FMC",
+        "netclass": "90Ohm-diff",
         "pattern": "/FMC+ HSPC/FMC.IO9_P"
       },
       {
-        "netclass": "90Ohm-diff_USB",
+        "netclass": "90Ohm-diff",
         "pattern": "/USB PHY/USB_DBG_CONN_D+"
       },
       {
-        "netclass": "90Ohm-diff_USB",
+        "netclass": "90Ohm-diff",
         "pattern": "/USB PHY/USB_DBG_CONN_D-"
       },
       {
-        "netclass": "90Ohm-diff_USB",
+        "netclass": "90Ohm-diff",
         "pattern": "/USB PHY/USB_HOST_CONN_D+"
       },
       {
-        "netclass": "90Ohm-diff_USB",
+        "netclass": "90Ohm-diff",
         "pattern": "/USB PHY/USB_HOST_CONN_D-"
       },
       {
-        "netclass": "90Ohm-diff_USB",
+        "netclass": "90Ohm-diff",
         "pattern": "/USB PHY/USB_HOST_D+"
       },
       {
-        "netclass": "90Ohm-diff_USB",
+        "netclass": "90Ohm-diff",
         "pattern": "/USB PHY/USB_HOST_D-"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_USR_CONN_D+"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_USR_CONN_D-"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_USR_D+"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_USR_D-"
       },
       {
         "netclass": "POE",
@@ -2314,18 +1910,6 @@
       {
         "netclass": "POE",
         "pattern": "/HDMI + Ethernet/POE_GBE.VC4"
-      },
-      {
-        "netclass": "POE",
-        "pattern": "/Power supply/VDD"
-      },
-      {
-        "netclass": "POE",
-        "pattern": "/Power supply/VSS"
-      },
-      {
-        "netclass": "POE",
-        "pattern": "GNDD"
       },
       {
         "netclass": "Supply",
@@ -2373,15 +1957,31 @@
       },
       {
         "netclass": "Supply",
-        "pattern": "+5V_AON"
+        "pattern": "/Power supply/PD_VBUS"
       },
       {
         "netclass": "Supply",
-        "pattern": "/FPGA Bank 34/DDR_VRN"
+        "pattern": "/Power supply/USB_DBG_PD.VBUS"
       },
       {
         "netclass": "Supply",
-        "pattern": "/FPGA Bank 34/DDR_VRP"
+        "pattern": "/Power supply/USB_PD_VBUS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/USB PHY/USB_HOST_VBUS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/USB PHY/USB_USR_VBUS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "VCC_USR_A"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "VCC_USR_B"
       }
     ]
   },
@@ -2399,6 +1999,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -2430,7 +2032,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "./doc",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
