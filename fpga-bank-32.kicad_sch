@@ -7,7 +7,7 @@
   (title_block
     (title "Kintex 410T devboard")
     (date "2023-02-01")
-    (rev "1.1.1:14a15")
+    (rev "1.1.1:12d7d")
   )
 
   (lib_symbols
