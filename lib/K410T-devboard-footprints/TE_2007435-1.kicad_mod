@@ -1002,7 +1002,7 @@
   (pad "SH" thru_hole oval (at -3.75 -8.25 90) (size 3.5 1.7) (drill oval 2.5 0.9) (layers *.Cu *.Mask) (tstamp 73916014-25b5-4be8-89a6-8813387d156b))
   (pad "SH" thru_hole oval (at -3.75 0.746 90) (size 3.5 1.7) (drill oval 2.5 0.9) (layers *.Cu *.Mask) (tstamp 86655e98-5a4f-45ea-8e4b-82d51bc0c281))
   (pad "SH" thru_hole oval (at 2.749 -1.851 90) (size 3.5 1.7) (drill oval 2.5 0.9) (layers *.Cu *.Mask) (tstamp dc08006d-fd11-4357-a32b-e68e1fede84e))
-  (model "${KIPRJMOD}/lib/3d-models/c-2007435-1-d-3d.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/c-2007435-1-d-3d.step"
     (offset (xyz -0.5 -10.5 9))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

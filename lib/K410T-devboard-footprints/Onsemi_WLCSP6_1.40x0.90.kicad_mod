@@ -182,7 +182,7 @@
   (pad "B2" smd circle (at 0.246 0.001) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bb015e39-7e43-4207-8bbe-e2c76e6be613))
   (pad "C1" smd circle (at -0.249 0.496) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f3e3b54f-e5b7-4732-9700-04467e8adcc6))
   (pad "C2" smd circle (at 0.246 0.496) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7bae131f-6a2e-4713-b542-312688a1e178))
-  (model "${KIPRJMOD}/lib/3d-models/WLCSP-6.stp"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/WLCSP-6.stp"
     (offset (xyz 0.001 -0.001 -0.02))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

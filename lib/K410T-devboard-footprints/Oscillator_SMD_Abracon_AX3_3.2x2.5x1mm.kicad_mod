@@ -2322,7 +2322,7 @@
   (pad "4" smd rect (at 0.801 1.199 270) (size 0.9 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6c62d4f8-f29d-476a-85a9-67b45a06899d))
   (pad "5" smd rect (at 0.801 0 270) (size 0.9 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2cbd7325-7d84-4e4c-a75a-f2db47f09e75))
   (pad "6" smd rect (at 0.801 -1.199 270) (size 0.9 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 60ed804a-0460-4199-b7ee-6ab19de7b870))
-  (model "${KIPRJMOD}/lib/3d-models/Oscillator_SMD_Abracon_AX3_3.2x2.5x1mm.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/Oscillator_SMD_Abracon_AX3_3.2x2.5x1mm.step"
     (offset (xyz 0 0 0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

@@ -490,7 +490,7 @@
   (pad "14" smd rect (at 2.652 -0.954) (size 1.6 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f8fd9d8c-ef74-4c34-ad4f-b6fc21d5f5b3))
   (pad "15" smd rect (at 2.652 -1.589) (size 1.6 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4a4ca620-131a-4ca0-adb8-e1012f2016bb))
   (pad "16" smd rect (at 2.652 -2.223) (size 1.6 0.41) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 58c16a2d-68ef-4fdb-be2c-6f977b1065ec))
-  (model "${KIPRJMOD}/lib/3d-models/QSOP-16_3.9x4.9mm_P0.635mm.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/QSOP-16_3.9x4.9mm_P0.635mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

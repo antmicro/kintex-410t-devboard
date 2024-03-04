@@ -185,7 +185,7 @@
   (pad "15" smd roundrect (at -0.203 -1.151 90) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 87243a1e-2627-4c01-bf67-82467d321134))
   (pad "16" smd roundrect (at -0.6 -1.151 90) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2757a0c8-f75f-43d2-843b-cb15ccf41ea3))
   (pad "17" smd roundrect (at 0 0 90) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.04166666667) (tstamp 048ecc8e-282e-4939-984f-7ce7be73b0b2))
-  (model "${KIPRJMOD}/lib/3d-models/X1QFN-16-1EP_2.5x2.5mm.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/X1QFN-16-1EP_2.5x2.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

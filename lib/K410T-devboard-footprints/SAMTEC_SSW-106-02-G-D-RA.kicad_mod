@@ -262,7 +262,7 @@
   (pad "10" thru_hole circle (at 10.159 2.539) (size 1.84 1.84) (drill 1.04) (layers *.Cu *.Mask) (tstamp 93b2d7be-9918-471a-8fa6-de0e16744f66))
   (pad "11" thru_hole circle (at 12.698 0) (size 1.84 1.84) (drill 1.04) (layers *.Cu *.Mask) (tstamp a61d46c4-6205-45e1-89ce-942236a00707))
   (pad "12" thru_hole circle (at 12.698 2.539) (size 1.84 1.84) (drill 1.04) (layers *.Cu *.Mask) (tstamp 3efeca00-bd49-47a8-9147-add203729c5b))
-  (model "${KIPRJMOD}/lib/3d-models/SSW-106-02-G-D-RA.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/SSW-106-02-G-D-RA.step"
     (offset (xyz 6.35 1.5 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 -180))

@@ -248,7 +248,7 @@
   (pad "3" smd roundrect (at 0.949 1.35) (size 0.6 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0352e6fa-02fd-4e4e-80d6-4c02d9daf9f1))
   (pad "4" smd roundrect (at 0.949 -1.351) (size 0.6 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 04432051-6572-407d-9ff5-89393077a3cf))
   (pad "5" smd roundrect (at -0.951 -1.351) (size 0.6 1.05) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a2be02e8-37d5-4d05-91f8-36a1e70c6d10))
-  (model "${KIPRJMOD}/lib/3d-models/LP2985-33DBVR.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/LP2985-33DBVR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

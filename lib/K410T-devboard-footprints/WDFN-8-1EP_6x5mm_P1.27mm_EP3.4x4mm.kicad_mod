@@ -310,7 +310,7 @@
   (pad "8" smd roundrect (at 2.999 -1.905 90) (size 0.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d222087a-312d-4e60-87b7-49ccaf9ba7c0))
   (pad "9" smd rect (at 0 0) (size 3.4 4) (layers "F.Cu" "F.Mask")
     (solder_paste_margin -0.1) (tstamp e572fc6c-1e2e-4217-817a-6c937ad57d0e))
-  (model "${KIPRJMOD}/lib/3d-models/WSON-8_6X5mm.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/WSON-8_6X5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

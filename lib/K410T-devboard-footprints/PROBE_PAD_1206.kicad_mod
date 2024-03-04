@@ -85,7 +85,7 @@
   (fp_line (start 1.6 0.508) (end 1.6 -0.29) (layer "User.9") (width 0.02) (tstamp e699b720-24b5-4195-a663-cc71469c3337))
   (fp_line (start -1.301 0.812) (end -1.371 0.812) (layer "User.9") (width 0.02) (tstamp fa044e7c-0649-46ab-b8a6-3edea206a7dd))
   (pad "1" smd rect (at 0 0) (size 3.4 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 144483bd-f2cd-4298-8494-f97608c3e336))
-  (model "${KIPRJMOD}/lib/3d-models/RCW-0C.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/RCW-0C.step"
     (offset (xyz 0.0005 -0.8135 1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

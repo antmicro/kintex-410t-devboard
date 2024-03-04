@@ -5047,7 +5047,7 @@
   (pad "17" smd rect (at -2.15 -4.5) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 733e9b77-d566-4dfc-98b1-affc63cb6f97))
   (pad "17" smd rect (at 2.148 -4.5) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c0f514b0-1746-420d-adf6-0bf16d5d3cd0))
   (pad "17" smd rect (at 2.148 4.498) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ee42ba19-9431-472d-8d74-c25d03610192))
-  (model "${KIPRJMOD}/lib/3d-models/CVS-08B.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/CVS-08B.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

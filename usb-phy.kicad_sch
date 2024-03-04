@@ -61,6 +61,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -107,6 +108,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -153,6 +155,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:74LVC1T45GM" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 30.48 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -287,6 +290,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:AP22615A_TSOT26" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 30.48 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -349,6 +353,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:BAT54-02V-G3-08" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 21.59 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -423,6 +428,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:BSS138PW" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 3.81 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -599,6 +605,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -665,6 +672,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_1" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -717,6 +725,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_10" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -769,6 +778,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_11" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -821,6 +831,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_12" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -873,6 +884,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_13" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -925,6 +937,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_14" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -977,6 +990,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_15" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1029,6 +1043,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_16" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1081,6 +1096,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_17" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1133,6 +1149,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_18" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1185,6 +1202,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_19" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1237,6 +1255,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_2" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1289,6 +1308,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_20" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1341,6 +1361,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_21" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1393,6 +1414,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_22" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1445,6 +1467,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_23" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1497,6 +1520,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_3" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1549,6 +1573,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_4" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1601,6 +1626,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_6" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1653,6 +1679,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_7" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1705,6 +1732,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_8" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1757,6 +1785,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_9" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1809,6 +1838,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_10u_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1875,6 +1905,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_10u_25V_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1941,6 +1972,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_1u_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2007,6 +2039,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_22p_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2073,6 +2106,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:FB_600Z_0.5A_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (at 13.97 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2138,6 +2172,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -2176,6 +2211,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:LED_G_0603_KP-1608CGCK" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2254,6 +2290,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:NCP718BSN330T1G" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 35.56 -3.81 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2309,6 +2346,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:Oscillator_SMD_12MHz_KX-7" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Y" (at 25.4 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2396,6 +2434,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#FLG" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2430,6 +2469,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2484,6 +2524,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_0R_0402_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2538,6 +2579,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_10k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2589,6 +2631,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_10k_0402_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2640,6 +2683,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_10k_0402_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2691,6 +2735,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_10k_0402_12" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2742,6 +2787,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_12k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2793,6 +2839,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_15k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2844,6 +2891,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_1k5_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2895,6 +2943,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_2k2_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2946,6 +2995,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_330R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2997,6 +3047,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_33R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3048,6 +3099,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_33R_0402_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3099,6 +3151,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_33R_0402_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3150,6 +3203,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_33R_0402_12" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3201,6 +3255,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_33R_0402_13" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3252,6 +3307,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_33R_0402_14" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3303,6 +3359,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_33R_0402_15" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3354,6 +3411,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_47k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3405,6 +3463,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_4k7_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3456,6 +3515,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_5k1_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3507,6 +3567,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:SN74HC595B" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 35.56 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3607,6 +3668,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:SW_CVS-08TB" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 26.67 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3975,6 +4037,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:TPD4E05U06QDQARQ1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 24.13 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4234,6 +4297,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:TUSB1106RSVR" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 36.83 -3.81 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4333,6 +4397,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:TXU0304BQAR" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 31.75 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4497,6 +4562,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:USB-A_614004184726" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4610,6 +4676,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:USB-C_USB4105-GF-A" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 38.1 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4802,14 +4869,15 @@
         )
       )
     )
-    (symbol "antmicroInterfaceControllers:FT4232H_VQFN" (in_bom yes) (on_board yes)
+
+    (symbol "K410T-devboard:FT4232H_VQFN" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 55.88 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "FT4232H_VQFN" (at 55.88 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm" (at 55.88 -7.62 0)
+      (property "Footprint" "K410T-devboard-footprints:QFN-56-1EP_8x8mm_P0.5mm" (at 55.88 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" (at 55.88 -10.16 0)
@@ -5068,14 +5136,15 @@
         )
       )
     )
-    (symbol "antmicroInterfaceControllers:MAX3421EETJ+" (in_bom yes) (on_board yes)
+
+    (symbol "K410T-devboard:MAX3421EETJ+" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 40.64 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "MAX3421EETJ+" (at 40.64 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "antmicro-footprints:QFN-32-1EP_5x5mm" (at 40.64 -10.16 0)
+      (property "Footprint" "K410T-devboard-footprints:QFN-32-1EP_5x5mm" (at 40.64 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max3421e.pdf" (at 40.64 -12.7 0)
@@ -5853,7 +5922,6 @@
     (stroke (width 0) (type default))
     (uuid 0d7f8417-8115-43df-93c0-54077a951375)
   )
-
   (wire (pts (xy 121.285 254.635) (xy 122.555 254.635))
     (stroke (width 0) (type default))
     (uuid 0d946b1d-4d2a-44ef-8d0f-db204e113534)
@@ -5862,7 +5930,6 @@
     (stroke (width 0) (type default))
     (uuid 0d9b10dd-29ba-4f78-a956-823be650d0ee)
   )
-
   (wire (pts (xy 250.825 140.335) (xy 252.73 140.335))
     (stroke (width 0) (type default))
     (uuid 0dd463d3-e7ce-45e2-9712-20c7a032f278)
@@ -5875,7 +5942,6 @@
     (stroke (width 0) (type default))
     (uuid 0e45769b-ffe7-4b0a-871f-59b4791bb9dc)
   )
-
   (wire (pts (xy 73.025 244.475) (xy 79.375 244.475))
     (stroke (width 0) (type default))
     (uuid 0ee45b04-e1c6-4d26-8f86-d436ce68ad85)
@@ -5956,7 +6022,6 @@
     (stroke (width 0) (type default))
     (uuid 15c49332-24d6-41fc-8fdc-b30e2337c608)
   )
-
   (wire (pts (xy 264.16 274.955) (xy 266.7 274.955))
     (stroke (width 0) (type default))
     (uuid 15f3a692-a971-4bb5-8a7b-d961b8563030)
@@ -5973,7 +6038,6 @@
     (stroke (width 0) (type default))
     (uuid 1726f401-4b8b-4503-be51-73064cce4d3f)
   )
-
   (wire (pts (xy 213.995 143.51) (xy 229.235 143.51))
     (stroke (width 0) (type default))
     (uuid 17718088-a456-4f01-9bd7-51b872d6ecb6)
@@ -6006,7 +6070,6 @@
     (stroke (width 0) (type dot))
     (uuid 1b20caa8-e2be-4693-8275-4f00100f75a4)
   )
-
   (wire (pts (xy 313.69 220.98) (xy 312.42 220.98))
     (stroke (width 0) (type default))
     (uuid 1b287aa1-fb9b-4e1c-8fda-fa81f5bfe4cb)
@@ -6031,7 +6094,6 @@
     (stroke (width 0) (type default))
     (uuid 1c623f3a-a96e-40f6-aecf-c8d9aff10189)
   )
-
   (wire (pts (xy 146.685 206.375) (xy 140.97 206.375))
     (stroke (width 0) (type default))
     (uuid 1cdcc0d4-ec40-4126-8200-1d5420f10ada)
@@ -6064,7 +6126,6 @@
     (stroke (width 0) (type default))
     (uuid 1fd48884-ec31-41ae-9c0b-f0a3a14c5102)
   )
-
   (wire (pts (xy 63.5 164.465) (xy 93.98 164.465))
     (stroke (width 0) (type default))
     (uuid 1fd6e5b6-6684-472e-ac75-c23744111e0f)
@@ -6073,7 +6134,6 @@
     (stroke (width 0) (type default))
     (uuid 1fe055d7-76e7-443b-aa1b-3d15627261cc)
   )
-
   (wire (pts (xy 298.45 151.13) (xy 313.69 151.13))
     (stroke (width 0) (type default))
     (uuid 2032015d-b00a-4de0-ad87-0726bb150d25)
@@ -6086,7 +6146,6 @@
     (stroke (width 0) (type default))
     (uuid 212a0e64-1001-44e1-9c16-e4e1c6e7ab8a)
   )
-
   (wire (pts (xy 337.185 208.28) (xy 337.185 205.74))
     (stroke (width 0) (type default))
     (uuid 2285ba14-fc9b-4ccb-abeb-e1117f58919a)
@@ -6099,7 +6158,6 @@
     (stroke (width 0) (type default))
     (uuid 231aa1dc-763e-4099-8254-1a4c9b89472a)
   )
-
   (wire (pts (xy 58.42 207.01) (xy 58.42 204.47))
     (stroke (width 0) (type default))
     (uuid 2488b51f-e5d0-492c-95c1-ea33da249227)
@@ -6108,7 +6166,6 @@
     (stroke (width 0) (type default))
     (uuid 24a00b91-6cba-4052-b9c9-61a6ec2eb05e)
   )
-
   (wire (pts (xy 324.485 75.565) (xy 309.88 75.565))
     (stroke (width 0) (type default))
     (uuid 24f5968d-4849-47e6-9f01-da9b41df7605)
@@ -6121,7 +6178,6 @@
     (stroke (width 0) (type default))
     (uuid 253f2fcb-a130-48e2-bc0c-7a063f732c31)
   )
-
   (wire (pts (xy 270.51 135.255) (xy 270.51 140.335))
     (stroke (width 0) (type default))
     (uuid 2563e13b-6b29-4c5f-9b12-5b8fea0bac74)
@@ -6158,7 +6214,6 @@
     (stroke (width 0) (type default))
     (uuid 28abaed4-f45e-4e11-b28b-08ab83e62cb1)
   )
-
   (wire (pts (xy 123.19 234.315) (xy 123.19 241.935))
     (stroke (width 0) (type default))
     (uuid 2906bbc6-c5e0-4e70-8042-9c4bb311fa54)
@@ -6167,7 +6222,6 @@
     (stroke (width 0) (type default))
     (uuid 296eddf3-0411-4b7b-904a-5c0c01758b20)
   )
-
   (wire (pts (xy 114.935 125.095) (xy 125.73 125.095))
     (stroke (width 0) (type default))
     (uuid 2a2866eb-f47e-4238-b31c-d513e27785f7)
@@ -6176,12 +6230,10 @@
     (stroke (width 0) (type default))
     (uuid 2a2c9841-77f5-428e-8661-3f8764ced236)
   )
-
   (polyline (pts (xy 261.62 215.265) (xy 261.62 205.74))
     (stroke (width 0) (type default))
     (uuid 2a742d7b-709d-4638-95b2-62d0873e7cb7)
   )
-
   (wire (pts (xy 312.42 53.34) (xy 305.435 53.34))
     (stroke (width 0) (type default))
     (uuid 2ab4acf4-02ea-4944-a81f-1d5ccb9d3e63)
@@ -6198,7 +6250,6 @@
     (stroke (width 0) (type default))
     (uuid 2d353d48-05e8-4fb4-a2a9-e8c02ba2869c)
   )
-
   (wire (pts (xy 74.93 95.25) (xy 77.47 95.25))
     (stroke (width 0) (type default))
     (uuid 2d52b21d-4513-437c-bcb9-577c0982f2d2)
@@ -6247,12 +6298,10 @@
     (stroke (width 0) (type default))
     (uuid 329517ef-bacc-4f13-b34c-1d117d96b15d)
   )
-
   (polyline (pts (xy 296.545 160.655) (xy 296.545 160.655))
     (stroke (width 0) (type dot))
     (uuid 32ca2485-f84c-4d9f-b34c-3daeaf947c70)
   )
-
   (wire (pts (xy 147.32 81.28) (xy 166.37 81.28))
     (stroke (width 0) (type default))
     (uuid 332b1355-ec22-4653-a175-0eb71097932c)
@@ -6345,7 +6394,6 @@
     (stroke (width 0) (type default))
     (uuid 3c363da3-969f-4773-944d-ea9d63a16470)
   )
-
   (wire (pts (xy 331.47 138.43) (xy 337.185 138.43))
     (stroke (width 0) (type default))
     (uuid 3cb0ec6d-1852-4029-914e-a41088a7dea1)
@@ -6354,7 +6402,6 @@
     (stroke (width 0) (type default))
     (uuid 3d117f9c-b589-4fe7-b94b-e1bd336a5106)
   )
-
   (wire (pts (xy 294.005 58.42) (xy 300.355 58.42))
     (stroke (width 0) (type default))
     (uuid 3d54efa1-9713-4e37-b5bd-2d9ea7ca0168)
@@ -6383,7 +6430,6 @@
     (stroke (width 0) (type default))
     (uuid 3f2c37fa-cfe1-4e64-bf11-23aa6c5ffaa5)
   )
-
   (wire (pts (xy 235.585 48.26) (xy 243.205 48.26))
     (stroke (width 0) (type default))
     (uuid 3fb11972-9a0a-4b11-8f66-008572e95763)
@@ -6448,7 +6494,6 @@
     (stroke (width 0) (type default))
     (uuid 44398f0b-bd18-4876-8394-a43ac3358a8a)
   )
-
   (wire (pts (xy 15.875 133.35) (xy 29.845 133.35))
     (stroke (width 0) (type default))
     (uuid 455f5566-d963-4327-8c0c-80d5ea240846)
@@ -6477,7 +6522,6 @@
     (stroke (width 0) (type default))
     (uuid 4929b578-2f5d-4cd6-bdde-cba8515a3a94)
   )
-
   (wire (pts (xy 154.305 158.75) (xy 171.45 158.75))
     (stroke (width 0) (type default))
     (uuid 49f0a562-3f18-41d1-a048-b1555cce92c7)
@@ -6502,7 +6546,6 @@
     (stroke (width 0) (type dot))
     (uuid 4bd79d4c-8013-4985-a86a-eb9d68b0b29f)
   )
-
   (wire (pts (xy 104.14 151.13) (xy 104.14 153.035))
     (stroke (width 0) (type default))
     (uuid 4c2f2014-7ce2-4d6d-9623-375875c9cb68)
@@ -6519,7 +6562,6 @@
     (stroke (width 0) (type dot))
     (uuid 4d54bf7e-d84f-4f1f-ac92-83abc76f4057)
   )
-
   (wire (pts (xy 334.01 205.74) (xy 334.01 201.295))
     (stroke (width 0) (type default))
     (uuid 4e482186-1030-4ffd-83e0-7ef1c35c8b4f)
@@ -6528,7 +6570,6 @@
     (stroke (width 0) (type default))
     (uuid 4eb605d7-413e-4e4d-9b72-8fab66f3170f)
   )
-
   (wire (pts (xy 121.285 247.015) (xy 135.255 247.015))
     (stroke (width 0) (type default))
     (uuid 4ec25e14-2bf1-4347-a009-996ea34d2fba)
@@ -6549,7 +6590,6 @@
     (stroke (width 0) (type dot))
     (uuid 503dc54e-184a-4076-97c8-1d319320ef43)
   )
-
   (wire (pts (xy 331.47 81.28) (xy 331.47 90.805))
     (stroke (width 0) (type default))
     (uuid 505e7451-a5a2-47cc-ba87-f74617f810e8)
@@ -6566,7 +6606,6 @@
     (stroke (width 0) (type default))
     (uuid 5157b195-0793-4d40-8e33-6a6223b9fbb1)
   )
-
   (wire (pts (xy 34.29 257.81) (xy 62.23 257.81))
     (stroke (width 0) (type default))
     (uuid 515b28de-52fe-451b-9ed1-88c4aae85d1c)
@@ -6579,7 +6618,6 @@
     (stroke (width 0) (type default))
     (uuid 51bfd6eb-4d4e-4462-8d66-55cccd792712)
   )
-
   (wire (pts (xy 359.41 73.66) (xy 359.41 85.725))
     (stroke (width 0) (type default))
     (uuid 51e9360a-eda9-4006-a2df-143561535afb)
@@ -6592,7 +6630,6 @@
     (stroke (width 0) (type default))
     (uuid 522f6d5a-988b-4240-ab05-2727e57745ba)
   )
-
   (wire (pts (xy 161.29 193.04) (xy 173.355 193.04))
     (stroke (width 0) (type default))
     (uuid 524744ac-6c00-4abd-8ec3-2595680719cf)
@@ -6617,12 +6654,10 @@
     (stroke (width 0) (type default))
     (uuid 54b9ab2a-3eef-44e0-b095-776b3b25892d)
   )
-
   (polyline (pts (xy 201.295 179.07) (xy 285.115 179.07))
     (stroke (width 0) (type dot))
     (uuid 54f2d23f-b166-46d7-b709-06d87732d88d)
   )
-
   (wire (pts (xy 43.18 50.8) (xy 43.18 52.07))
     (stroke (width 0) (type default))
     (uuid 5612395c-d1f8-4644-838d-49d46fdf8299)
@@ -6659,7 +6694,6 @@
     (stroke (width 0) (type default))
     (uuid 5c7db9e7-f6b6-4504-a62d-dc53061935d9)
   )
-
   (wire (pts (xy 145.415 125.095) (xy 135.89 125.095))
     (stroke (width 0) (type default))
     (uuid 5d1b03ef-5f82-46fe-af25-563e95992f16)
@@ -6680,7 +6714,6 @@
     (stroke (width 0) (type default))
     (uuid 5e6021e8-64b2-4e66-a64b-0ae5b1c5fe4e)
   )
-
   (wire (pts (xy 159.385 215.9) (xy 159.385 217.805))
     (stroke (width 0) (type default))
     (uuid 5ef5b84b-d589-4adf-84ac-e11d3c9abc5b)
@@ -6721,7 +6754,6 @@
     (stroke (width 0) (type dot))
     (uuid 60b6c0c9-64d7-42d6-8789-99152618b5dd)
   )
-
   (wire (pts (xy 62.23 44.45) (xy 67.31 44.45))
     (stroke (width 0) (type default))
     (uuid 617cdec7-b3cd-4dd1-9749-f2e6e921b603)
@@ -6774,7 +6806,6 @@
     (stroke (width 0) (type default))
     (uuid 6658d7cc-eb06-47ae-96df-f95a01ee5b53)
   )
-
   (wire (pts (xy 331.47 90.805) (xy 360.68 90.805))
     (stroke (width 0) (type default))
     (uuid 675cdf90-738c-4732-a6bf-1a208fdcc421)
@@ -6799,7 +6830,6 @@
     (stroke (width 0) (type default))
     (uuid 67fa2e51-be15-4e3c-a72d-7fa82d0a504a)
   )
-
   (wire (pts (xy 114.935 143.51) (xy 114.935 146.05))
     (stroke (width 0) (type default))
     (uuid 68e3da71-bf61-4cf7-a8a1-3041c7393351)
@@ -6824,7 +6854,6 @@
     (stroke (width 0) (type default))
     (uuid 69befeff-5894-448b-a883-8091f54f04d0)
   )
-
   (wire (pts (xy 345.44 185.42) (xy 367.665 185.42))
     (stroke (width 0) (type default))
     (uuid 6a332db4-3695-44cd-aac3-3b614de3b010)
@@ -6833,7 +6862,6 @@
     (stroke (width 0) (type default))
     (uuid 6a36fbb4-45c2-4f32-86ed-e10c9b771886)
   )
-
   (wire (pts (xy 386.715 237.49) (xy 386.715 239.395))
     (stroke (width 0) (type default))
     (uuid 6a4d35b9-06cf-4bd1-bbb9-c35412c607dc)
@@ -6890,7 +6918,6 @@
     (stroke (width 0) (type dot))
     (uuid 6d8d93c0-a572-4a0b-8688-31c315709491)
   )
-
   (wire (pts (xy 285.75 60.96) (xy 291.465 60.96))
     (stroke (width 0) (type default))
     (uuid 6ec1f1e4-300c-4311-9006-58317b6407ad)
@@ -6899,7 +6926,6 @@
     (stroke (width 0) (type default))
     (uuid 6f739e06-87f4-4781-83e7-f74f99516b37)
   )
-
   (wire (pts (xy 72.39 247.015) (xy 79.375 247.015))
     (stroke (width 0) (type default))
     (uuid 7047f06e-6914-4e3c-ab20-08feef5bbf63)
@@ -6940,12 +6966,10 @@
     (stroke (width 0) (type dash))
     (uuid 73625f19-09dd-4313-8608-fcb6f361d586)
   )
-
   (bus (pts (xy 369.57 70.485) (xy 370.84 71.755))
     (stroke (width 0) (type default))
     (uuid 739f37d4-c7ed-4128-88d1-73178b5c1557)
   )
-
   (wire (pts (xy 305.435 58.42) (xy 327.66 58.42))
     (stroke (width 0) (type default))
     (uuid 743c2472-3b35-4ca1-b377-b75bc3929ffe)
@@ -6986,7 +7010,6 @@
     (stroke (width 0) (type default))
     (uuid 775d9b44-8ae0-48fb-a5f6-b6b61182bd39)
   )
-
   (wire (pts (xy 128.27 167.005) (xy 128.27 169.545))
     (stroke (width 0) (type default))
     (uuid 778951c7-8e71-4ee3-959d-e1a586f87e3e)
@@ -7031,7 +7054,6 @@
     (stroke (width 0) (type default))
     (uuid 7b599e7c-b18a-4214-97e8-a1864ab4ca4f)
   )
-
   (wire (pts (xy 336.55 175.26) (xy 340.36 175.26))
     (stroke (width 0) (type default))
     (uuid 7b97d543-9dec-4619-b800-e5d76c7b0ecb)
@@ -7056,7 +7078,6 @@
     (stroke (width 0) (type default))
     (uuid 7beea09d-9843-4bb5-a0a8-e45fb7cdf5a7)
   )
-
   (wire (pts (xy 171.45 149.86) (xy 171.45 158.75))
     (stroke (width 0) (type default))
     (uuid 7bf18292-653c-4686-a41a-acaec9de4e16)
@@ -7101,7 +7122,6 @@
     (stroke (width 0) (type default))
     (uuid 7f4e9f84-d405-4526-b43a-64b99aabed4b)
   )
-
   (wire (pts (xy 121.285 249.555) (xy 135.255 249.555))
     (stroke (width 0) (type default))
     (uuid 7f9160da-4363-45dc-ba1e-b07495440810)
@@ -7118,7 +7138,6 @@
     (stroke (width 0) (type default))
     (uuid 80f3a926-d324-426b-a38d-97480e6ef04b)
   )
-
   (wire (pts (xy 166.37 83.82) (xy 165.1 83.82))
     (stroke (width 0) (type default))
     (uuid 81d57314-5035-4a0a-9a15-622e2c09a6dc)
@@ -7163,12 +7182,10 @@
     (stroke (width 0) (type default))
     (uuid 86fd37eb-8ee1-49d7-8158-cdd3412b97cd)
   )
-
   (bus (pts (xy 369.57 54.61) (xy 369.57 57.15))
     (stroke (width 0) (type default))
     (uuid 870b7349-0d8c-479f-8844-5724602dc7c0)
   )
-
   (wire (pts (xy 154.305 166.37) (xy 173.355 166.37))
     (stroke (width 0) (type default))
     (uuid 8751f4d1-b1b8-4932-b8b6-7611f9cd1bb7)
@@ -7269,7 +7286,6 @@
     (stroke (width 0) (type default))
     (uuid 8fed545e-3896-43cd-b3d2-de18b279f5fd)
   )
-
   (wire (pts (xy 56.515 87.63) (xy 32.385 87.63))
     (stroke (width 0) (type default))
     (uuid 8ff1eabb-58da-42fb-acf9-85f5ccaf617f)
@@ -7306,7 +7322,6 @@
     (stroke (width 0) (type default))
     (uuid 92635b66-4303-4bc3-99cf-c4b2dcd6dc3c)
   )
-
   (wire (pts (xy 291.465 60.96) (xy 300.355 60.96))
     (stroke (width 0) (type default))
     (uuid 926945ce-c161-4fde-8caf-90ccaf27aba8)
@@ -7315,7 +7330,6 @@
     (stroke (width 0) (type default))
     (uuid 929d6ec4-f835-4425-9c56-e122afb148ae)
   )
-
   (wire (pts (xy 20.955 78.74) (xy 20.955 84.455))
     (stroke (width 0) (type default))
     (uuid 92e51af7-5a52-4ee7-8f69-c831dff573b8)
@@ -7336,7 +7350,6 @@
     (stroke (width 0) (type default))
     (uuid 94b23d29-d1bd-4a81-b605-5f0942c12fdc)
   )
-
   (wire (pts (xy 73.025 184.15) (xy 73.025 199.39))
     (stroke (width 0) (type default))
     (uuid 94bc515a-43f5-46c2-8b9f-6f5e9b727ccd)
@@ -7361,7 +7374,6 @@
     (stroke (width 0) (type default))
     (uuid 9769695f-9a19-4fc4-ab6e-593f373985e0)
   )
-
   (wire (pts (xy 73.025 85.09) (xy 77.47 85.09))
     (stroke (width 0) (type default))
     (uuid 97889413-809c-4d32-9dab-eecabc1b4cf7)
@@ -7406,7 +7418,6 @@
     (stroke (width 0) (type default))
     (uuid 9af8c7ca-65ac-4da9-9741-f82c3a8464ec)
   )
-
   (wire (pts (xy 252.095 233.68) (xy 252.095 235.585))
     (stroke (width 0) (type default))
     (uuid 9b0eb860-4f41-4eea-a28a-75d2cf497708)
@@ -7475,12 +7486,10 @@
     (stroke (width 0) (type default))
     (uuid a3d4f7ef-43ce-468a-980e-39c6e82b077b)
   )
-
   (polyline (pts (xy 215.265 215.265) (xy 261.62 215.265))
     (stroke (width 0) (type default))
     (uuid a44cb250-b112-4859-a6f0-5fe3fc07cfc0)
   )
-
   (wire (pts (xy 242.57 222.885) (xy 252.095 222.885))
     (stroke (width 0) (type default))
     (uuid a481816d-e06d-4054-8864-462d6561aa22)
@@ -7497,7 +7506,6 @@
     (stroke (width 0) (type default))
     (uuid a64de036-ad7b-499b-908e-d40f49ac5f4a)
   )
-
   (wire (pts (xy 312.42 213.36) (xy 312.42 220.98))
     (stroke (width 0) (type default))
     (uuid a67ac635-c874-4885-ad1b-78022a04d452)
@@ -7510,7 +7518,6 @@
     (stroke (width 0) (type default))
     (uuid a71b32ad-5842-4ce9-a4cb-7bc4dafa30a3)
   )
-
   (wire (pts (xy 285.75 60.96) (xy 285.75 64.77))
     (stroke (width 0) (type default))
     (uuid a7d00938-bb39-47c9-9377-fbb5691287f0)
@@ -7527,7 +7534,6 @@
     (stroke (width 0) (type default))
     (uuid a9d988a3-d0f1-4a48-b337-f77c9fe12a64)
   )
-
   (wire (pts (xy 394.97 203.2) (xy 399.415 203.2))
     (stroke (width 0) (type default))
     (uuid aa88984a-bb08-4d29-bb6d-c5cdd032e4e7)
@@ -7544,7 +7550,6 @@
     (stroke (width 0) (type default))
     (uuid abcd114f-c14b-442d-8606-37abf79f9784)
   )
-
   (wire (pts (xy 350.52 45.72) (xy 368.3 45.72))
     (stroke (width 0) (type default))
     (uuid ac061087-c836-441f-9ce7-f1cfb44875ac)
@@ -7565,7 +7570,6 @@
     (stroke (width 0) (type default))
     (uuid ad23072f-dade-4da5-9415-99787daccd72)
   )
-
   (wire (pts (xy 56.515 96.52) (xy 56.515 99.06))
     (stroke (width 0) (type default))
     (uuid ad30c5bf-b92e-4bbe-90eb-cb6855019585)
@@ -7590,7 +7594,6 @@
     (stroke (width 0) (type default))
     (uuid aef0ee2a-d07c-4bdf-9790-6575a07fba83)
   )
-
   (wire (pts (xy 392.43 85.725) (xy 400.05 85.725))
     (stroke (width 0) (type default))
     (uuid aef853a8-674c-48cb-beab-84bff07560b9)
@@ -7679,7 +7682,6 @@
     (stroke (width 0) (type default))
     (uuid bac900f7-82b0-4a1a-84c9-c5775fd4a487)
   )
-
   (wire (pts (xy 312.42 153.67) (xy 313.69 153.67))
     (stroke (width 0) (type default))
     (uuid bafc95ab-ea22-4cb8-8e44-ceb92e9ec5a7)
@@ -7688,7 +7690,6 @@
     (stroke (width 0) (type default))
     (uuid bbe60a77-5d21-4ce5-9723-25b77d2538ed)
   )
-
   (wire (pts (xy 300.99 182.88) (xy 313.69 182.88))
     (stroke (width 0) (type default))
     (uuid bc21ba30-2fae-416e-a117-6834125b36b3)
@@ -7729,7 +7730,6 @@
     (stroke (width 0) (type default))
     (uuid be4f6502-4773-4867-9ee2-70d0d1dbbe88)
   )
-
   (wire (pts (xy 243.205 48.26) (xy 243.205 66.04))
     (stroke (width 0) (type default))
     (uuid be5bee8f-6148-465b-8bbd-a0e00c1f8e48)
@@ -7742,7 +7742,6 @@
     (stroke (width 0) (type dot))
     (uuid bf6a5018-aba7-4a57-a6b2-1d3caeb2fc01)
   )
-
   (wire (pts (xy 122.555 254.635) (xy 122.555 255.905))
     (stroke (width 0) (type default))
     (uuid bf746f5c-0660-43c2-a000-db8bb4f2a8bd)
@@ -7779,7 +7778,6 @@
     (stroke (width 0) (type default))
     (uuid c3c53070-cfc0-47ff-8fdb-532ccfcd834e)
   )
-
   (wire (pts (xy 386.08 217.17) (xy 405.765 217.17))
     (stroke (width 0) (type default))
     (uuid c3f9af0c-937c-4b89-ab7a-94f5760b1fa7)
@@ -7788,12 +7786,10 @@
     (stroke (width 0) (type default))
     (uuid c5022b71-80e6-4ed9-8bd0-68f781d0fbd4)
   )
-
   (polyline (pts (xy 201.295 127) (xy 296.545 127))
     (stroke (width 0) (type dot))
     (uuid c53aa060-6c5a-4a61-8180-054d8b5bbf95)
   )
-
   (wire (pts (xy 161.29 190.5) (xy 173.355 190.5))
     (stroke (width 0) (type default))
     (uuid c5b3d118-1d3d-4bf9-98a8-e245543c70a9)
@@ -7810,7 +7806,6 @@
     (stroke (width 0) (type default))
     (uuid c73183b3-f8b0-4b8d-bcbf-bee28ba7bd89)
   )
-
   (wire (pts (xy 300.355 53.34) (xy 294.005 53.34))
     (stroke (width 0) (type default))
     (uuid c73d1c87-43a3-426d-8c71-ef01670a1d9f)
@@ -7827,7 +7822,6 @@
     (stroke (width 0) (type default))
     (uuid c8386845-4405-420c-be96-3e22614f7b68)
   )
-
   (wire (pts (xy 52.07 39.37) (xy 106.045 39.37))
     (stroke (width 0) (type default))
     (uuid c8d5991e-6821-4875-89d8-7051fb27eb80)
@@ -7864,7 +7858,6 @@
     (stroke (width 0) (type default))
     (uuid ccd4b8e1-4532-40e8-8a17-ee2f739568cd)
   )
-
   (wire (pts (xy 40.64 49.53) (xy 40.64 50.8))
     (stroke (width 0) (type default))
     (uuid cdc7ce04-fa1c-4e71-a2c7-21a112179d7a)
@@ -7877,7 +7870,6 @@
     (stroke (width 0) (type dot))
     (uuid cdf738be-72e9-4957-b973-8682ec7fbbda)
   )
-
   (wire (pts (xy 287.02 71.755) (xy 285.75 71.755))
     (stroke (width 0) (type default))
     (uuid cef48536-15f2-43d6-a3c8-c3dc999b7ae4)
@@ -7890,7 +7882,6 @@
     (stroke (width 0) (type default))
     (uuid cf819fe0-9790-4d35-884d-e08433fdc5c6)
   )
-
   (wire (pts (xy 20.955 74.93) (xy 20.955 78.74))
     (stroke (width 0) (type default))
     (uuid cfd84bbd-0f59-4b12-82ba-5fcdc3901348)
@@ -7915,7 +7906,6 @@
     (stroke (width 0) (type dash))
     (uuid d224a733-9c7e-45ed-a7a4-93cb3f230b50)
   )
-
   (wire (pts (xy 56.515 87.63) (xy 57.785 87.63))
     (stroke (width 0) (type default))
     (uuid d2bc0104-ffad-4097-a42d-fe4d977ead80)
@@ -7928,7 +7918,6 @@
     (stroke (width 0) (type default))
     (uuid d2e6131a-153e-4c5d-85aa-21792b749ff6)
   )
-
   (wire (pts (xy 75.565 198.12) (xy 80.645 198.12))
     (stroke (width 0) (type default))
     (uuid d31734c5-0bee-47b0-bd85-ca21327413dd)
@@ -7937,7 +7926,6 @@
     (stroke (width 0) (type default))
     (uuid d35deb97-4e8b-4d3e-9c08-16a5f69a55b8)
   )
-
   (wire (pts (xy 36.83 133.35) (xy 36.83 135.89))
     (stroke (width 0) (type default))
     (uuid d361c655-17d9-4603-bb8a-1cd56cf203ec)
@@ -8018,7 +8006,6 @@
     (stroke (width 0) (type default))
     (uuid d9374663-6d9f-4d7c-bbe4-851f5769db7f)
   )
-
   (wire (pts (xy 213.995 186.69) (xy 238.76 186.69))
     (stroke (width 0) (type default))
     (uuid dad2ffd8-1527-4ac3-bad9-ee5de5efd784)
@@ -8031,7 +8018,6 @@
     (stroke (width 0) (type default))
     (uuid dbbaf56a-972e-4047-ab3a-49a8e1f5c942)
   )
-
   (wire (pts (xy 377.19 88.265) (xy 381.635 88.265))
     (stroke (width 0) (type default))
     (uuid dbbdc86f-cde3-4be8-90f3-a568a75f503e)
@@ -8136,7 +8122,6 @@
     (stroke (width 0) (type default))
     (uuid e3704829-736a-4a09-8d8c-19a4ddeac880)
   )
-
   (wire (pts (xy 355.6 217.17) (xy 359.41 217.17))
     (stroke (width 0) (type default))
     (uuid e3803e85-269a-44e1-b867-dde267e053c1)
@@ -8181,7 +8166,6 @@
     (stroke (width 0) (type dash))
     (uuid e7b7fa8f-ba24-4e64-bbf6-5eed36677c25)
   )
-
   (wire (pts (xy 396.875 48.26) (xy 404.495 48.26))
     (stroke (width 0) (type default))
     (uuid e7e9e0ac-dd12-4864-ae14-81670c84640f)
@@ -8190,7 +8174,6 @@
     (stroke (width 0) (type default))
     (uuid e7eb0119-bc8a-4ec7-9e66-8e1b0c99c628)
   )
-
   (wire (pts (xy 394.97 188.595) (xy 405.765 188.595))
     (stroke (width 0) (type default))
     (uuid e9c0e685-2859-4b0d-8cdd-cb43e5926ee9)
@@ -8199,7 +8182,6 @@
     (stroke (width 0) (type default))
     (uuid ea4bf6a6-db3c-4492-9a5e-244a93141c57)
   )
-
   (wire (pts (xy 248.285 58.42) (xy 288.29 58.42))
     (stroke (width 0) (type default))
     (uuid ea5f9554-a282-4ed1-82cf-ce2bc3027a9b)
@@ -8248,7 +8230,6 @@
     (stroke (width 0) (type dot))
     (uuid f086acf6-77c6-4ea5-ba65-13075627e4ad)
   )
-
   (wire (pts (xy 350.52 138.43) (xy 350.52 140.97))
     (stroke (width 0) (type default))
     (uuid f0a58b02-a390-4bdb-91f9-2e20f8333900)
@@ -8269,7 +8250,6 @@
     (stroke (width 0) (type default))
     (uuid f345269e-3cba-4f09-848e-beda50a5b162)
   )
-
   (wire (pts (xy 300.99 172.72) (xy 313.69 172.72))
     (stroke (width 0) (type default))
     (uuid f3950620-f05c-4333-8ff4-ee3cb849d4c2)
@@ -8278,7 +8258,6 @@
     (stroke (width 0) (type default))
     (uuid f3f8aeca-b41a-4305-bbe7-ace50bfc7085)
   )
-
   (wire (pts (xy 154.305 168.91) (xy 173.355 168.91))
     (stroke (width 0) (type default))
     (uuid f3f9834f-cc02-49d2-a8d9-6add1d830cac)
@@ -8327,7 +8306,6 @@
     (stroke (width 0) (type default))
     (uuid fc4cfd13-67d8-43e8-a9d4-e585703d31b5)
   )
-
   (wire (pts (xy 40.64 50.8) (xy 43.18 50.8))
     (stroke (width 0) (type default))
     (uuid fccb0409-9a82-4326-8351-6268d8f1dd97)
@@ -8356,7 +8334,6 @@
     (stroke (width 0) (type default))
     (uuid fe0b04ff-cc8e-4631-8acb-5089b15ce645)
   )
-
   (wire (pts (xy 321.31 244.475) (xy 321.31 246.38))
     (stroke (width 0) (type default))
     (uuid fe212c12-2b72-4d6f-972e-ad89a098c7be)
@@ -8373,7 +8350,6 @@
     (stroke (width 0) (type default))
     (uuid fe8297cc-d64f-47ba-96cc-288ab00940e1)
   )
-
   (wire (pts (xy 148.59 58.42) (xy 166.37 58.42))
     (stroke (width 0) (type default))
     (uuid feec62a8-ba08-44e5-a95d-441525f3d13f)
@@ -8386,7 +8362,6 @@
     (stroke (width 0) (type default))
     (uuid ff0994c0-dd47-4a7e-8b47-144ba7c707bd)
   )
-
   (wire (pts (xy 116.205 174.625) (xy 116.205 176.53))
     (stroke (width 0) (type default))
     (uuid ff45e8d9-360c-4ccc-b5b2-398cdb74b307)
@@ -13021,7 +12996,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroInterfaceControllers:MAX3421EETJ+") (at 166.37 38.1 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:MAX3421EETJ+") (at 166.37 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3305c084-fb77-47b6-979e-c647e64782c0)
     (property "Reference" "U19" (at 180.34 31.75 0)
@@ -13030,7 +13005,7 @@
     (property "Value" "MAX3421EETJ+" (at 180.34 34.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "antmicro-footprints:QFN-32-1EP_5x5mm" (at 207.01 48.26 0)
+    (property "Footprint" "K410T-devboard-footprints:QFN-32-1EP_5x5mm" (at 207.01 48.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max3421e.pdf" (at 207.01 50.8 0)
@@ -18557,7 +18532,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroInterfaceControllers:FT4232H_VQFN") (at 173.355 143.51 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:FT4232H_VQFN") (at 173.355 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dac3575a-174a-4a14-b386-0f6f40c7268c)
     (property "Reference" "U20" (at 193.675 135.89 0)
@@ -18566,7 +18541,7 @@
     (property "Value" "FT4232H_VQFN" (at 193.675 138.43 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm" (at 229.235 151.13 0)
+    (property "Footprint" "K410T-devboard-footprints:QFN-56-1EP_8x8mm_P0.5mm" (at 229.235 151.13 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" (at 229.235 153.67 0)

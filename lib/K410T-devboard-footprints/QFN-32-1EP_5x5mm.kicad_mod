@@ -333,7 +333,7 @@
   (pad "32" smd rect (at -1.768 -2.426 270) (size 0.85 0.28) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.07) (tstamp 456aa6cb-4646-45f1-93a7-6ffbd6f4446c))
   (pad "33" smd rect (at -0.02 0.048 270) (size 3.45 3.45) (layers "F.Cu" "F.Mask") (tstamp 547fb844-072b-433c-953b-ad939f5fdaf9))
-  (model "${KIPRJMOD}/lib/3d-models/QFN-32-5x5.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/QFN-32-5x5.step"
     (offset (xyz 0.002 -0.001 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

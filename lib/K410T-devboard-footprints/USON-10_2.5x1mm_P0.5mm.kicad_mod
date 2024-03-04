@@ -312,7 +312,7 @@
   (pad "8" smd roundrect (at 0.385 0 270) (size 0.4 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f9e0e3fe-00d9-44a5-bc57-845682132e8d))
   (pad "9" smd roundrect (at 0.385 -0.5 270) (size 0.25 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9aeebf29-17d3-4deb-9fa9-0920da5c2c25))
   (pad "10" smd roundrect (at 0.385 -1 270) (size 0.25 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 5c26946b-97a0-4fc9-9e28-6b817dfd0888))
-  (model "${KIPRJMOD}/lib/3d-models/USON-10_2.5x1mm_P0.5mm.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/USON-10_2.5x1mm_P0.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

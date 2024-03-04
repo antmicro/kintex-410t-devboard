@@ -564,7 +564,7 @@
   (fp_line (start -14.25 -3.202) (end -15.5 -3.202) (layer "User.9") (width 0.02) (tstamp ffef8ee1-6f8f-43dc-b467-e2309f6c2253))
   (pad "" np_thru_hole circle (at -19.176 12.32) (size 3.18 3.18) (drill 3.18) (layers F&B.Cu *.Mask) (tstamp 611cc265-2f6c-4d0a-bdf4-fecbf2383a2f))
   (pad "" np_thru_hole circle (at 19.184 -12.321) (size 3.18 3.18) (drill 3.18) (layers F&B.Cu *.Mask) (tstamp f521c11a-0d8f-4aea-95a8-da37995b6615))
-  (model "${KIPRJMOD}/lib/3d-models/960-31-18-S-AB-0.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/960-31-18-S-AB-0.step"
     (offset (xyz 0 0 3.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

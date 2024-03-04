@@ -336,7 +336,7 @@
   (pad "2" smd roundrect (at 1.27 -1.85 90) (size 1.4 0.48) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d2bf109f-29c1-4d6d-911e-d8edf22bf1c8))
   (pad "3" smd roundrect (at -1.27 1.85 90) (size 1.4 0.48) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 47421a9c-abaa-45de-8a7a-7a1639cdd95b))
   (pad "4" smd roundrect (at 1.27 1.85 90) (size 1.4 0.48) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 975ba1a3-5af0-45e3-9948-dfb06914c7ef))
-  (model "${KIPRJMOD}/lib/3d-models/DFN3538.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/DFN3538.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

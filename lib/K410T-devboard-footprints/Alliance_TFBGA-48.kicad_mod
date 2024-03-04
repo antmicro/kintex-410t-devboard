@@ -546,7 +546,7 @@
   (pad "H4" smd circle (at 0.372 2.624) (size 0.33 0.33) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 486938bd-d87b-4ece-8410-a032bbf58ddb))
   (pad "H5" smd circle (at 1.124 2.624) (size 0.33 0.33) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 10e419ed-43f8-40ad-a47f-a07e5803516c))
   (pad "H6" smd circle (at 1.874 2.624) (size 0.33 0.33) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ba8aa5a6-fa95-4bac-b485-971d5e374a96))
-  (model "${KIPRJMOD}/lib/3d-models/Alliance_TFBGA48.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/Alliance_TFBGA48.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

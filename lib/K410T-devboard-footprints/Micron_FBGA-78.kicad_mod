@@ -253,7 +253,7 @@
   (pad "N7" smd circle (at 1.6 4.799) (size 0.43 0.43) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f49cff42-9517-40ca-8c9b-ea5053edd4ca))
   (pad "N8" smd circle (at 2.398 4.799) (size 0.43 0.43) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b7d85491-7381-44ff-abac-afe6419a8f56))
   (pad "N9" smd circle (at 3.2 4.799) (size 0.43 0.43) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0fb0a2aa-42ca-457d-8590-ba0412033d0c))
-  (model "${KIPRJMOD}/lib/3d-models/Micron_FBGA-78.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/Micron_FBGA-78.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

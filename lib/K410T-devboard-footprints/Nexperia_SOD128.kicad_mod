@@ -69,7 +69,7 @@
   (fp_line (start -1.545 0.941) (end -1.186 0.941) (layer "User.9") (width 0.02) (tstamp f7e44a74-31c4-4b70-ba7f-4e2e0ac522a1))
   (pad "1" smd rect (at -2.298 0) (size 0.8096 1.905) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 54fac203-40af-4009-b546-82ffaf8d67ad))
   (pad "2" smd rect (at 2.297 0) (size 0.8096 1.905) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b779c3e5-1970-4f3b-8cae-68740ddd07aa))
-  (model "${KIPRJMOD}/lib/3d-models/Nexperia_SOD128.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/Nexperia_SOD128.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

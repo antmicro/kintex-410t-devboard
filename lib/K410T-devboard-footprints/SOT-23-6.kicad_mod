@@ -129,7 +129,7 @@
   (pad "4" smd roundrect (at 0.947 -1.214) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 914b38ec-383f-42c2-9570-56392c32be19))
   (pad "5" smd roundrect (at -0.003 -1.214) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 43e603d1-89b1-4cfb-bb59-44ab30ca7a83))
   (pad "6" smd roundrect (at -0.954 -1.214) (size 0.55 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 0f11f1c2-008b-453e-9cbf-a15fb24d1543))
-  (model "${KIPRJMOD}/lib/3d-models/sot23-6.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/sot23-6.step"
     (offset (xyz -0.9525 -0.95885 0.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

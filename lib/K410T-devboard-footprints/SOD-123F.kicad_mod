@@ -174,7 +174,7 @@
   (fp_line (start -1.248 -0.799) (end -1.244 -0.8) (layer "User.9") (width 0.02) (tstamp ffd9601b-70f9-4340-9a95-0e3264fd7975))
   (pad "A" smd roundrect (at 1.398 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp fe21578b-2a1e-4d0d-9d88-458849388e34))
   (pad "K" smd roundrect (at -1.401 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f47a1271-5273-499a-987b-73e17c5083b4))
-  (model "${KIPRJMOD}/lib/3d-models/SOD123F.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/SOD123F.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

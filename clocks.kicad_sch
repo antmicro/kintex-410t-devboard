@@ -61,6 +61,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -107,6 +108,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:AX3DCF1-200.0000" (in_bom yes) (on_board yes)
       (property "Reference" "Y" (at 33.02 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -177,6 +179,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:CDCE906PWR" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 38.1 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -298,6 +301,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -364,6 +368,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_10u_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -430,6 +435,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_22p_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -496,6 +502,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:FB_120Z_2A_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (at 15.24 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -567,6 +574,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -605,6 +613,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:Oscillator_SMD_12MHz_KX-7" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Y" (at 25.4 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -692,6 +701,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_100R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -743,6 +753,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_10k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -794,6 +805,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_22R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -845,14 +857,15 @@
         )
       )
     )
-    (symbol "antmicroCoaxialConnectorsRF:U_FL-R-SMT_10_" (in_bom yes) (on_board yes)
+
+    (symbol "K410T-devboard:U_FL-R-SMT_10_" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "U_FL-R-SMT_10_" (at 17.78 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "antmicro-footprints:Coax_Conn_U.FL" (at 17.78 -10.16 0)
+      (property "Footprint" "K410T-devboard-footprints:Coax_Conn_U.FL" (at 17.78 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" (at 17.78 -12.7 0)
@@ -1035,7 +1048,6 @@
     (stroke (width 0) (type default))
     (uuid 0d079ef1-238f-4123-85bc-7f4ec1601207)
   )
-
   (wire (pts (xy 243.84 175.895) (xy 254.635 175.895))
     (stroke (width 0) (type default))
     (uuid 0e0ff714-f67f-4622-89d4-07dec6a04a68)
@@ -1052,7 +1064,6 @@
     (stroke (width 0) (type default))
     (uuid 171a71c8-5aff-4c17-8539-9d5f7410d2da)
   )
-
   (wire (pts (xy 175.26 215.265) (xy 175.26 221.615))
     (stroke (width 0) (type default))
     (uuid 17c07b23-2b48-4613-a41b-4c69d7b9b49d)
@@ -1061,7 +1072,6 @@
     (stroke (width 0) (type default))
     (uuid 1c5f6ba2-5cba-4395-af37-270e2b25787d)
   )
-
   (wire (pts (xy 176.53 186.055) (xy 176.53 187.325))
     (stroke (width 0) (type default))
     (uuid 1df2d342-35ea-4b2b-9e3b-d854b25dd379)
@@ -1086,7 +1096,6 @@
     (stroke (width 0) (type default))
     (uuid 2a454ece-1418-44e0-930a-40ef28d378b8)
   )
-
   (wire (pts (xy 208.915 81.28) (xy 212.09 81.28))
     (stroke (width 0) (type default))
     (uuid 2a4ed399-ec9b-4767-b81a-031d350625a5)
@@ -1115,7 +1124,6 @@
     (stroke (width 0) (type default))
     (uuid 405dda49-5b8e-49a4-8689-b15cf04f4629)
   )
-
   (wire (pts (xy 233.68 208.28) (xy 257.81 208.28))
     (stroke (width 0) (type default))
     (uuid 43a3712c-c471-4648-9f3f-9c5882ebda6b)
@@ -1188,7 +1196,6 @@
     (stroke (width 0) (type default))
     (uuid 7b143179-4f5e-42db-8a53-c993e733b4c5)
   )
-
   (wire (pts (xy 208.915 60.96) (xy 200.025 60.96))
     (stroke (width 0) (type default))
     (uuid 7da003f3-80d0-4834-8f6d-ba72ac933c25)
@@ -1237,12 +1244,10 @@
     (stroke (width 0) (type default))
     (uuid 9f877e7f-dc57-47c4-8d96-7d2216442a71)
   )
-
   (polyline (pts (xy 12.7 134.62) (xy 407.67 134.62))
     (stroke (width 0) (type default))
     (uuid a07de6ec-16fa-48b5-af62-766c8d87fc0e)
   )
-
   (wire (pts (xy 176.53 183.515) (xy 176.53 186.055))
     (stroke (width 0) (type default))
     (uuid a486c591-8ce0-4b22-abd7-cd2017396f2d)
@@ -1299,7 +1304,6 @@
     (stroke (width 0) (type default))
     (uuid b7876992-68e8-4be3-839b-bee456e2818c)
   )
-
   (wire (pts (xy 265.43 178.435) (xy 265.43 175.895))
     (stroke (width 0) (type default))
     (uuid c5572165-bcc6-4379-a57e-4954f1b5ace0)
@@ -1324,7 +1328,6 @@
     (stroke (width 0) (type default))
     (uuid d59facd5-df15-4a26-9a95-9b651b03b9f4)
   )
-
   (wire (pts (xy 283.845 198.12) (xy 262.89 198.12))
     (stroke (width 0) (type default))
     (uuid d6bbdd22-dadc-44d0-91d3-ceab08948261)
@@ -1345,7 +1348,6 @@
     (stroke (width 0) (type default))
     (uuid e42c6198-6b4f-4648-8583-836b2ad98d19)
   )
-
   (wire (pts (xy 252.73 77.47) (xy 265.43 77.47))
     (stroke (width 0) (type default))
     (uuid e6160b6c-37e6-4a01-bd5b-fc47bf146b7f)
@@ -3943,7 +3945,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroCoaxialConnectorsRF:U_FL-R-SMT_10_") (at 309.88 221.615 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:U_FL-R-SMT_10_") (at 309.88 221.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55f2d03e-69b0-43e2-909a-514a8c076c1c)
     (property "Reference" "J3" (at 309.8799 212.09 0)
@@ -3952,7 +3954,7 @@
     (property "Value" "U_FL-R-SMT_10_" (at 309.8799 214.63 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "antmicro-footprints:Coax_Conn_U.FL" (at 327.66 231.775 0)
+    (property "Footprint" "K410T-devboard-footprints:Coax_Conn_U.FL" (at 327.66 231.775 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" (at 327.66 234.315 0)

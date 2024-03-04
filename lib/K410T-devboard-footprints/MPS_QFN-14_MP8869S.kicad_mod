@@ -211,7 +211,7 @@
           (xy -0.400002 -0.125001)
           (xy -0.400002 0.124999)
           (xy 0.499998 0.124999)
-          (xy 0.499998 -0.000001)
+          (xy 0.499998 -1e-06)
           (xy 0.374998 -0.125001)
         ) (width 0.1) (fill yes))
     ) (tstamp 81dcec81-863e-4aee-9bdc-418e32189368))
@@ -250,7 +250,7 @@
   (pad "12" smd rect (at 0 -1.851 90) (size 0.9 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp faf4775b-d5c1-4ab6-b883-83292dd69f84))
   (pad "13" smd rect (at -0.5 -1.851 90) (size 0.9 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7205357d-4374-4ed4-85dc-28d23062e122))
   (pad "14" smd rect (at -1.002 -1.851 90) (size 0.9 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0fa7beaa-f8b7-4837-b981-6c7f0ce00c36))
-  (model "${KIPRJMOD}/lib/3d-models/DFN-12-4x3-0_5.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/DFN-12-4x3-0_5.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

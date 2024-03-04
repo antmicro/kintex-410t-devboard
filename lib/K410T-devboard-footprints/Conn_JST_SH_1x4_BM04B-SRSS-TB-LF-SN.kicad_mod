@@ -231,7 +231,7 @@
   (pad "4" smd rect (at 1.4995 1.3765) (size 0.6 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e739c917-a940-43d0-b8c8-b67e0ba50d06))
   (pad "MP" smd rect (at 2.8005 -1.1485) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2a6f6843-f2e5-4f76-91a5-5d7c62eaad4b))
   (pad "MP" smd rect (at -2.7995 -1.1485) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 432ee8d3-b066-49f2-abf3-ccbe4d1820f7))
-  (model "${KIPRJMOD}/lib/3d-models/Conn_JST_SH_1x4_BM04B-SRSS-TB-LF-SN.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/Conn_JST_SH_1x4_BM04B-SRSS-TB-LF-SN.step"
     (offset (xyz 0.001 0.349 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

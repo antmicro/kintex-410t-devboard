@@ -890,7 +890,7 @@
   (pad "38" smd rect (at 10.794 -2) (size 0.74 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp df2cd726-e9e1-4861-83e2-9d3677dffb07))
   (pad "39" smd rect (at 12.063 1.999) (size 0.74 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c84200a8-5a10-4c9b-88be-f69f41404df4))
   (pad "40" smd rect (at 12.063 -2) (size 0.74 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a69d4b1b-55eb-49e6-acb6-e6c81b20d70f))
-  (model "${KIPRJMOD}/lib/3d-models/627x4020621.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/627x4020621.step"
     (offset (xyz 0 0 2.75))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -100,7 +100,7 @@
   (pad "13" smd oval (at 1.249 -1 90) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d20ea6d0-8106-41af-9392-33aca11d425f))
   (pad "14" smd oval (at 0.244 -1.5) (size 0.3 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 38b179c2-911d-4893-9508-e7646643e485))
   (pad "15" smd rect (at 0 0) (size 1 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c9d39593-90a5-40bd-aa76-58ed5f030dd9))
-  (model "${KIPRJMOD}/lib/3d-models/DHVQFN14.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/DHVQFN14.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

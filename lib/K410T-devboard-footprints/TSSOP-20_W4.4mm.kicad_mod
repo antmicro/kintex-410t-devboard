@@ -2711,7 +2711,7 @@
     (solder_mask_margin 0.07) (tstamp 745cfbed-8e1b-4efb-bc4a-d3c1838df575))
   (pad "20" smd rect (at -2.926 -2.801) (size 0.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.07) (tstamp 194929f6-2f64-41af-8dbc-c23212b5e2b6))
-  (model "${KIPRJMOD}/lib/3d-models/HTSSOP-20.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/HTSSOP-20.step"
     (offset (xyz -2.925 -3.2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

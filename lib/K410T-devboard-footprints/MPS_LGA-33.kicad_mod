@@ -343,7 +343,7 @@
     (solder_paste_margin -0.1) (tstamp bd0a03b2-6c20-4046-80a4-421beeba75b9))
   (pad "33" smd rect (at -0.863 0.86) (size 1.725 1.725) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin -0.1) (tstamp bd0a03b2-6c20-4046-80a4-421beeba75b9))
-  (model "${KIPRJMOD}/lib/3d-models/MPM54304GMN.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/MPM54304GMN.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

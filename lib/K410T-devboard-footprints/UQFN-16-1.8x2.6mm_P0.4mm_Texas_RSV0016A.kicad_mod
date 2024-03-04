@@ -320,7 +320,7 @@
   (pad "14" smd roundrect (at 0.2 -1.2 90) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2272727273) (tstamp f15190a9-5af2-4db5-8c68-1c5ea8d8f4a6))
   (pad "15" smd roundrect (at -0.202 -1.2 90) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2272727273) (tstamp 6961e56b-e9ec-4a02-903d-26075c221f2e))
   (pad "16" smd roundrect (at -0.6 -1.2 90) (size 0.6 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2272727273) (tstamp 0bc29be7-4414-4fa7-97e9-7420551a249d))
-  (model "${KIPRJMOD}/lib/3d-models/Texas_16-UFQFN.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/Texas_16-UFQFN.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

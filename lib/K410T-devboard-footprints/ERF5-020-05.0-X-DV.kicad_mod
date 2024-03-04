@@ -744,7 +744,7 @@
   (pad "38" smd rect (at -4.25 1.975 90) (size 1.5 0.3) (layers "F.Cu" "F.Mask") (tstamp 74b12041-cbb9-402c-ad5a-b64ffbd4e310))
   (pad "39" smd rect (at -4.75 -1.976 90) (size 1.5 0.3) (layers "F.Cu" "F.Mask") (tstamp 409434ad-9541-4542-a2ea-8971f3381203))
   (pad "40" smd rect (at -4.75 1.975 90) (size 1.5 0.3) (layers "F.Cu" "F.Mask") (tstamp 65773cb1-52f6-4a1a-a65a-2387616d65d3))
-  (model "${KIPRJMOD}/lib/3d-models/ERF5-020-05.0-X-DV.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/ERF5-020-05.0-X-DV.step"
     (offset (xyz 0 0 0.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

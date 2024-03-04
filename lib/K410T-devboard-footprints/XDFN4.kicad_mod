@@ -113,7 +113,7 @@
     ) (tstamp 2471380d-d106-4b9b-aa90-e5a5cdfb0904))
   (pad "5" smd rect (at 0 0 45) (size 0.48 0.48) (layers "F.Cu" "F.Mask")
     (zone_connect 2) (tstamp 90d3ff0d-7e34-44cf-9db8-62410ec7c474))
-  (model "${KIPRJMOD}/lib/3d-models/XDFN4.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/XDFN4.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

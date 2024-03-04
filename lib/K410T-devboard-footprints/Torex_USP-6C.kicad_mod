@@ -45,7 +45,7 @@
   (pad "6" smd rect (at 0.972 -0.5 90) (size 0.25 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4702732b-8cb9-4de5-a862-84ef7940defe))
   (pad "7" smd rect (at 0 0 90) (size 1.8 0.9) (layers "F.Cu" "F.Mask") (tstamp 2245d0df-4804-4370-86de-0d4187c34499))
   (pad "7" smd rect (at 0 0) (size 1 1.6) (layers "F.Cu" "F.Mask") (tstamp 4422931f-6871-43b2-8ad0-fe7d033f264c))
-  (model "${KIPRJMOD}/lib/3d-models/Torex_USP-6C.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/Torex_USP-6C.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

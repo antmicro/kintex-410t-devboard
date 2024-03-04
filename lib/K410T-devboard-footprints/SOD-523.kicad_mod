@@ -58,7 +58,7 @@
   (fp_line (start 0.848 0.174) (end 0.848 -0.176) (layer "User.9") (width 0.02) (tstamp fffdb9d5-56be-4c7b-a7a0-003bccb3ed8a))
   (pad "1" smd roundrect (at -0.701 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4f474e7a-0804-442b-b9a3-f3cbfe1cd317))
   (pad "2" smd roundrect (at 0.699 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c08b4a84-a69b-4ece-803a-ad54f1122232))
-  (model "${KIPRJMOD}/lib/3d-models/SOD523F.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/SOD523F.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

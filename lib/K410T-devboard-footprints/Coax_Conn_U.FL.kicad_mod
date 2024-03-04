@@ -788,7 +788,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 6f1c9f66-f0ea-4e20-8c82-784fc412703b) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -799,7 +799,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/lib/3d-models/U_FL-R-SMT-1.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/U_FL-R-SMT-1.step"
     (offset (xyz 55.23891 1.1 22.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))

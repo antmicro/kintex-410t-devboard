@@ -879,7 +879,7 @@
   (fp_line (start -1.538 0.761) (end -1.578 0.761) (layer "User.9") (width 0.02) (tstamp ff3c3def-f263-4b50-bbf1-8403cf2c0de1))
   (pad "1" smd rect (at -1.35 0) (size 1.143 2.032) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 45a5a895-746e-4231-bfe3-5df02ff8e29c))
   (pad "2" smd rect (at 1.35 0) (size 1.143 2.032) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 13cceb8d-7a20-4c5f-9348-9eb4abf4bc51))
-  (model "${KIPRJMOD}/lib/3d-models/F_1206_3216Metric.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/F_1206_3216Metric.step"
     (offset (xyz -2.9245 0.683 -0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

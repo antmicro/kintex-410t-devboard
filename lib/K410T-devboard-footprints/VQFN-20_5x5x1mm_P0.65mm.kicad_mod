@@ -350,7 +350,7 @@
   (pad "19" smd roundrect (at -0.652 -2.327) (size 0.31 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8d4dc909-b8e0-435f-8152-df3bf3aecd74))
   (pad "20" smd roundrect (at -1.301 -2.327) (size 0.31 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7b511f6a-529a-4607-aa1e-47c584de6d7e))
   (pad "21" smd rect (at 0 0) (size 2.2 2.2) (layers "F.Cu" "F.Mask") (tstamp 384ef7b3-84e7-4f18-b936-17ba74aadda8))
-  (model "${KIPRJMOD}/lib/3d-models/VQFN-20_5x5x1mm_P0.65mm.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/VQFN-20_5x5x1mm_P0.65mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

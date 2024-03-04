@@ -57,6 +57,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:BSS138PW" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 3.81 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -233,6 +234,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:CVS-03B" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 26.67 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -401,6 +403,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -467,6 +470,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -533,6 +537,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_2n2_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -599,6 +604,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -637,6 +643,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:LED_G_0603_KP-1608CGCK" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -715,6 +722,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:Net-Tie_2" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 21.59 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -768,6 +776,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:PinHeader_2x7_P2mm_SMD_Shrouded_no-locator" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 25.4 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -912,6 +921,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_10k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -963,6 +973,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:R_330R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1014,6 +1025,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:SW_SPST_KMR211NGLFS" (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 25.4 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1146,6 +1158,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:TPD4E05U06QDQARQ1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 24.13 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1405,6 +1418,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:XC7K410T-2FFG900I" (in_bom yes) (on_board yes)
       (property "Reference" "U1" (at 17.145 6.985 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5309,14 +5323,15 @@
         )
       )
     )
-    (symbol "antmicroTemperatureSensorsAnalogandDigitalOutput:MAX1617AMEE+T" (in_bom yes) (on_board yes)
+
+    (symbol "K410T-devboard:MAX1617AMEE+T" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 35.56 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "MAX1617AMEE+T" (at 35.56 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "antmicro-footprints:QSOP-16_3.9x4.9mm_P0.635mm" (at 35.56 -12.7 0)
+      (property "Footprint" "K410T-devboard-footprints:QSOP-16_3.9x4.9mm_P0.635mm" (at 35.56 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1617.pdf" (at 35.56 -15.24 0)
@@ -5648,7 +5663,6 @@
     (stroke (width 0) (type default))
     (uuid 00923557-ffee-48bc-a493-a15673876ecf)
   )
-
   (wire (pts (xy 267.335 157.48) (xy 267.335 160.02))
     (stroke (width 0) (type default))
     (uuid 010884a5-ff81-4b66-9015-181a0d365853)
@@ -5749,7 +5763,6 @@
     (stroke (width 0) (type default))
     (uuid 24337f69-38bb-484c-b745-42028995f8b8)
   )
-
   (wire (pts (xy 39.37 222.25) (xy 38.1 222.25))
     (stroke (width 0) (type default))
     (uuid 24956aab-405c-44e0-be70-10b7876266d1)
@@ -5798,7 +5811,6 @@
     (stroke (width 0) (type default))
     (uuid 32311aa9-a43b-4f85-a2e2-a2979802b3d1)
   )
-
   (wire (pts (xy 275.59 128.27) (xy 306.07 128.27))
     (stroke (width 0) (type default))
     (uuid 32647357-e3a4-4c57-89db-b4971961acfe)
@@ -5843,7 +5855,6 @@
     (stroke (width 0) (type default))
     (uuid 3dcb22b6-2ec7-4f6f-a137-6b96f707ba49)
   )
-
   (wire (pts (xy 331.47 99.06) (xy 334.01 99.06))
     (stroke (width 0) (type default))
     (uuid 3f29377b-3ee3-4bbf-a7cb-2d929850babf)
@@ -5880,7 +5891,6 @@
     (stroke (width 0) (type default))
     (uuid 46f8bf1c-787c-4704-9b93-3c75b49ef4bb)
   )
-
   (wire (pts (xy 186.69 111.76) (xy 186.69 130.81))
     (stroke (width 0) (type default))
     (uuid 47fa9b56-3713-4196-9bee-8af77142ba92)
@@ -5901,7 +5911,6 @@
     (stroke (width 0) (type default))
     (uuid 491fc63c-ca5d-499c-ae5e-4956e83cdab6)
   )
-
   (wire (pts (xy 316.23 180.34) (xy 312.42 180.34))
     (stroke (width 0) (type default))
     (uuid 4a9f2445-141e-4aad-baab-52b924d1521d)
@@ -5914,7 +5923,6 @@
     (stroke (width 0) (type default))
     (uuid 4bc77199-c6dc-408e-a270-f2eda69c43d2)
   )
-
   (wire (pts (xy 279.4 133.35) (xy 314.325 133.35))
     (stroke (width 0) (type default))
     (uuid 4d707972-f0f4-4fbb-9439-df5f4db369b6)
@@ -5971,7 +5979,6 @@
     (stroke (width 0) (type default))
     (uuid 54ff108d-bae0-4bd4-ad3b-ad646f941726)
   )
-
   (wire (pts (xy 356.87 120.65) (xy 354.33 120.65))
     (stroke (width 0) (type default))
     (uuid 55387b90-bee0-4e1c-87a2-711b7f74979c)
@@ -6032,7 +6039,6 @@
     (stroke (width 0) (type default))
     (uuid 656ac1e4-7ec6-4c3a-97ac-db7fa6c1b4db)
   )
-
   (wire (pts (xy 51.435 237.49) (xy 49.53 237.49))
     (stroke (width 0) (type default))
     (uuid 65aa1d89-8b6c-4c1e-b7aa-2b5c36f311f5)
@@ -6045,7 +6051,6 @@
     (stroke (width 0) (type default))
     (uuid 669194dd-c352-44a7-919d-c8212f043708)
   )
-
   (wire (pts (xy 350.52 128.27) (xy 350.52 130.81))
     (stroke (width 0) (type default))
     (uuid 68a8a184-3269-4568-affc-76602ae76285)
@@ -6070,7 +6075,6 @@
     (stroke (width 0) (type default))
     (uuid 6fa57f27-5241-4b46-9a7c-1c92c4af32dc)
   )
-
   (wire (pts (xy 349.885 190.5) (xy 355.6 190.5))
     (stroke (width 0) (type default))
     (uuid 70d9bd70-6c90-41b0-8eba-78fe8d095e21)
@@ -6083,7 +6087,6 @@
     (stroke (width 0) (type default))
     (uuid 70ed142b-e52d-465d-9fb1-d4420e257296)
   )
-
   (wire (pts (xy 188.595 109.22) (xy 188.595 133.35))
     (stroke (width 0) (type default))
     (uuid 710cfefe-c727-42a3-8f21-586529c7a6b0)
@@ -6100,7 +6103,6 @@
     (stroke (width 0) (type default))
     (uuid 73a8e795-7cf8-499a-a21e-58692b0fdf21)
   )
-
   (wire (pts (xy 38.1 229.87) (xy 38.1 232.41))
     (stroke (width 0) (type default))
     (uuid 745bb962-8624-4b27-ba0e-43e442bb22e6)
@@ -6117,12 +6119,10 @@
     (stroke (width 0.1016) (type solid))
     (uuid 7be2b049-cc5d-4149-8032-3eb1ea923cfd)
   )
-
   (bus (pts (xy 350.52 182.88) (xy 350.52 185.42))
     (stroke (width 0) (type default))
     (uuid 7cc2dc6a-a388-41be-96bd-ea3117aec882)
   )
-
   (wire (pts (xy 330.835 154.94) (xy 332.105 154.94))
     (stroke (width 0) (type default))
     (uuid 7e2e06bf-bec5-40af-9f1c-62d37a24434c)
@@ -6219,7 +6219,6 @@
     (stroke (width 0) (type default))
     (uuid 973fb4ce-408e-4c88-af70-c64a37cedef2)
   )
-
   (wire (pts (xy 117.475 119.38) (xy 125.73 119.38))
     (stroke (width 0) (type default))
     (uuid 98747e27-5030-443f-afca-cd4b1af0426c)
@@ -6260,7 +6259,6 @@
     (stroke (width 0) (type default))
     (uuid a1c112fe-6d4a-4a98-80b9-68362a59e2af)
   )
-
   (wire (pts (xy 38.1 237.49) (xy 38.1 243.205))
     (stroke (width 0) (type default))
     (uuid a33fb746-2406-47b3-9dbd-c51e78df985d)
@@ -6329,12 +6327,10 @@
     (stroke (width 0.1016) (type solid))
     (uuid b56ba181-6867-486f-82a8-9411b90c81db)
   )
-
   (bus (pts (xy 158.75 95.25) (xy 158.75 105.41))
     (stroke (width 0) (type default))
     (uuid b5da6d90-1575-4fac-bb58-c51d563ead72)
   )
-
   (wire (pts (xy 299.72 180.34) (xy 295.91 180.34))
     (stroke (width 0) (type default))
     (uuid b7395fd3-5f55-4b72-b81e-79b7cc0ddf8d)
@@ -6375,7 +6371,6 @@
     (stroke (width 0) (type default))
     (uuid c61a0d79-bfe9-4f9e-90d2-bdf7a45865d2)
   )
-
   (wire (pts (xy 39.37 227.33) (xy 38.1 227.33))
     (stroke (width 0) (type default))
     (uuid c62fc74a-798a-4262-aaea-4ba17fd445bd)
@@ -6392,7 +6387,6 @@
     (stroke (width 0) (type default))
     (uuid cb40fc3c-2825-4d0f-9456-c33b50e0c85f)
   )
-
   (wire (pts (xy 254 133.35) (xy 279.4 133.35))
     (stroke (width 0) (type default))
     (uuid ccbaa776-e52a-4b4a-b52e-480c39301635)
@@ -6409,7 +6403,6 @@
     (stroke (width 0) (type default))
     (uuid cf1c4369-8ccd-4dba-ba2e-3e0d15552c8c)
   )
-
   (wire (pts (xy 312.42 163.83) (xy 312.42 167.005))
     (stroke (width 0) (type default))
     (uuid d05eac44-46c9-4c2a-9543-55a220aed683)
@@ -6422,7 +6415,6 @@
     (stroke (width 0) (type default))
     (uuid d3380516-c0da-4169-9753-b07687b73ec5)
   )
-
   (wire (pts (xy 323.85 99.06) (xy 321.31 99.06))
     (stroke (width 0) (type default))
     (uuid d37019b6-a1dd-4200-9329-7a31617b599f)
@@ -6443,7 +6435,6 @@
     (stroke (width 0) (type default))
     (uuid de334c9c-7381-4ad9-95d9-97edeb9bef29)
   )
-
   (wire (pts (xy 349.885 190.5) (xy 349.885 191.135))
     (stroke (width 0) (type default))
     (uuid e0eba5e4-0922-4fbc-9a67-2a0b7f17ecd2)
@@ -6452,7 +6443,6 @@
     (stroke (width 0) (type default))
     (uuid e1315c41-8ffe-4832-ba9a-7aa40e1308a9)
   )
-
   (wire (pts (xy 117.475 127) (xy 117.475 133.35))
     (stroke (width 0) (type default))
     (uuid e17b4c72-e788-471c-93ab-9ad5f8ec37dc)
@@ -6469,7 +6459,6 @@
     (stroke (width 0) (type default))
     (uuid e5a985fb-68e1-4a21-98c7-9e0e34ae7ac4)
   )
-
   (wire (pts (xy 247.65 102.87) (xy 269.24 102.87))
     (stroke (width 0) (type default))
     (uuid e76ea022-5a4e-4156-8fb8-53811f726b34)
@@ -6522,7 +6511,6 @@
     (stroke (width 0) (type default))
     (uuid fa9f54f4-b7a4-44d7-8a99-98873aa5c28c)
   )
-
   (wire (pts (xy 109.855 135.89) (xy 98.425 135.89))
     (stroke (width 0) (type default))
     (uuid fad20ba7-e415-4585-93e6-4b84e102b164)
@@ -9129,7 +9117,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroTemperatureSensorsAnalogandDigitalOutput:MAX1617AMEE+T") (at 316.23 173.99 0) (unit 1)
+  (symbol (lib_id "K410T-devboard:MAX1617AMEE+T") (at 316.23 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c0767da-b9ff-4535-a003-7da0345d5baf)
     (property "Reference" "U3" (at 328.5841 171.45 0)
@@ -9138,7 +9126,7 @@
     (property "Value" "MAX1617AMEE+T" (at 328.5841 173.99 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Footprint" "antmicro-footprints:QSOP-16_3.9x4.9mm_P0.635mm" (at 351.79 186.69 0)
+    (property "Footprint" "K410T-devboard-footprints:QSOP-16_3.9x4.9mm_P0.635mm" (at 351.79 186.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1617.pdf" (at 351.79 189.23 0)

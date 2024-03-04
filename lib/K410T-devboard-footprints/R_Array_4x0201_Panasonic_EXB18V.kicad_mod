@@ -78,7 +78,7 @@
   (pad "6" smd roundrect (at 0.2 -0.3) (size 0.2 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d838b412-3500-44dc-b9f0-08c7596313c5))
   (pad "7" smd roundrect (at -0.202 -0.3) (size 0.2 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d838b412-3500-44dc-b9f0-08c7596313c5))
   (pad "8" smd roundrect (at -0.6 -0.3) (size 0.2 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d838b412-3500-44dc-b9f0-08c7596313c5))
-  (model "${KIPRJMOD}/lib/3d-models/EXB18V.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/EXB18V.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

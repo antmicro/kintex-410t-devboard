@@ -25,7 +25,7 @@
   (fp_line (start -0.843 -0.491) (end -0.843 0.183) (layer "F.SilkS") (width 0.15) (tstamp c4267800-82fe-4f44-b40c-b01c783ff228))
   (fp_line (start 0.858 -0.491) (end 0.858 0.509) (layer "F.SilkS") (width 0.15) (tstamp f6d87f07-9a64-4355-81b1-cb0a8eb69d92))
   (fp_circle (center -0.493 0.847) (end -0.443 0.847) (layer "F.SilkS") (width 0.15) (fill solid) (tstamp 066a1935-0611-4198-b564-86f2c9878792))
-  (fp_rect (start -1.23 -1.0) (end 1.22 0.99) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp d67ab40f-0dd3-46d3-b9ac-0de4f7996f9d))
+  (fp_rect (start -1.23 -1) (end 1.22 0.99) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp d67ab40f-0dd3-46d3-b9ac-0de4f7996f9d))
   (fp_line (start 0.858 0.634) (end -0.843 0.634) (layer "F.Fab") (width 0.15) (tstamp 04f28bed-206a-4d84-b484-41ad09848990))
   (fp_line (start -0.843 -0.616) (end 0.858 -0.616) (layer "F.Fab") (width 0.15) (tstamp 196da145-3593-463e-8583-bb7784dcf7ec))
   (fp_line (start 0.858 -0.616) (end 0.858 0.634) (layer "F.Fab") (width 0.15) (tstamp 6aaa25d2-d9ef-4fdd-9aea-d0cc6668562e))
@@ -1366,7 +1366,7 @@
     (solder_mask_margin 0.05) (tstamp 44cdb6f1-1b00-4355-8328-ad8652fc0f20))
   (pad "6" smd rect (at -0.493 -0.33 180) (size 0.27 0.325) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (tstamp 702c3697-842b-4032-8a3a-42258744a625))
-  (model "${KIPRJMOD}/lib/3d-models/SOT886.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/SOT886.step"
     (offset (xyz -1.062 -1.74 1.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

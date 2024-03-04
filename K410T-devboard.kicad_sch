@@ -49,6 +49,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:Heatsink_960-31-18-S-AB-0" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 17.78 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -121,6 +122,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:PCB_Mount_Hole_3mm_6mm_pad" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "MP" (at 20.32 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -164,6 +166,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:TestPoint_Probe_1206_RCW-0C" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -205,32 +208,6 @@
     )
   )
 
-  (bus_alias "CLK" (members "CLK_N" "CLK_P"))
-  (bus_alias "CW-20PIN" (members "HS[1..2]" "IO[1..4]" "RST" "MISO" "MOSI" "TSCK" "TPDIC" "TPDID"))
-  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
-  (bus_alias "FMC-CTRL" (members "CLK_DIR" "PRSNT_M2C" "~{PERST}"))
-  (bus_alias "FMC-IO" (members "IO0" "IO1_N" "IO1_P" "IO2_N" "IO2_P" "IO3_N" "IO3_P" "IO4_N" "IO4_P" "IO5_N" "IO5_P" "IO6_N" "IO6_P" "IO7_N" "IO7_P" "IO8_N" "IO8_P" "IO9_N" "IO9_P" "IO10_N" "IO10_P" "IO11_N" "IO11_P" "IO12_N" "IO12_P" "IO13_N" "IO13_P" "IO14_N" "IO14_P" "IO15_N" "IO15_P" "IO16_N" "IO16_P" "IO17_N" "IO17_P" "IO18_N" "IO18_P" "IO19_N" "IO19_P" "IO20_N" "IO20_P" "IO21_N" "IO21_P" "IO22_N" "IO22_P" "IO23_N" "IO23_P" "IO24_N" "IO24_P" "IO25"))
-  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "CEC" "HPD" "UTL" "SDA" "SCL"))
-  (bus_alias "I2C" (members "SDA" "SCL" "QDCDC1_SCL" "QDCDC2_SCL"))
-  (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
-  (bus_alias "MGTX" (members "TX0_P" "TX1_P" "TX2_P" "TX3_P" "TX0_n" "TX0_N" "TX1_N" "TX2_N" "TX3_N" "RX0_P" "RX1_P" "RX2_P" "RX3_P" "RX0_N" "RX1_N" "RX2_N" "RX3_N" "REFCLK0_P" "REFCLK0_N" "REFCLK1_P" "REFCLK1_N"))
-  (bus_alias "PB-CTRL" (members "~{PB_CTRL_CLR}" "VDDR_EN" "~{PB_CTRL_INT}"))
-  (bus_alias "PLL-CLK" (members "CLK0" "CLK1" "CLK2"))
-  (bus_alias "PMOD" (members "IO[1..4]" "IO[7..10]"))
-  (bus_alias "POE" (members "VC[1..4]"))
-  (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
-  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
-  (bus_alias "SD-CARD" (members "DAT[0..3]" "~{CD}" "CLK" "CMD"))
-  (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
-  (bus_alias "SPI-FLASH" (members "~{CS}" "DQ[0..3]" "~{WP}" "~{HOLD}" "CLK"))
-  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT" "VBUS_PEN"))
-  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
-  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
-  (bus_alias "SUP-MCU" (members "SDA" "SCL" "PD_RST" "SW_STATE" "PG_VCCINT" "PG_1V8" "PG_1V2" "PG_3V3" "FAN_PWM" "SPARE[0..3]" "A[0..19]" "D[0..7]" "WR" "TX[0..1]" "ALE" "CE" "CLKO" "RX[0..1]" "RD" "FPGA_M[0..2]" "CCLK" "PROGRAMB" "INITB" "DONE" "TEMP_ALERT_N" "FPGA_MISO" "FPGA_MOSI" "MISO" "MOSI" "SCLK[0..1]" "~{SCS}" "CFG_CS" "PWR_RST" "PWR_ON"))
-  (bus_alias "UART" (members "TX" "RX"))
-  (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
-  (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET" "VBUS_PEN"))
-  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
   (junction (at 26.67 231.775) (diameter 0) (color 0 0 0 0)
     (uuid 14cb090b-d3fc-4049-b8d1-a7d7d10a9e58)
   )
@@ -273,11 +250,37 @@
 
   (no_connect (at 69.85 40.005) (uuid 2b0f0611-78dc-405f-8b06-6ed39043a0f6))
 
+  (bus_alias "CLK" (members "CLK_N" "CLK_P"))
+  (bus_alias "CW-20PIN" (members "HS[1..2]" "IO[1..4]" "RST" "MISO" "MOSI" "TSCK" "TPDIC" "TPDID"))
+  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
+  (bus_alias "FMC-CTRL" (members "CLK_DIR" "PRSNT_M2C" "~{PERST}"))
+  (bus_alias "FMC-IO" (members "IO0" "IO1_N" "IO1_P" "IO2_N" "IO2_P" "IO3_N" "IO3_P" "IO4_N" "IO4_P" "IO5_N" "IO5_P" "IO6_N" "IO6_P" "IO7_N" "IO7_P" "IO8_N" "IO8_P" "IO9_N" "IO9_P" "IO10_N" "IO10_P" "IO11_N" "IO11_P" "IO12_N" "IO12_P" "IO13_N" "IO13_P" "IO14_N" "IO14_P" "IO15_N" "IO15_P" "IO16_N" "IO16_P" "IO17_N" "IO17_P" "IO18_N" "IO18_P" "IO19_N" "IO19_P" "IO20_N" "IO20_P" "IO21_N" "IO21_P" "IO22_N" "IO22_P" "IO23_N" "IO23_P" "IO24_N" "IO24_P" "IO25"))
+  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "CEC" "HPD" "UTL" "SDA" "SCL"))
+  (bus_alias "I2C" (members "SDA" "SCL" "QDCDC1_SCL" "QDCDC2_SCL"))
+  (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
+  (bus_alias "MGTX" (members "TX0_P" "TX1_P" "TX2_P" "TX3_P" "TX0_n" "TX0_N" "TX1_N" "TX2_N" "TX3_N" "RX0_P" "RX1_P" "RX2_P" "RX3_P" "RX0_N" "RX1_N" "RX2_N" "RX3_N" "REFCLK0_P" "REFCLK0_N" "REFCLK1_P" "REFCLK1_N"))
+  (bus_alias "PB-CTRL" (members "~{PB_CTRL_CLR}" "VDDR_EN" "~{PB_CTRL_INT}"))
+  (bus_alias "PLL-CLK" (members "CLK0" "CLK1" "CLK2"))
+  (bus_alias "PMOD" (members "IO[1..4]" "IO[7..10]"))
+  (bus_alias "POE" (members "VC[1..4]"))
+  (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
+  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
+  (bus_alias "SD-CARD" (members "DAT[0..3]" "~{CD}" "CLK" "CMD"))
+  (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
+  (bus_alias "SPI-FLASH" (members "~{CS}" "DQ[0..3]" "~{WP}" "~{HOLD}" "CLK"))
+  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT" "VBUS_PEN"))
+  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
+  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
+  (bus_alias "SUP-MCU" (members "SDA" "SCL" "PD_RST" "SW_STATE" "PG_VCCINT" "PG_1V8" "PG_1V2" "PG_3V3" "FAN_PWM" "SPARE[0..3]" "A[0..19]" "D[0..7]" "WR" "TX[0..1]" "ALE" "CE" "CLKO" "RX[0..1]" "RD" "FPGA_M[0..2]" "CCLK" "PROGRAMB" "INITB" "DONE" "TEMP_ALERT_N" "FPGA_MISO" "FPGA_MOSI" "MISO" "MOSI" "SCLK[0..1]" "~{SCS}" "CFG_CS" "PWR_RST" "PWR_ON"))
+  (bus_alias "UART" (members "TX" "RX"))
+  (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
+  (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET" "VBUS_PEN"))
+  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
+
   (bus (pts (xy 184.15 103.505) (xy 136.525 103.505))
     (stroke (width 0) (type default))
     (uuid 01540814-85b3-48e6-9601-fb521cb939da)
   )
-
   (wire (pts (xy 26.67 231.775) (xy 29.21 231.775))
     (stroke (width 0) (type default))
     (uuid 02798868-5126-4785-a708-89bf3ec3baee)
@@ -310,7 +313,6 @@
     (stroke (width 0) (type default))
     (uuid 163ab9b1-f7d1-4e27-8e8d-fb5eb74523a8)
   )
-
   (wire (pts (xy 26.67 221.615) (xy 29.21 221.615))
     (stroke (width 0) (type default))
     (uuid 1821bc35-7447-4504-a0a3-41841c52ed42)
@@ -331,7 +333,6 @@
     (stroke (width 0) (type default))
     (uuid 1af856c3-77a4-4f6f-ae61-e7e589426be4)
   )
-
   (wire (pts (xy 287.655 208.28) (xy 279.4 208.28))
     (stroke (width 0) (type default))
     (uuid 1f7a25d0-03cf-44cb-af39-3dadc06807b0)
@@ -356,12 +357,10 @@
     (stroke (width 0) (type default))
     (uuid 2726dd2f-1455-41e2-b358-193280ea2890)
   )
-
   (polyline (pts (xy 177.8 19.05) (xy 177.8 254))
     (stroke (width 0) (type solid) (color 0 0 0 1))
     (uuid 280695fa-5ac4-496c-8829-fe3662acb306)
   )
-
   (bus (pts (xy 184.15 64.135) (xy 174.625 64.135))
     (stroke (width 0) (type default))
     (uuid 2b09dda5-3610-4949-9a2b-f8a7ccc3db72)
@@ -406,7 +405,6 @@
     (stroke (width 0) (type default))
     (uuid 4c5380da-ef31-4860-9af2-6b47fdf2d9dd)
   )
-
   (wire (pts (xy 26.67 252.095) (xy 26.67 241.935))
     (stroke (width 0) (type default))
     (uuid 4f2d9433-5279-44a9-9d36-c9ca89c05700)
@@ -427,17 +425,14 @@
     (stroke (width 0) (type default))
     (uuid 5dee8bc9-6812-4330-903f-78e46250fea1)
   )
-
   (polyline (pts (xy 285.75 254) (xy 285.75 19.05))
     (stroke (width 0) (type solid) (color 0 0 0 1))
     (uuid 5f45b7c1-d2c8-4b7a-852d-49903d39b988)
   )
-
   (bus (pts (xy 184.15 229.235) (xy 133.35 229.235))
     (stroke (width 0) (type default))
     (uuid 5f640ade-e2d0-4bf7-83bc-f714e9d78c96)
   )
-
   (wire (pts (xy 26.67 252.095) (xy 26.67 254.635))
     (stroke (width 0) (type default))
     (uuid 5f8fb8d4-6cd2-4039-b661-b3d7e0b22589)
@@ -454,7 +449,6 @@
     (stroke (width 0) (type default))
     (uuid 64b2915e-c65b-4659-b209-8ca2e9884dc1)
   )
-
   (wire (pts (xy 48.26 199.39) (xy 52.705 199.39))
     (stroke (width 0) (type default))
     (uuid 674bab42-1c88-4860-84a9-b4e93b8d4424)
@@ -463,7 +457,6 @@
     (stroke (width 0) (type default))
     (uuid 67d75f49-d98c-49fa-888a-5b24fb9445a0)
   )
-
   (wire (pts (xy 69.85 46.99) (xy 101.6 46.99))
     (stroke (width 0) (type default))
     (uuid 6a46fd9c-c9b1-4a25-ae43-f167d9e1f3cf)
@@ -504,7 +497,6 @@
     (stroke (width 0) (type default))
     (uuid 7ef442f5-ab55-4bd1-a29f-330ac636914f)
   )
-
   (wire (pts (xy 52.705 199.39) (xy 52.705 201.93))
     (stroke (width 0) (type default))
     (uuid 7fbeeefb-b256-42e3-bf02-b256cc0aafa7)
@@ -525,7 +517,6 @@
     (stroke (width 0) (type default))
     (uuid 852b65e3-d1ba-41d8-b328-b1df64e50d3e)
   )
-
   (wire (pts (xy 26.67 241.935) (xy 29.21 241.935))
     (stroke (width 0) (type default))
     (uuid 88c79257-e4f1-4de1-90be-b0dae3419a11)
@@ -550,7 +541,6 @@
     (stroke (width 0) (type default))
     (uuid 929b5164-641b-4a6b-ae4b-142fd749739a)
   )
-
   (wire (pts (xy 48.26 183.515) (xy 52.705 183.515))
     (stroke (width 0) (type default))
     (uuid 94d293ce-482b-4660-a091-7fda2ed9a275)
@@ -559,7 +549,6 @@
     (stroke (width 0) (type default))
     (uuid 98b14eff-c85e-41b6-bb58-000228f26ca0)
   )
-
   (wire (pts (xy 145.415 61.595) (xy 184.15 61.595))
     (stroke (width 0) (type default))
     (uuid 9bef9590-eee8-4874-9093-f9d30b08884a)
@@ -588,7 +577,6 @@
     (stroke (width 0) (type default))
     (uuid aad1f431-613c-41c3-a5f5-0d98fbff7e9d)
   )
-
   (wire (pts (xy 26.67 252.095) (xy 29.21 252.095))
     (stroke (width 0) (type default))
     (uuid aad86bb6-d684-49e7-9efb-2444a8b56245)
@@ -613,17 +601,14 @@
     (stroke (width 0) (type default))
     (uuid b04f3f93-4397-4f0a-b123-65d042060595)
   )
-
   (polyline (pts (xy 177.8 19.05) (xy 285.75 19.05))
     (stroke (width 0) (type solid) (color 0 0 0 1))
     (uuid b191d0b0-bb6a-45c8-9672-b945cbf2afbf)
   )
-
   (bus (pts (xy 142.24 100.33) (xy 184.15 100.33))
     (stroke (width 0) (type default))
     (uuid b3f39096-10fd-44ce-a77c-2463510d2bed)
   )
-
   (wire (pts (xy 287.655 237.49) (xy 287.655 208.28))
     (stroke (width 0) (type default))
     (uuid b93a9e09-157d-4122-bc86-12176cce1bde)
@@ -652,7 +637,6 @@
     (stroke (width 0) (type default))
     (uuid bf9ed080-17ec-4ef4-a4e9-340c907113a8)
   )
-
   (wire (pts (xy 145.415 61.595) (xy 145.415 83.185))
     (stroke (width 0) (type default))
     (uuid bfb0f419-b549-4b48-94a9-b282e5755ea9)
@@ -701,7 +685,6 @@
     (stroke (width 0) (type default))
     (uuid d2364a13-26f9-417c-bd23-4501c356b4dc)
   )
-
   (wire (pts (xy 330.2 237.49) (xy 287.655 237.49))
     (stroke (width 0) (type default))
     (uuid d559d942-ff82-4335-baa6-b095dca9c1ea)
@@ -730,7 +713,6 @@
     (stroke (width 0) (type default))
     (uuid e1fd14c6-50cf-4f09-af40-2d8c47b01a10)
   )
-
   (wire (pts (xy 26.67 231.775) (xy 26.67 221.615))
     (stroke (width 0) (type default))
     (uuid e487636e-3c63-4e30-a84f-b0245a836ce5)
@@ -791,7 +773,6 @@
     (stroke (width 0) (type default))
     (uuid fdb6c4e1-f13d-4ecc-b997-366777a9d8cf)
   )
-
   (polyline (pts (xy 285.75 254) (xy 177.8 254))
     (stroke (width 0) (type solid) (color 0 0 0 1))
     (uuid fee911d3-d41b-405e-95a9-1994adb589fc)

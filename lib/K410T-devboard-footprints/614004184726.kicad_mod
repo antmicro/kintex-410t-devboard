@@ -824,7 +824,7 @@
   (pad "5" thru_hole roundrect (at 4.849 2.499) (size 1.8 3.3) (drill oval 1.5 2) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp 02a2dd84-043d-4bbb-9903-363bef3dd5c9))
   (pad "5" thru_hole roundrect (at -0.651 2.499) (size 1.8 3.3) (drill oval 1.5 2) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp 3ef524bf-35d1-4e53-aa39-f5bdfc2d0664))
   (pad "5" thru_hole roundrect (at 2.1 5.599) (size 1.5 2) (drill 1.2) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp d544e303-9a1b-406e-8829-adc0891db478))
-  (model "${KIPRJMOD}/lib/3d-models/614004184726.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/614004184726.step"
     (offset (xyz 2.1 -0.1 7.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

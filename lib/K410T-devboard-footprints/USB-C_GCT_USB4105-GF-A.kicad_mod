@@ -712,7 +712,7 @@
   (pad "SH" thru_hole oval (at 4.32 -2.926) (size 1.05 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask) (tstamp 8243979e-3dc5-449d-a1c4-a341fc275efb))
   (pad "SH" thru_hole oval (at -4.321 -2.926) (size 1.05 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask) (tstamp 88a00eec-88db-4f04-baa5-00a4704d0b28))
   (pad "SH" thru_hole oval (at 4.32 1.255) (size 1 2) (drill oval 0.6 1.4) (layers *.Cu *.Mask) (tstamp b42b3c7a-4e09-4664-b7fb-226cd9cb7583))
-  (model "${KIPRJMOD}/lib/3d-models/USB4105-GF-A.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/USB4105-GF-A.step"
     (offset (xyz 0 -1.255 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

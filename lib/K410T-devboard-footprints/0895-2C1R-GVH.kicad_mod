@@ -5520,7 +5520,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 3a1fc796-1954-4506-bf72-78585bb518fe) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.01)
-    (keepout (tracks not_allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -5536,7 +5536,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp f39e4a5f-bf44-41b7-bf43-efa60e30dfda) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.01)
-    (keepout (tracks not_allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -5549,7 +5549,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/lib/3d-models/0895-2C1R-GVH.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/0895-2C1R-GVH.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

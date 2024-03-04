@@ -3035,7 +3035,7 @@
   (pad "6" thru_hole circle (at 27.938 7.618) (size 2.54 2.54) (drill 1.4) (layers *.Cu *.Mask) (tstamp 892cde1c-1ca2-4ab1-b367-0d6f7ae769e2))
   (pad "7" thru_hole circle (at 27.938 3.809) (size 2.54 2.54) (drill 1.4) (layers *.Cu *.Mask) (tstamp 355b9d8f-0c50-4c64-9776-be58a4c3f5c5))
   (pad "8" thru_hole circle (at 27.938 0) (size 2.54 2.54) (drill 1.956) (layers *.Cu *.Mask) (tstamp 1fae994b-e657-4c2a-8995-18a7d821e8a1))
-  (model "${KIPRJMOD}/lib/3d-models/mps_dcdc_uls_3_3_20_thd_a.step"
+  (model "/home/sglowczewski/Repositories/k410t-devboard-hw/lib/3d-models/mps_dcdc_uls_3_3_20_thd_a.step"
     (offset (xyz 13.65 -8.62 4.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 0))
