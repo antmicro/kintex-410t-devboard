@@ -12,11 +12,11 @@
 
   (lib_symbols
     (symbol "K410T-devboard:XC7K410T-2FFG900I" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 31.75 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      (property "Reference" "U1" (at 17.145 6.985 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
       )
-      (property "Value" "XC7K410T-2FFG900I_1" (at 0 29.21 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      (property "Value" "XC7K410T-2FFG900I" (at 17.145 4.445 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)))
       )
       (property "Footprint" "K410T-devboard-footprints:xc7k410t-2ffg900I" (at 0 26.67 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -24,7 +24,7 @@
       (property "Datasheet" "https://eu.mouser.com/datasheet/2/903/ds180_7Series_Overview-1591537.pdf" (at 0 24.13 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Manufacturer" "Xilinx" (at 0 21.59 0)
+      (property "Manufacturer" "AMD-Xilinx" (at 0 21.59 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "XC7K410T-2FFG900I" (at 0 19.05 0)
@@ -6653,10 +6653,10 @@
   (symbol (lib_id "K410T-devboard:XC7K410T-2FFG900I") (at 143.51 83.82 0) (unit 13)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d726bba-ce53-458c-b777-4242db242536)
-    (property "Reference" "U1" (at 120.65 71.12 0)
+    (property "Reference" "U1" (at 160.655 76.835 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Value" "XC7K410T-2FFG900I" (at 120.65 73.66 0)
+    (property "Value" "XC7K410T-2FFG900I" (at 160.655 79.375 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Footprint" "K410T-devboard-footprints:xc7k410t-2ffg900I" (at 143.51 57.15 0)
@@ -6665,7 +6665,7 @@
     (property "Datasheet" "https://eu.mouser.com/datasheet/2/903/ds180_7Series_Overview-1591537.pdf" (at 143.51 59.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Xilinx" (at 143.51 62.23 0)
+    (property "Manufacturer" "AMD-Xilinx" (at 143.51 62.23 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "MPN" "XC7K410T-2FFG900I" (at 143.51 64.77 0)
@@ -7580,6 +7580,9 @@
     (instances
       (project "K410T-devboard"
         (path "/c1489e7c-896d-4046-acd4-3929998e87dc/388f73a6-c016-499f-a752-df110c1ef9d6"
+          (reference "U1") (unit 13)
+        )
+        (path "/c1489e7c-896d-4046-acd4-3929998e87dc/020031b8-7f27-4e26-b74c-26be7f0881a9"
           (reference "U1") (unit 13)
         )
       )
