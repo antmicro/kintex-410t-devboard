@@ -2080,48 +2080,28 @@
       "Clocks"
     ],
     [
-      "da04edaf-ffc5-4ca5-8165-171978fe05bc",
-      "FPGA Bank 13"
-    ],
-    [
       "429ead79-12f0-47b8-8167-aee96d75a5d4",
-      "FPGA Bank 14"
-    ],
-    [
-      "5023398f-fd26-406d-86c0-7c0526b2a102",
-      "FPGA Bank 15"
+      "FPGA Bank 14 & 15"
     ],
     [
       "64dc573c-4102-47be-8d75-9c1435db537b",
-      "FPGA Bank 16"
-    ],
-    [
-      "388f73a6-c016-499f-a752-df110c1ef9d6",
-      "FPGA Bank 17"
-    ],
-    [
-      "5ac9c24f-ace8-47cc-a17e-22f5cbe0e59f",
-      "FPGA Bank 18"
+      "FPGA Bank 16 & 17"
     ],
     [
       "8e3c1fd4-00b3-4241-a4be-4f49c343a1b2",
-      "FPGA Bank 32"
+      "FPGA Bank 18 & 32"
     ],
     [
       "44e9e439-cc37-4559-9167-3c4b957a5aff",
-      "FPGA Bank 33"
+      "FPGA Bank 33 & 34"
     ],
     [
       "7d9cde2f-dddc-4745-ba9e-6423f5c75331",
       "Supervisior MCU"
     ],
     [
-      "379b1f53-51c1-46d8-ac52-98e1a4cea45d",
-      "FPGA Bank 34"
-    ],
-    [
       "60d072bf-b5b1-474c-abe1-1c47165e243b",
-      "FPGA Bank 12"
+      "FPGA Bank 12 & 13"
     ]
   ],
   "text_variables": {}
