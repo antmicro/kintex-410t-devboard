@@ -64,7 +64,6 @@
         )
       )
     )
-
     (symbol "K410T-devboard:R_4x33R_0201_array_10" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -214,7 +213,6 @@
         )
       )
     )
-
     (symbol "K410T-devboard:R_4x33R_0201_array_11" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -364,7 +362,6 @@
         )
       )
     )
-
     (symbol "K410T-devboard:R_4x33R_0201_array_12" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -514,7 +511,6 @@
         )
       )
     )
-
     (symbol "K410T-devboard:R_4x33R_0201_array_13" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -664,7 +660,6 @@
         )
       )
     )
-
     (symbol "K410T-devboard:R_4x33R_0201_array_14" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -814,7 +809,6 @@
         )
       )
     )
-
     (symbol "K410T-devboard:R_4x33R_0201_array_15" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -964,7 +958,6 @@
         )
       )
     )
-
     (symbol "K410T-devboard:R_4x33R_0201_array_16" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1114,7 +1107,6 @@
         )
       )
     )
-
     (symbol "K410T-devboard:R_4x33R_0201_array_17" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1264,7 +1256,6 @@
         )
       )
     )
-
     (symbol "antmicroB2BConnectors:Socket_Samtec_ERF5_2x20_ERF5-020-05.0-L-DV-K-TR" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 26.67 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1300,11 +1291,11 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Socket_Samtec_ERF5_2x20_ERF5-020-05.0-L-DV-K-TR_1_1"
-        (rectangle (start 2.54 2.54) (end 8.89 -50.165)
+        (rectangle (start 2.54 2.54) (end 8.89 -50.8)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
-        (rectangle (start 3.81 1.27) (end 7.62 -48.895)
+        (rectangle (start 3.81 1.27) (end 7.62 -49.53)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
@@ -1470,7 +1461,6 @@
         )
       )
     )
-
     (symbol "antmicroResistorNetworksArrays:R_4x33R_0201_array" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -3.175 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1498,6 +1488,12 @@
       )
       (property "Val" "R_4x33R_0201" (at 26.67 -8.255 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
+      )
+      (property "ki_keywords" "0201, SMT, RESISTOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Fixed Network Resistor, 33 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R_4x33R_0201_array_0_1"
         (polyline
@@ -1620,28 +1616,33 @@
         )
       )
     )
-
-    (symbol "antmicropower:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
+    (symbol "antmicropower:+5V" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 15.24 -2.54 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Value" "+5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "+5V" (at 15.24 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Footprint" "" (at 15.24 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "Datasheet" "" (at 15.24 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (symbol "+5V_0_1"
+      (property "Author" "Antmicro" (at 15.24 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (at 15.24 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (symbol "+5V_1_1"
         (polyline
           (pts
             (xy -0.762 1.27)
             (xy 0 2.54)
           )
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1649,7 +1650,7 @@
             (xy 0 2.54)
           )
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1657,17 +1658,14 @@
             (xy 0.762 1.27)
           )
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
+        (pin power_in line (at 0 0 90) (length 0)
           (name "+5V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -2056,6 +2054,7 @@
     (stroke (width 0) (type default))
     (uuid 01322eed-9a1c-40d6-ad6c-b9e2dc06a391)
   )
+
   (wire (pts (xy 259.08 132.08) (xy 283.21 132.08))
     (stroke (width 0) (type default))
     (uuid 01a32718-87c0-4445-a026-b2d152f5be14)
@@ -2064,6 +2063,7 @@
     (stroke (width 0) (type default))
     (uuid 026d8cd2-8eb6-4184-a205-798efb824d3f)
   )
+
   (wire (pts (xy 143.51 152.4) (xy 168.91 152.4))
     (stroke (width 0) (type default))
     (uuid 0330d851-4e01-4545-b203-3f1440830616)
@@ -2076,6 +2076,7 @@
     (stroke (width 0) (type default))
     (uuid 039dcf00-cdff-4286-a7e1-cc924e1c9721)
   )
+
   (wire (pts (xy 69.85 129.54) (xy 93.98 129.54))
     (stroke (width 0) (type default))
     (uuid 03a277bc-6607-4dd6-879c-95ef36587233)
@@ -2100,6 +2101,7 @@
     (stroke (width 0) (type default))
     (uuid 075740b9-e831-4f7f-8837-214968a832bf)
   )
+
   (wire (pts (xy 104.14 142.24) (xy 132.08 142.24))
     (stroke (width 0) (type default))
     (uuid 0792227d-61ab-4458-ba20-4f91074f940b)
@@ -2116,6 +2118,7 @@
     (stroke (width 0) (type default))
     (uuid 0adb8164-9930-489b-9841-9c7add24f51e)
   )
+
   (wire (pts (xy 226.06 127) (xy 248.92 127))
     (stroke (width 0) (type default))
     (uuid 0af6495c-fa20-4e54-9b12-089967be681c)
@@ -2128,6 +2131,7 @@
     (stroke (width 0) (type default))
     (uuid 0bbff141-eef7-4a50-89d3-29ca794dab4d)
   )
+
   (wire (pts (xy 35.56 104.14) (xy 43.18 104.14))
     (stroke (width 0) (type default))
     (uuid 0e5ded1b-0620-4637-86c3-267e05fc671b)
@@ -2140,6 +2144,7 @@
     (stroke (width 0) (type default))
     (uuid 0f694712-ff9c-4b5a-95bd-bb06111db651)
   )
+
   (wire (pts (xy 104.14 149.86) (xy 132.08 149.86))
     (stroke (width 0) (type default))
     (uuid 0f72d182-a7d2-48d7-bc8b-a6978d527f7b)
@@ -2168,6 +2173,7 @@
     (stroke (width 0) (type default))
     (uuid 13173eb7-a536-45ba-8c6a-7a32fa06a7e5)
   )
+
   (wire (pts (xy 143.51 121.92) (xy 168.91 121.92))
     (stroke (width 0) (type default))
     (uuid 152a033f-e71b-4835-94c9-135ff39ff4ba)
@@ -2196,6 +2202,7 @@
     (stroke (width 0) (type default))
     (uuid 2005aa0a-ce63-4615-a8e6-26cfc2dd5a12)
   )
+
   (wire (pts (xy 332.74 160.02) (xy 360.68 160.02))
     (stroke (width 0) (type default))
     (uuid 2223e125-3fd5-43b2-bb86-a0b0aa0347e1)
@@ -2224,6 +2231,7 @@
     (stroke (width 0) (type default))
     (uuid 252a5701-3475-483d-9e2e-52473edc4e76)
   )
+
   (wire (pts (xy 104.14 129.54) (xy 132.08 129.54))
     (stroke (width 0) (type default))
     (uuid 2597c4da-fc23-42ba-8275-f7879ee65852)
@@ -2248,6 +2256,7 @@
     (stroke (width 0) (type default))
     (uuid 299083fc-ec38-4996-a833-2620fd5d5f23)
   )
+
   (wire (pts (xy 226.06 157.48) (xy 248.92 157.48))
     (stroke (width 0) (type default))
     (uuid 29b857ff-7b53-4a09-8313-2209266c8c52)
@@ -2272,6 +2281,7 @@
     (stroke (width 0) (type default))
     (uuid 2dcfb589-36cc-442a-94cc-458ebea9cffe)
   )
+
   (wire (pts (xy 294.64 129.54) (xy 322.58 129.54))
     (stroke (width 0) (type default))
     (uuid 2ec5e5e5-8530-4b1e-932f-db47a267b4f5)
@@ -2296,6 +2306,7 @@
     (stroke (width 0) (type default))
     (uuid 34250b03-28c3-474c-95d6-86e60c41866d)
   )
+
   (wire (pts (xy 129.54 121.92) (xy 132.08 121.92))
     (stroke (width 0) (type default))
     (uuid 346b93b4-be9a-479b-9edf-b614d151cec8)
@@ -2316,6 +2327,7 @@
     (stroke (width 0) (type default))
     (uuid 3a23145d-2f6f-4f02-b3c2-ad37b6823d15)
   )
+
   (wire (pts (xy 332.74 137.16) (xy 360.68 137.16))
     (stroke (width 0) (type default))
     (uuid 3a41bf0f-12b8-41ae-81f5-04442c61ed04)
@@ -2324,6 +2336,7 @@
     (stroke (width 0) (type default))
     (uuid 3b351b4b-b247-461b-b110-60fb42baa458)
   )
+
   (wire (pts (xy 104.14 144.78) (xy 132.08 144.78))
     (stroke (width 0) (type default))
     (uuid 3cc1d6cc-77c8-4b76-9c77-6ed9757905ca)
@@ -2332,6 +2345,7 @@
     (stroke (width 0) (type default))
     (uuid 402db67a-5196-4c53-9a7c-aff18e7b52fb)
   )
+
   (wire (pts (xy 129.54 116.84) (xy 129.54 119.38))
     (stroke (width 0) (type default))
     (uuid 419725dc-1f7c-4616-863c-2ce832448769)
@@ -2340,6 +2354,7 @@
     (stroke (width 0) (type default))
     (uuid 42885283-c805-496d-b610-d9956e72f88b)
   )
+
   (wire (pts (xy 200.66 127) (xy 179.07 127))
     (stroke (width 0) (type default))
     (uuid 429afe81-3570-4e33-be83-d7cf5a07af17)
@@ -2352,6 +2367,7 @@
     (stroke (width 0) (type default))
     (uuid 44d671dc-121f-4237-8723-07d7c0cab05a)
   )
+
   (wire (pts (xy 200.66 152.4) (xy 179.07 152.4))
     (stroke (width 0) (type default))
     (uuid 44ff58c7-608a-490b-86e3-f3cca58215e5)
@@ -2360,6 +2376,7 @@
     (stroke (width 0) (type default))
     (uuid 45c7154b-17e4-4b07-9d63-bc1d6b50891b)
   )
+
   (wire (pts (xy 294.64 119.38) (xy 322.58 119.38))
     (stroke (width 0) (type default))
     (uuid 45d84552-e24c-4e3e-905f-72d967f29e58)
@@ -2396,6 +2413,7 @@
     (stroke (width 0) (type default))
     (uuid 4b6c5b04-26de-4a4c-9b9c-053eefd22de7)
   )
+
   (wire (pts (xy 278.13 114.3) (xy 280.67 114.3))
     (stroke (width 0) (type default))
     (uuid 4c5f95fa-4a58-47b9-bee0-342a78317572)
@@ -2428,6 +2446,7 @@
     (stroke (width 0) (type default))
     (uuid 51312029-33b9-4570-9a99-0abcf269e03f)
   )
+
   (wire (pts (xy 226.06 137.16) (xy 248.92 137.16))
     (stroke (width 0) (type default))
     (uuid 518df880-b9b7-4b11-a330-9b92c76c9b31)
@@ -2444,6 +2463,7 @@
     (stroke (width 0) (type default))
     (uuid 537c124d-f796-46d6-85be-1f82e58c6d17)
   )
+
   (wire (pts (xy 226.06 162.56) (xy 248.92 162.56))
     (stroke (width 0) (type default))
     (uuid 544a0b9b-73c7-42f8-b79d-37b9ea706145)
@@ -2452,6 +2472,7 @@
     (stroke (width 0) (type default))
     (uuid 574ad03a-ead5-4a9a-aae8-515c380bffdd)
   )
+
   (wire (pts (xy 294.64 147.32) (xy 322.58 147.32))
     (stroke (width 0) (type default))
     (uuid 587047df-480d-4bb0-8a83-3845d7a40572)
@@ -2484,6 +2505,7 @@
     (stroke (width 0) (type default))
     (uuid 605ebc4b-9acb-4ed3-b513-50c6d08dbb60)
   )
+
   (wire (pts (xy 147.32 160.02) (xy 147.32 157.48))
     (stroke (width 0) (type default))
     (uuid 6062715a-bdb0-4e7f-998f-d98835fc9d0d)
@@ -2504,6 +2526,7 @@
     (stroke (width 0) (type default))
     (uuid 636b8fc1-9f0a-44aa-84b2-1da28e1b3acb)
   )
+
   (wire (pts (xy 294.64 152.4) (xy 322.58 152.4))
     (stroke (width 0) (type default))
     (uuid 639b0106-240d-46da-ae45-d2c0dfe54481)
@@ -2524,6 +2547,7 @@
     (stroke (width 0) (type default))
     (uuid 657093c4-a935-4d0d-b0d6-87bce3bbe7f7)
   )
+
   (wire (pts (xy 226.06 152.4) (xy 248.92 152.4))
     (stroke (width 0) (type default))
     (uuid 65b64d88-8b72-4f3b-9c41-56d40f8be9ce)
@@ -2532,6 +2556,7 @@
     (stroke (width 0) (type default))
     (uuid 66f9f651-e0ec-4834-b48f-a82b9bc9df12)
   )
+
   (wire (pts (xy 69.85 147.32) (xy 93.98 147.32))
     (stroke (width 0) (type default))
     (uuid 672dd736-2de5-4252-8b2c-41e1abdc014f)
@@ -2560,6 +2585,7 @@
     (stroke (width 0) (type default))
     (uuid 704fe503-7ba8-4b4c-adfe-0f12a51aa238)
   )
+
   (wire (pts (xy 200.66 121.92) (xy 179.07 121.92))
     (stroke (width 0) (type default))
     (uuid 70839589-de7f-4bb0-a6a3-898cd5eecaea)
@@ -2568,6 +2594,7 @@
     (stroke (width 0) (type default))
     (uuid 713042f9-0fd2-41e5-8c57-f852008e54e8)
   )
+
   (wire (pts (xy 332.74 147.32) (xy 360.68 147.32))
     (stroke (width 0) (type default))
     (uuid 7156391f-c721-4e89-92b2-e20a0b6a672f)
@@ -2580,6 +2607,7 @@
     (stroke (width 0) (type default))
     (uuid 71e60035-2f94-447a-929e-c71559c6ceea)
   )
+
   (wire (pts (xy 69.85 132.08) (xy 93.98 132.08))
     (stroke (width 0) (type default))
     (uuid 723e3877-05b6-4974-a351-21f4a3891c0b)
@@ -2588,6 +2616,7 @@
     (stroke (width 0) (type default))
     (uuid 753b437f-ea7a-444c-b6e6-d57eaf434b80)
   )
+
   (wire (pts (xy 280.67 114.3) (xy 280.67 116.84))
     (stroke (width 0) (type default))
     (uuid 78910c57-8da0-48df-ab6d-449ef49a56e1)
@@ -2604,6 +2633,7 @@
     (stroke (width 0) (type default))
     (uuid 7c083e8e-80c8-4bec-aeb1-ade4f2f04451)
   )
+
   (wire (pts (xy 332.74 116.84) (xy 360.68 116.84))
     (stroke (width 0) (type default))
     (uuid 7c9b8f61-036c-4161-b0e0-4569748b42ab)
@@ -2628,6 +2658,7 @@
     (stroke (width 0) (type default))
     (uuid 80e0c6b8-44b5-4310-9035-02475e089889)
   )
+
   (wire (pts (xy 332.74 144.78) (xy 360.68 144.78))
     (stroke (width 0) (type default))
     (uuid 813ee715-e13d-4eab-bd34-3083383cad38)
@@ -2672,6 +2703,7 @@
     (stroke (width 0) (type default))
     (uuid 92eb33a3-d0e0-4c96-8a4c-882aa1e96f28)
   )
+
   (wire (pts (xy 259.08 129.54) (xy 283.21 129.54))
     (stroke (width 0) (type default))
     (uuid 93ebef12-d6a1-4c64-b344-220317f31754)
@@ -2708,6 +2740,7 @@
     (stroke (width 0) (type default))
     (uuid a36ff3b7-c666-48de-bc02-887d4b55cb2f)
   )
+
   (wire (pts (xy 104.14 139.7) (xy 132.08 139.7))
     (stroke (width 0) (type default))
     (uuid a3b55ad7-73f8-4411-9f59-bdf21cc51bc8)
@@ -2720,6 +2753,7 @@
     (stroke (width 0) (type default))
     (uuid a4b707bc-b2c9-467a-b855-ea9d75e6c189)
   )
+
   (wire (pts (xy 129.54 119.38) (xy 129.54 121.92))
     (stroke (width 0) (type default))
     (uuid a6179f6d-7d04-4f80-b4de-384f254dcdf2)
@@ -2744,6 +2778,7 @@
     (stroke (width 0) (type default))
     (uuid a9b0701a-3d17-4d0d-9d4f-8de03a4dcc09)
   )
+
   (wire (pts (xy 294.64 132.08) (xy 322.58 132.08))
     (stroke (width 0) (type default))
     (uuid aa023f24-0f90-4858-b18b-870ca096bed5)
@@ -2756,6 +2791,7 @@
     (stroke (width 0) (type default))
     (uuid abd064e1-748a-4461-9bd5-edfb57cf74de)
   )
+
   (wire (pts (xy 149.86 165.1) (xy 147.32 165.1))
     (stroke (width 0) (type default))
     (uuid ad014df4-c957-43f1-a4c7-2709bd529b58)
@@ -2772,6 +2808,7 @@
     (stroke (width 0) (type default))
     (uuid b237e06f-d7b0-4fe6-bfe2-57a1eff1a1e0)
   )
+
   (wire (pts (xy 226.06 144.78) (xy 248.92 144.78))
     (stroke (width 0) (type default))
     (uuid b2432409-ed05-4a0b-8261-65d9e4cd8e1c)
@@ -2800,6 +2837,7 @@
     (stroke (width 0) (type default))
     (uuid b6ca4d7c-0aac-4046-9e88-be0ee4263fba)
   )
+
   (wire (pts (xy 259.08 137.16) (xy 283.21 137.16))
     (stroke (width 0) (type default))
     (uuid b8772f50-d806-46ce-a02c-3bb6751f48c1)
@@ -2820,6 +2858,7 @@
     (stroke (width 0) (type default))
     (uuid be42e76a-f7fc-4c62-b835-7ff109db9903)
   )
+
   (wire (pts (xy 294.64 116.84) (xy 322.58 116.84))
     (stroke (width 0) (type default))
     (uuid bfdefd46-2f6f-473f-8380-ef057270dc7c)
@@ -2872,6 +2911,7 @@
     (stroke (width 0) (type default))
     (uuid cee6a002-e503-4eec-82ec-a0f57d80f483)
   )
+
   (wire (pts (xy 226.06 132.08) (xy 248.92 132.08))
     (stroke (width 0) (type default))
     (uuid d14d7420-4b7b-4b9d-949c-330d5b3956eb)
@@ -2908,6 +2948,7 @@
     (stroke (width 0) (type default))
     (uuid dd51eeeb-8f89-4175-8737-cdeea317c440)
   )
+
   (wire (pts (xy 129.54 124.46) (xy 129.54 127))
     (stroke (width 0) (type default))
     (uuid ded67925-b913-4651-a658-bf6f231004db)
@@ -2916,6 +2957,7 @@
     (stroke (width 0) (type default))
     (uuid e2903575-e4d7-43c5-965d-19cfd90b9500)
   )
+
   (wire (pts (xy 294.64 160.02) (xy 322.58 160.02))
     (stroke (width 0) (type default))
     (uuid e397ef08-ae41-4ece-8d6c-f61d19a32b7c)
@@ -2936,6 +2978,7 @@
     (stroke (width 0) (type default))
     (uuid e952ab10-1e6e-4912-8773-1c407d40f1f8)
   )
+
   (wire (pts (xy 143.51 154.94) (xy 147.32 154.94))
     (stroke (width 0) (type default))
     (uuid ea670c31-6663-4aa2-ba2c-0b1af4a6d696)
@@ -2956,6 +2999,7 @@
     (stroke (width 0) (type default))
     (uuid ee1d7cdf-4034-4390-a366-f30bfc37c128)
   )
+
   (wire (pts (xy 294.64 121.92) (xy 322.58 121.92))
     (stroke (width 0) (type default))
     (uuid efb71e8f-2c07-480a-8c31-63f08878d565)
@@ -2972,6 +3016,7 @@
     (stroke (width 0) (type default))
     (uuid f10e8b7e-cf84-4711-b269-4631d624d859)
   )
+
   (wire (pts (xy 259.08 127) (xy 283.21 127))
     (stroke (width 0) (type default))
     (uuid f36022c9-4b7a-41d5-b7f4-a25d433d2fec)
@@ -2984,6 +3029,7 @@
     (stroke (width 0) (type default))
     (uuid f4fcc1c9-6275-488f-b31d-1e9c26f71256)
   )
+
   (wire (pts (xy 143.51 157.48) (xy 147.32 157.48))
     (stroke (width 0) (type default))
     (uuid f506632f-facd-42db-bf78-18885d84cbe1)
@@ -2996,6 +3042,7 @@
     (stroke (width 0) (type default))
     (uuid f6259306-5102-43f4-9093-bad797dcd457)
   )
+
   (wire (pts (xy 294.64 142.24) (xy 322.58 142.24))
     (stroke (width 0) (type default))
     (uuid f67e2e3b-8db9-4124-bc70-30015ff44972)
@@ -6263,6 +6310,12 @@
     )
     (property "Datasheet" "" (at 149.86 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Author" "Antmicro" (at 134.62 172.72 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 134.62 175.26 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid f4b821ae-875a-495b-8bce-4ce56f795f4a))
     (instances
