@@ -77,6 +77,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -143,6 +144,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_12" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -209,6 +211,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_13" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -275,6 +278,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_14" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -341,6 +345,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_15" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -407,6 +412,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_16" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -473,6 +479,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_17" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -539,6 +546,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_18" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -605,6 +613,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_19" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -671,6 +680,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_20" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -737,6 +747,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_21" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -803,6 +814,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_22" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -869,6 +881,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_23" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -935,6 +948,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_24" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1001,6 +1015,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_25" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1067,6 +1082,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_26" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1133,6 +1149,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_27" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1199,6 +1216,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_28" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1265,6 +1283,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_29" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1331,6 +1350,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_30" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1397,6 +1417,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_31" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1463,6 +1484,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_32" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1529,6 +1551,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0201_33" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1595,6 +1618,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_1" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1647,6 +1671,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_10" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1699,6 +1724,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_11" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1751,6 +1777,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_12" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1803,6 +1830,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_13" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1855,6 +1883,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_14" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1907,6 +1936,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_15" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -1959,6 +1989,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_16" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2011,6 +2042,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_17" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2063,6 +2095,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_18" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2115,6 +2148,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_19" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2167,6 +2201,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_2" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2219,6 +2254,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_20" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2271,6 +2307,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_21" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2323,6 +2360,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_22" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2375,6 +2413,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_23" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2427,6 +2466,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_24" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2479,6 +2519,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_25" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2531,6 +2572,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_26" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2583,6 +2625,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_27" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2635,6 +2678,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_28" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2687,6 +2731,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_29" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2739,6 +2784,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_3" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2791,6 +2837,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_30" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2843,6 +2890,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_31" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2895,6 +2943,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_32" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2947,6 +2996,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_33" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -2999,6 +3049,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_34" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3051,6 +3102,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_35" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3103,6 +3155,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_36" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3155,6 +3208,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_37" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3207,6 +3261,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_38" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3259,6 +3314,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_39" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3311,6 +3367,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_4" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3363,6 +3420,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_40" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3415,6 +3473,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_41" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3467,6 +3526,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_42" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3519,6 +3579,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_43" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3571,6 +3632,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_44" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3623,6 +3685,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_45" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3675,6 +3738,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_46" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3727,6 +3791,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_47" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3779,6 +3844,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_48" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3831,6 +3897,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_49" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3883,6 +3950,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_5" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3935,6 +4003,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_50" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -3987,6 +4056,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_51" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4039,6 +4109,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_52" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4091,6 +4162,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_53" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4143,6 +4215,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_54" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4195,6 +4268,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_55" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4247,6 +4321,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_56" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4299,6 +4374,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_57" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4351,6 +4427,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_58" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4403,6 +4480,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_59" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4455,6 +4533,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_6" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4507,6 +4586,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_60" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4559,6 +4639,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_61" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4611,6 +4692,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_62" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4663,6 +4745,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_63" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4715,6 +4798,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_64" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4767,6 +4851,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_65" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4819,6 +4904,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_66" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4871,6 +4957,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_67" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4923,6 +5010,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_68" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -4975,6 +5063,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_69" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5027,6 +5116,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_7" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5079,6 +5169,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_70" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5131,6 +5222,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_71" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5183,6 +5275,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_72" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5235,6 +5328,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_73" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5287,6 +5381,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_74" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5339,6 +5434,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_75" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5391,6 +5487,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_76" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5443,6 +5540,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_77" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5495,6 +5593,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_78" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5547,6 +5646,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_79" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5599,6 +5699,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_8" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5651,6 +5752,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_80" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5703,6 +5805,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_81" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5755,6 +5858,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_82" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5807,6 +5911,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_83" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5859,6 +5964,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_84" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5911,6 +6017,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_85" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -5963,6 +6070,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_86" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -6015,6 +6123,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_87" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -6067,6 +6176,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_88" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -6119,6 +6229,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_89" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -6171,6 +6282,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_9" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -6223,6 +6335,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_100n_0402_EIA_90" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.524 1.524)) (justify left))
@@ -6275,6 +6388,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6341,6 +6455,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6407,6 +6522,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_12" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6473,6 +6589,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_13" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6539,6 +6656,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_14" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6605,6 +6723,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_15" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6671,6 +6790,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_16" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6737,6 +6857,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_17" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6803,6 +6924,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_18" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6869,6 +6991,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_19" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -6935,6 +7058,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_20" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7001,6 +7125,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_21" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7067,6 +7192,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_22" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7133,6 +7259,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_23" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7199,6 +7326,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_24" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7265,6 +7393,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_25" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7331,6 +7460,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_26" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7397,6 +7527,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_27" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7463,6 +7594,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_47u_0603_28" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7529,6 +7661,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_4u7_0201_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7595,6 +7728,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_4u7_0201_11" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7661,6 +7795,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_4u7_0201_12" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7727,6 +7862,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_4u7_0201_13" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7793,6 +7929,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_4u7_0201_14" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7859,6 +7996,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_4u7_0201_15" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7925,6 +8063,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_4u7_0201_16" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7991,6 +8130,7 @@
         )
       )
     )
+
     (symbol "K410T-devboard:C_4u7_0201_17" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -8057,6 +8197,7 @@
         )
       )
     )
+
     (symbol "XC7K410T-2FFG900I_1" (in_bom yes) (on_board yes)
       (property "Reference" "U1" (at 17.145 6.985 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -11961,6 +12102,7 @@
         )
       )
     )
+
     (symbol "XC7K410T-2FFG900I_2" (in_bom yes) (on_board yes)
       (property "Reference" "U1" (at 17.145 6.985 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -15865,6 +16007,7 @@
         )
       )
     )
+
     (symbol "XC7K410T-2FFG900I_3" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 82.55 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -19602,6 +19745,7 @@
         )
       )
     )
+
     (symbol "XC7K410T-2FFG900I_4" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 82.55 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -23339,6 +23483,7 @@
         )
       )
     )
+
     (symbol "antmicroCapacitors0402:C_100n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -23405,6 +23550,7 @@
         )
       )
     )
+
     (symbol "antmicroCapacitors0603:C_47u_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -23471,6 +23617,7 @@
         )
       )
     )
+
     (symbol "antmicroCapacitorsmisc:C_100n_0201" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -23537,6 +23684,7 @@
         )
       )
     )
+
     (symbol "antmicroCapacitorsmisc:C_4u7_0201" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -23603,6 +23751,7 @@
         )
       )
     )
+
     (symbol "antmicroCapacitorspol:C_Pol_330u_6.3V_KEMET-T520-B" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 13.97 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -23677,6 +23826,7 @@
         )
       )
     )
+
     (symbol "antmicroGenericPinHeaders:PinHeader_2x3_P2.54mm_SMD" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 25.4 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -23757,6 +23907,7 @@
         )
       )
     )
+
     (symbol "antmicroResistors0402:R_100R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -23808,6 +23959,7 @@
         )
       )
     )
+
     (symbol "antmicropower:+1V0" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -23854,6 +24006,7 @@
         )
       )
     )
+
     (symbol "antmicropower:+1V0_MGTAVCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR?" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -23900,6 +24053,7 @@
         )
       )
     )
+
     (symbol "antmicropower:+1V2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -23946,6 +24100,7 @@
         )
       )
     )
+
     (symbol "antmicropower:+1V2_MGTAVTT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR?" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -23992,6 +24147,7 @@
         )
       )
     )
+
     (symbol "antmicropower:+1V8" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 15.24 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -24042,6 +24198,7 @@
         )
       )
     )
+
     (symbol "antmicropower:+1V85_ADC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -24088,6 +24245,7 @@
         )
       )
     )
+
     (symbol "antmicropower:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -24134,6 +24292,7 @@
         )
       )
     )
+
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -24172,6 +24331,7 @@
         )
       )
     )
+
     (symbol "antmicropower:VCC_USR_A" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR?" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -24218,6 +24378,7 @@
         )
       )
     )
+
     (symbol "antmicropower:VCC_USR_B" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR?" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -25147,7 +25308,6 @@
     (stroke (width 0) (type default))
     (uuid 28fc6c27-7284-42e7-867b-5737d1b4faa7)
   )
-
   (wire (pts (xy 130.81 241.3) (xy 130.81 238.76))
     (stroke (width 0) (type default))
     (uuid 2989bc7d-7f67-48a5-b2eb-32bce0743d82)
@@ -25516,7 +25676,6 @@
     (stroke (width 0) (type default))
     (uuid 5bdb4a46-0dbf-41f2-8266-461235eaa48e)
   )
-
   (wire (pts (xy 153.67 213.36) (xy 161.29 213.36))
     (stroke (width 0) (type default))
     (uuid 5c964c00-aa56-42f0-978f-2aab2014c9b1)
