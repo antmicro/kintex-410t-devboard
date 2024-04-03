@@ -1,2 +1,0 @@
-(fp_lib_table
-  (lib (name "K410T-devboard-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/K410T-devboard-footprints/")(options "")(descr "")))

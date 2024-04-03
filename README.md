@@ -11,16 +11,16 @@ Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
 This repository contains open hardware design files for a devkit created for AMD-Xilinx [Kintex-7 K410T](https://www.xilinx.com/products/silicon-devices/fpga/kintex-7.html) FPGA.
 
 This development board routes the I/O interfaces from the SoM and provides the necessary power buses.
-The design files were prepared in KiCad 6.
+The design files were prepared in KiCad 7.
 
 ## Repository structure
 
 The main repository directory contains KiCad PCB project files, a [LICENSE](LICENSE), and a README.
 The remaining files are stored in the following directories:
 
-* `lib` - contains the KiCad 6 component libraries
 * `doc` - contains generated schematics and other documentation
 * `img` - contains graphics for this README
+* `assets` - contains visual assets for showcasing the board on Antmicro [Open Hardware Portal](https://openhardware.antmicro.com)
 
 ## Key features
 
