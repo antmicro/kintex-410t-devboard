@@ -11361,12 +11361,12 @@
     (pin "7_1" (uuid 1cbd2457-adc2-4436-b154-5c74cbc2cf71))
     (pin "8_1" (uuid 401b950f-7a35-48ef-9aed-bd78e264957d))
     (pin "9_1" (uuid e4dbd7a7-9cd7-425d-a5df-500a3095ba07))
-    (pin "SH" (uuid bba0f09e-50cb-43de-b8f0-6b876c3a4f84))
-    (pin "SH" (uuid d85f9cb0-98b5-4f88-90e4-82dde8e323f5))
-    (pin "SH" (uuid 30104cbf-0c56-4773-9666-d15fb21b05a8))
-    (pin "SH" (uuid 70a3e09e-11b2-4852-af47-6dda68e4d068))
-    (pin "SH" (uuid 1d8a01d0-716d-491d-84fc-9e3573ebc214))
     (pin "SH" (uuid 1bc70c55-60da-4980-ab6a-b4a70df146bf))
+    (pin "SH" (uuid e2a9bda7-009d-4728-aa4f-c8edb59609e8))
+    (pin "SH" (uuid e7b5f3d6-1f36-4d36-9f84-da0c7d03e6f1))
+    (pin "SH" (uuid 8eb27f57-8c9b-4e3f-9485-aa4b1edcd85a))
+    (pin "SH" (uuid bb528e69-416a-4d29-9b5d-9844dec156ec))
+    (pin "SH" (uuid 1abcbfed-0263-4619-9b04-1258440c74b7))
     (instances
       (project "K410T-devboard"
         (path "/c1489e7c-896d-4046-acd4-3929998e87dc/677e70f4-c662-4db0-90ce-7e9c457b20f1"
@@ -13658,7 +13658,7 @@
     (pin "7_1" (uuid 7bf74c4a-4105-4682-a21e-6b93f07d18b8))
     (pin "8_1" (uuid 73fc2a8a-75d1-4d5a-8f2d-d3c9e7d5543e))
     (pin "9_1" (uuid 0d808342-0f9a-4762-be16-87af3d685d48))
-    (pin "SH" (uuid f8d42233-0611-485f-80b0-8ff1b152bf00))
+    (pin "SH" (uuid c82732fa-5c24-4ff0-b442-403f2885a512))
     (pin "10_2" (uuid 07da38d3-9c12-4db0-8330-c019ee482004))
     (pin "11_2" (uuid af99bdaf-b82b-4230-a7d8-1adf74dce629))
     (pin "12_2" (uuid fd8e32b9-22b9-40db-9da2-57d3903d714a))
@@ -13677,11 +13677,11 @@
     (pin "7_2" (uuid 7d86ed94-05d2-4669-b64a-ec8f888d8caf))
     (pin "8_2" (uuid aad628b0-dc6d-4f72-b528-6d3037f06e03))
     (pin "9_2" (uuid 6046297a-dffe-4041-8d81-a9d415a795f7))
-    (pin "SH" (uuid 986a67be-0a48-40f4-af45-b23f4d549df3))
-    (pin "SH" (uuid fb63d7e6-2a0a-4818-8cfd-8e396fd1c592))
-    (pin "SH" (uuid 93ad432c-868c-4de5-83db-a435f5c70c49))
-    (pin "SH" (uuid acf8dbcf-3822-4ce9-8969-c699566097ee))
-    (pin "SH" (uuid c82732fa-5c24-4ff0-b442-403f2885a512))
+    (pin "SH" (uuid 9990e833-b785-4e41-b863-7a20fc054fca))
+    (pin "SH" (uuid d481cd65-36fb-4462-88dc-d1fa4d24f404))
+    (pin "SH" (uuid 4862d6b1-2daa-404f-ad21-c8bc16006746))
+    (pin "SH" (uuid 2beccb68-d5aa-4173-896a-3549bab0eeeb))
+    (pin "SH" (uuid a9ca3504-abd9-4328-8d45-9d3f8a5bdaf9))
     (instances
       (project "K410T-devboard"
         (path "/c1489e7c-896d-4046-acd4-3929998e87dc/677e70f4-c662-4db0-90ce-7e9c457b20f1"
