@@ -83,7 +83,6 @@
         )
       )
     )
-
     (symbol "antmicroMechanicalParts:MP_Pad6mm_Drill3mm" (pin_names hide) (in_bom no) (on_board yes)
       (property "Reference" "MP" (at 20.32 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -124,7 +123,6 @@
         )
       )
     )
-
     (symbol "antmicroTestPoints:TP_1206_SMD_RCW-0C" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -164,7 +162,6 @@
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -205,6 +202,32 @@
     )
   )
 
+  (bus_alias "CLK" (members "CLK_N" "CLK_P"))
+  (bus_alias "CW-20PIN" (members "HS[1..2]" "IO[1..4]" "RST" "MISO" "MOSI" "TSCK" "TPDIC" "TPDID"))
+  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
+  (bus_alias "FMC-CTRL" (members "CLK_DIR" "PRSNT_M2C" "~{PERST}"))
+  (bus_alias "FMC-IO" (members "IO0" "IO1_N" "IO1_P" "IO2_N" "IO2_P" "IO3_N" "IO3_P" "IO4_N" "IO4_P" "IO5_N" "IO5_P" "IO6_N" "IO6_P" "IO7_N" "IO7_P" "IO8_N" "IO8_P" "IO9_N" "IO9_P" "IO10_N" "IO10_P" "IO11_N" "IO11_P" "IO12_N" "IO12_P" "IO13_N" "IO13_P" "IO14_N" "IO14_P" "IO15_N" "IO15_P" "IO16_N" "IO16_P" "IO17_N" "IO17_P" "IO18_N" "IO18_P" "IO19_N" "IO19_P" "IO20_N" "IO20_P" "IO21_N" "IO21_P" "IO22_N" "IO22_P" "IO23_N" "IO23_P" "IO24_N" "IO24_P" "IO25"))
+  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "CEC" "HPD" "UTL" "SDA" "SCL"))
+  (bus_alias "I2C" (members "SDA" "SCL" "QDCDC1_SCL" "QDCDC2_SCL"))
+  (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
+  (bus_alias "MGTX" (members "TX0_P" "TX1_P" "TX2_P" "TX3_P" "TX0_n" "TX0_N" "TX1_N" "TX2_N" "TX3_N" "RX0_P" "RX1_P" "RX2_P" "RX3_P" "RX0_N" "RX1_N" "RX2_N" "RX3_N" "REFCLK0_P" "REFCLK0_N" "REFCLK1_P" "REFCLK1_N"))
+  (bus_alias "PB-CTRL" (members "~{PB_CTRL_CLR}" "VDDR_EN" "~{PB_CTRL_INT}"))
+  (bus_alias "PLL-CLK" (members "CLK0" "CLK1" "CLK2"))
+  (bus_alias "PMOD" (members "IO[1..4]" "IO[7..10]"))
+  (bus_alias "POE" (members "VC[1..4]"))
+  (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
+  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
+  (bus_alias "SD-CARD" (members "DAT[0..3]" "~{CD}" "CLK" "CMD"))
+  (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
+  (bus_alias "SPI-FLASH" (members "~{CS}" "DQ[0..3]" "~{WP}" "~{HOLD}" "CLK"))
+  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT" "VBUS_PEN"))
+  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
+  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
+  (bus_alias "SUP-MCU" (members "SDA" "SCL" "PD_RST" "SW_STATE" "PG_VCCINT" "PG_1V8" "PG_1V2" "PG_3V3" "FAN_PWM" "SPARE[0..3]" "A[0..19]" "D[0..7]" "WR" "TX[0..1]" "ALE" "CE" "CLKO" "RX[0..1]" "RD" "FPGA_M[0..2]" "CCLK" "PROGRAMB" "INITB" "DONE" "TEMP_ALERT_N" "FPGA_MISO" "FPGA_MOSI" "MISO" "MOSI" "SCLK[0..1]" "~{SCS}" "CFG_CS" "PWR_RST" "PWR_ON"))
+  (bus_alias "UART" (members "TX" "RX"))
+  (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
+  (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET" "VBUS_PEN"))
+  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
   (junction (at 26.67 232.41) (diameter 0) (color 0 0 0 0)
     (uuid 14cb090b-d3fc-4049-b8d1-a7d7d10a9e58)
   )
@@ -244,37 +267,11 @@
 
   (no_connect (at 69.85 39.37) (uuid 2b0f0611-78dc-405f-8b06-6ed39043a0f6))
 
-  (bus_alias "CLK" (members "CLK_N" "CLK_P"))
-  (bus_alias "CW-20PIN" (members "HS[1..2]" "IO[1..4]" "RST" "MISO" "MOSI" "TSCK" "TPDIC" "TPDID"))
-  (bus_alias "DDR3_DRAM" (members "A[0..15]" "BA[0..2]" "DQ[0..7]" "DQS_P" "DQS_N" "TDQS_P" "TDQS_N" "~{WE}" "~{CAS}" "~{RAS}" "~{CS}" "CKE" "CK_N" "CK_P" "ODT" "~{RESET}" "DM"))
-  (bus_alias "FMC-CTRL" (members "CLK_DIR" "PRSNT_M2C" "~{PERST}"))
-  (bus_alias "FMC-IO" (members "IO0" "IO1_N" "IO1_P" "IO2_N" "IO2_P" "IO3_N" "IO3_P" "IO4_N" "IO4_P" "IO5_N" "IO5_P" "IO6_N" "IO6_P" "IO7_N" "IO7_P" "IO8_N" "IO8_P" "IO9_N" "IO9_P" "IO10_N" "IO10_P" "IO11_N" "IO11_P" "IO12_N" "IO12_P" "IO13_N" "IO13_P" "IO14_N" "IO14_P" "IO15_N" "IO15_P" "IO16_N" "IO16_P" "IO17_N" "IO17_P" "IO18_N" "IO18_P" "IO19_N" "IO19_P" "IO20_N" "IO20_P" "IO21_N" "IO21_P" "IO22_N" "IO22_P" "IO23_N" "IO23_P" "IO24_N" "IO24_P" "IO25"))
-  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "CEC" "HPD" "UTL" "SDA" "SCL"))
-  (bus_alias "I2C" (members "SDA" "SCL" "QDCDC1_SCL" "QDCDC2_SCL"))
-  (bus_alias "JTAG" (members "TMS" "TCK" "TDI" "TDO" "RST"))
-  (bus_alias "MGTX" (members "TX0_P" "TX1_P" "TX2_P" "TX3_P" "TX0_n" "TX0_N" "TX1_N" "TX2_N" "TX3_N" "RX0_P" "RX1_P" "RX2_P" "RX3_P" "RX0_N" "RX1_N" "RX2_N" "RX3_N" "REFCLK0_P" "REFCLK0_N" "REFCLK1_P" "REFCLK1_N"))
-  (bus_alias "PB-CTRL" (members "~{PB_CTRL_CLR}" "VDDR_EN" "~{PB_CTRL_INT}"))
-  (bus_alias "PLL-CLK" (members "CLK0" "CLK1" "CLK2"))
-  (bus_alias "PMOD" (members "IO[1..4]" "IO[7..10]"))
-  (bus_alias "POE" (members "VC[1..4]"))
-  (bus_alias "RGMII" (members "~{RESET}" "MDC" "MDIO" "TX_EN" "TXD[0..3]" "RXD[0..3]" "RX_DV" "GTX_CLK" "GTR_CLK" "REFCLK" "~{INT}"))
-  (bus_alias "RMII" (members "RXD0" "RXD1" "TXD0" "TXD1" "~{RESET}" "~{INT}" "MDIO" "MDC" "TXEN" "RX_DV" "RXER" "REFCLK"))
-  (bus_alias "SD-CARD" (members "DAT[0..3]" "~{CD}" "CLK" "CMD"))
-  (bus_alias "SPI" (members "~{RESET}" "SCK" "~{CS}" "MISO" "MOSI" "INT"))
-  (bus_alias "SPI-FLASH" (members "~{CS}" "DQ[0..3]" "~{WP}" "~{HOLD}" "CLK"))
-  (bus_alias "SPI-USB" (members "GPX" "~{RESET}" "~{CS}" "CLK" "MISO" "MOSI" "INT" "VBUS_PEN"))
-  (bus_alias "SRAM" (members "A[0..19]" "DQ[0..7]" "CE2" "~{CE}" "~{WE}" "~{OE}" "SCL" "SDA"))
-  (bus_alias "STUSB4500" (members "RESET" "SCL" "SDA" "~{ALERT}" "ATTACH" "GPIO" "A_B_SIDE"))
-  (bus_alias "SUP-MCU" (members "SDA" "SCL" "PD_RST" "SW_STATE" "PG_VCCINT" "PG_1V8" "PG_1V2" "PG_3V3" "FAN_PWM" "SPARE[0..3]" "A[0..19]" "D[0..7]" "WR" "TX[0..1]" "ALE" "CE" "CLKO" "RX[0..1]" "RD" "FPGA_M[0..2]" "CCLK" "PROGRAMB" "INITB" "DONE" "TEMP_ALERT_N" "FPGA_MISO" "FPGA_MOSI" "MISO" "MOSI" "SCLK[0..1]" "~{SCS}" "CFG_CS" "PWR_RST" "PWR_ON"))
-  (bus_alias "UART" (members "TX" "RX"))
-  (bus_alias "USB-C-PD" (members "CC1" "CC2" "VBUS"))
-  (bus_alias "USB-FPGA-PHY" (members "~{OE}" "SUS" "SPD" "VM" "VP" "VPO" "VMO" "RCV" "SCON" "VDET" "VBUS_PEN"))
-  (bus_alias "USER-IO" (members "LED_GREEN[0..5]" "LED_BLUE" "LED_RED" "DIP_SW[0..7]" "BUTTON[0..3]" "A[1..40]" "B[1..34]"))
-
   (bus (pts (xy 160.02 109.22) (xy 160.02 130.175))
     (stroke (width 0) (type default))
     (uuid 019e0f78-508f-4add-9256-c9a57ab52c28)
   )
+
   (wire (pts (xy 26.67 232.41) (xy 29.21 232.41))
     (stroke (width 0) (type default))
     (uuid 02798868-5126-4785-a708-89bf3ec3baee)
@@ -303,6 +300,7 @@
     (stroke (width 0) (type default))
     (uuid 163ab9b1-f7d1-4e27-8e8d-fb5eb74523a8)
   )
+
   (wire (pts (xy 26.67 222.25) (xy 29.21 222.25))
     (stroke (width 0) (type default))
     (uuid 1821bc35-7447-4504-a0a3-41841c52ed42)
@@ -383,6 +381,7 @@
     (stroke (width 0) (type default))
     (uuid 4de75751-ee2d-4284-941d-563e977bef72)
   )
+
   (wire (pts (xy 26.67 252.73) (xy 26.67 242.57))
     (stroke (width 0) (type default))
     (uuid 4f2d9433-5279-44a9-9d36-c9ca89c05700)
@@ -399,6 +398,7 @@
     (stroke (width 0) (type default))
     (uuid 5f640ade-e2d0-4bf7-83bc-f714e9d78c96)
   )
+
   (wire (pts (xy 26.67 252.73) (xy 26.67 255.27))
     (stroke (width 0) (type default))
     (uuid 5f8fb8d4-6cd2-4039-b661-b3d7e0b22589)
@@ -415,6 +415,7 @@
     (stroke (width 0) (type default))
     (uuid 64b2915e-c65b-4659-b209-8ca2e9884dc1)
   )
+
   (wire (pts (xy 48.26 199.39) (xy 53.34 199.39))
     (stroke (width 0) (type default))
     (uuid 674bab42-1c88-4860-84a9-b4e93b8d4424)
@@ -459,6 +460,7 @@
     (stroke (width 0) (type default))
     (uuid 7fb0fa1f-d0fe-4cf8-81ea-b4bc072b6644)
   )
+
   (wire (pts (xy 53.34 199.39) (xy 53.34 201.93))
     (stroke (width 0) (type default))
     (uuid 7fbeeefb-b256-42e3-bf02-b256cc0aafa7)
@@ -475,6 +477,7 @@
     (stroke (width 0) (type default))
     (uuid 8747b63c-da9a-4508-9dc4-e57b9b9b67cf)
   )
+
   (wire (pts (xy 26.67 242.57) (xy 29.21 242.57))
     (stroke (width 0) (type default))
     (uuid 88c79257-e4f1-4de1-90be-b0dae3419a11)
@@ -499,6 +502,7 @@
     (stroke (width 0) (type default))
     (uuid 929b5164-641b-4a6b-ae4b-142fd749739a)
   )
+
   (wire (pts (xy 48.26 184.15) (xy 53.34 184.15))
     (stroke (width 0) (type default))
     (uuid 94d293ce-482b-4660-a091-7fda2ed9a275)
@@ -511,6 +515,7 @@
     (stroke (width 0) (type default))
     (uuid 98b14eff-c85e-41b6-bb58-000228f26ca0)
   )
+
   (wire (pts (xy 133.35 81.28) (xy 181.61 81.28))
     (stroke (width 0) (type default))
     (uuid 9bef9590-eee8-4874-9093-f9d30b08884a)
@@ -535,6 +540,7 @@
     (stroke (width 0) (type default))
     (uuid aad1f431-613c-41c3-a5f5-0d98fbff7e9d)
   )
+
   (wire (pts (xy 26.67 252.73) (xy 29.21 252.73))
     (stroke (width 0) (type default))
     (uuid aad86bb6-d684-49e7-9efb-2444a8b56245)
@@ -603,6 +609,7 @@
     (stroke (width 0) (type default))
     (uuid cfbdaa86-793b-43a6-ac52-b7f5294d02c0)
   )
+
   (wire (pts (xy 283.21 224.155) (xy 316.23 224.155))
     (stroke (width 0) (type default))
     (uuid d559d942-ff82-4335-baa6-b095dca9c1ea)
@@ -627,6 +634,7 @@
     (stroke (width 0) (type default))
     (uuid dd835872-38b2-4f73-828a-cea2cd59830a)
   )
+
   (wire (pts (xy 26.67 232.41) (xy 26.67 222.25))
     (stroke (width 0) (type default))
     (uuid e487636e-3c63-4e30-a84f-b0245a836ce5)
@@ -635,6 +643,7 @@
     (stroke (width 0) (type default))
     (uuid e824b95b-753d-40c5-8491-216ef8e3d7fb)
   )
+
   (wire (pts (xy 26.67 242.57) (xy 26.67 232.41))
     (stroke (width 0) (type default))
     (uuid e850c70a-44d0-4d00-b1e2-4be89ddd638e)
@@ -3042,7 +3051,7 @@
   )
 
   (symbol (lib_id "antmicroMechanicalParts:Heatsink_960-31-18-S-AB-0") (at 184.785 215.9 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid f962d162-5495-4de6-bfba-2cd8f065e289)
     (property "Reference" "HS1" (at 188.595 212.7249 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3068,7 +3077,7 @@
     (property "License" "Apache-2.0" (at 202.565 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "DNP" "DNP" (at -31.115 -45.72 0)
+    (property "DNP" "DNP" (at 190.246 217.297 0)
       (effects (font (size 1 1)))
     )
     (instances
@@ -3112,7 +3121,7 @@
   )
 
   (symbol (lib_id "antmicropower:GND") (at 29.21 222.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid fab75f52-02f4-4f44-9733-6d3c6c3e6d2b)
     (property "Reference" "#MH01" (at 41.91 220.9799 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
