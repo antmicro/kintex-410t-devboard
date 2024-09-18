@@ -11,12 +11,12 @@
   )
 
   (lib_symbols
-    (symbol "antmicroB2BConnectors:ASP-184329-01_mounting_holes" (in_bom yes) (on_board yes)
+    (symbol "antmicroB2BConnectors:ASP-184329-01_CUSTOM_mounting_holes" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 45.72 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Value" "ASP-184329-01_mounting_holes" (at 45.72 -8.89 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      (property "Value" "ASP-184329-01_CUSTOM_mounting_holes" (at 45.72 -8.89 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Footprint" "antmicro-footprints:ASP-184329-01_mounting_holes" (at 45.72 -11.43 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -28,7 +28,7 @@
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "ASP-184329-01" (at 45.72 -19.05 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Author" "Antmicro" (at 45.72 -21.59 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -45,12 +45,12 @@
       (property "ki_description" "Mezzanine Connector, Array, Female, 1.27 mm, 14 Rows, 560 Contacts, Surface Mount" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "ASP-184329-01_mounting_holes_1_0"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_1_0"
         (text "POWER" (at 15.24 3.81 0)
           (effects (font (size 1.27 1.27)))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_1_1"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_1_1"
         (rectangle (start 3.81 6.35) (end 26.67 -17.78)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -1104,7 +1104,7 @@
           (number "Z40" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_2_0"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_2_0"
         (rectangle (start 19.05 -19.05) (end 26.67 -24.13)
           (stroke (width 0.254) (type default))
           (fill (type none))
@@ -1123,7 +1123,7 @@
           (effects (font (size 1.27 1.27)))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_2_1"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_2_1"
         (rectangle (start 3.81 6.35) (end 26.67 -25.4)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -1181,7 +1181,7 @@
           (number "Z01" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_3_0"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_3_0"
         (text "BANK A (LPC)" (at 16.51 3.81 0)
           (effects (font (size 1.27 1.27)))
         )
@@ -1189,7 +1189,7 @@
           (effects (font (size 1.27 1.27)))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_3_1"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_3_1"
         (rectangle (start 3.81 8.89) (end 29.21 -86.36)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -1467,7 +1467,7 @@
           (number "H38" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_4_0"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_4_0"
         (text "BANK A (HPC)" (at 16.51 3.81 0)
           (effects (font (size 1.27 1.27)))
         )
@@ -1475,7 +1475,7 @@
           (effects (font (size 1.27 1.27)))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_4_1"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_4_1"
         (rectangle (start 3.81 8.89) (end 29.21 -60.96)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -1673,7 +1673,7 @@
           (number "K23" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_5_0"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_5_0"
         (text "BANK B (HPC)" (at 16.51 3.81 0)
           (effects (font (size 1.27 1.27)))
         )
@@ -1681,7 +1681,7 @@
           (effects (font (size 1.27 1.27)))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_5_1"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_5_1"
         (rectangle (start 3.81 8.89) (end 29.21 -55.88)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -1863,7 +1863,7 @@
           (number "K38" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_6_0"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_6_0"
         (text "CLOCKS" (at -12.7 3.81 0)
           (effects (font (size 1.27 1.27)))
         )
@@ -1871,7 +1871,7 @@
           (effects (font (size 1.27 1.27)))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_6_1"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_6_1"
         (rectangle (start -21.59 8.89) (end -3.81 -25.4)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -1913,7 +1913,7 @@
           (number "K05" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_7_0"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_7_0"
         (text "CLOCKS" (at -15.24 3.81 0)
           (effects (font (size 1.27 1.27)))
         )
@@ -1921,7 +1921,7 @@
           (effects (font (size 1.27 1.27)))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_7_1"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_7_1"
         (rectangle (start -25.4 -55.88) (end -3.81 8.89)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -2007,7 +2007,7 @@
           (number "Z21" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_8_0"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_8_0"
         (text "DATA" (at 17.78 3.81 0)
           (effects (font (size 1.27 1.27)))
         )
@@ -2015,7 +2015,7 @@
           (effects (font (size 1.27 1.27)))
         )
       )
-      (symbol "ASP-184329-01_mounting_holes_8_1"
+      (symbol "ASP-184329-01_CUSTOM_mounting_holes_8_1"
         (rectangle (start 3.81 8.89) (end 31.75 -121.92)
           (stroke (width 0.254) (type default))
           (fill (type background))
@@ -8331,7 +8331,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_mounting_holes") (at 151.13 36.83 0) (unit 2)
+  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_CUSTOM_mounting_holes") (at 151.13 36.83 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 107faa61-b998-4fc0-b709-da370079129c)
     (property "Reference" "J18" (at 166.37 25.4 0)
@@ -8927,7 +8927,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_mounting_holes") (at 151.13 91.44 0) (unit 4)
+  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_CUSTOM_mounting_holes") (at 151.13 91.44 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12fc84ef-66ea-460d-8a51-833a3b8a886e)
     (property "Reference" "J18" (at 167.64 77.47 0)
@@ -9691,7 +9691,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_mounting_holes") (at 248.92 153.67 0) (unit 8)
+  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_CUSTOM_mounting_holes") (at 248.92 153.67 0) (unit 8)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4505ad23-3c53-4dbd-8b7f-d923f7030ea2)
     (property "Reference" "J18" (at 266.7 139.7 0)
@@ -10287,7 +10287,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_mounting_holes") (at 279.4 107.95 0) (unit 6)
+  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_CUSTOM_mounting_holes") (at 279.4 107.95 0) (unit 6)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4591e214-7efc-4d19-a5db-9faada0cb5e6)
     (property "Reference" "J18" (at 266.7 93.98 0)
@@ -11215,7 +11215,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_mounting_holes") (at 130.81 184.15 0) (unit 3)
+  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_CUSTOM_mounting_holes") (at 130.81 184.15 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71418c3a-e282-4e2c-88c1-de8c4b6ee99f)
     (property "Reference" "J18" (at 147.32 170.18 0)
@@ -11902,13 +11902,13 @@
     )
   )
 
-  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_mounting_holes") (at 67.31 38.1 0) (unit 1)
+  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_CUSTOM_mounting_holes") (at 67.31 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79a3cb8c-ac82-4bc0-893b-f9ef61adae92)
     (property "Reference" "J18" (at 82.55 26.67 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Value" "ASP-184329-01_mounting_holes" (at 82.55 29.845 0)
+    (property "Value" "ASP-184329-01_CUSTOM_mounting_holes" (at 82.55 29.845 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) hide)
     )
     (property "Footprint" "antmicro-footprints:ASP-184329-01_mounting_holes" (at 113.03 49.53 0)
@@ -13225,7 +13225,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_mounting_holes") (at 280.67 33.02 0) (unit 7)
+  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_CUSTOM_mounting_holes") (at 280.67 33.02 0) (unit 7)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bed73378-ca9c-4df7-a581-32d88e05ab0b)
     (property "Reference" "J18" (at 266.065 19.05 0)
@@ -13990,7 +13990,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_mounting_holes") (at 60.96 97.79 0) (unit 5)
+  (symbol (lib_id "antmicroB2BConnectors:ASP-184329-01_CUSTOM_mounting_holes") (at 60.96 97.79 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd9cb0c6-59fb-4d32-aa43-0b0ff897821c)
     (property "Reference" "J18" (at 77.47 83.82 0)
