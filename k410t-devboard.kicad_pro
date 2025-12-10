@@ -1,0 +1,2720 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.0,
+          "height": 1.905,
+          "width": 0.8096
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "45_degree_only": true,
+          "min_clearance": 0.1
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_sliver|190190935|135809064|00000000-0000-0000-0000-000000000000|In2.Cu",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|267110000|127000000|b19cdf09-3b9c-4e5a-acaa-bb961dc6886e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|267110000|146000000|a1edd11e-f3c1-44c3-a299-b694eb6c59aa|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "hole_clearance|264035000|123950000|7d7186fa-2a33-484e-9d1e-1b83ceaa8dca|20bab96b-49cd-40f7-8314-4a167d6dadd0",
+          ""
+        ],
+        [
+          "hole_clearance|264035000|123950000|7d7186fa-2a33-484e-9d1e-1b83ceaa8dca|738f12b5-51ee-440c-b6d6-f1580bc46c41",
+          ""
+        ],
+        [
+          "hole_clearance|264035000|130052000|cf4cdf4c-6650-4e7d-9912-3ad2438b1e52|a0520b3e-122d-4c98-9671-a8de80ea413d",
+          ""
+        ],
+        [
+          "hole_clearance|264035000|130052000|cf4cdf4c-6650-4e7d-9912-3ad2438b1e52|d8252103-24b2-4714-8716-7d5a2e19c482",
+          ""
+        ],
+        [
+          "hole_clearance|264035000|142950000|979aea1d-d1c7-4711-aa0b-42cea1f4fc7b|285dd911-a2f5-45d6-8f5e-34c630e69d58",
+          ""
+        ],
+        [
+          "hole_clearance|264035000|142950000|979aea1d-d1c7-4711-aa0b-42cea1f4fc7b|45e5058c-96cd-4362-a780-38401e7f4319",
+          ""
+        ],
+        [
+          "hole_clearance|264035000|149052000|ec8d412e-2ec7-4028-ade3-20285e050aee|33c48ef0-0fd5-4362-82c3-0abefdf7fd25",
+          ""
+        ],
+        [
+          "hole_clearance|264035000|149052000|ec8d412e-2ec7-4028-ade3-20285e050aee|e43ec7b2-ca41-45dc-a5c5-33837289f146",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|158500000|185010000|d795f1fc-bb0c-4e38-8cdb-9dd191040fe0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|160773000|145300000|a9cb464b-dbea-4fb9-8677-8b3567cf7b95|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|160773000|145700000|822046a1-8706-4924-9c4e-8a58284def94|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|189100000|146349999|5044cb0d-fd79-48fb-9ed3-4c42a7241582|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|189100000|146590000|65ba5414-88df-43d2-b84f-47e4d4046ae4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|190090000|112640000|2c16034b-ffd1-49da-bd63-90d9ee0d13fe|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|190090001|112880000|a35f1060-89b0-4357-b750-7aa3283c8e15|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|193590000|145480000|27b355ad-ecae-440f-ac34-a893c8b18d17|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|193590000|145720000|504191f1-cf0d-4b91-bc1a-446e5905d923|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|196760000|86900000|5db4e012-2d84-47bb-801e-b2626973d11e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|196920000|87080000|b0cd0cb2-aaa7-4f1a-8a8c-ec79ff2005a3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|197760197|131239803|e77e334f-31f8-4daf-ab8f-4ba961706680|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|207860001|147257000|1207f5a4-09e1-413c-b17a-762ea09bc440|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|208100001|147257000|face81cf-7433-4d5f-98e9-dc40518217d1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|208620000|147257001|40ae79aa-2ad6-469d-9e51-3b5c15fb5669|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|208860001|147257000|e3bc0512-1f0d-43bb-8f89-c5697f7a66d9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|239400000|124073000|31aee6e3-b0bc-407a-b6e0-b57c66026442|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|240000000|124727000|7271d3f9-7ae6-4dee-94b7-b03f825e60fd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|240400000|128373000|138886b7-bb62-4193-ae7c-1dc5843b6af7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|246500000|143602000|0d311a32-bc90-4a1a-beb9-f4a25827ddb5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|247300000|143602000|a52d7fd9-587b-443e-a460-cacf764b63eb|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|247700000|143602000|9dfe2abe-3c71-4922-8aaf-f7f832f40655|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|248240000|126450000|bb77627e-2130-4227-8ef1-400e1ff2a373|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|248501000|148400000|60663721-2c4c-4882-995b-0a5ccca71d6b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|249300000|143602000|73d41a9d-bd86-4289-a5c9-c8a0e40838b8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|249301000|148400000|95740dba-5ce4-47de-bb70-c7043d212593|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|249700000|143602000|53df8784-c8cc-4fab-91ff-6711d44d6231|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|249701000|148400000|735fdbb1-774a-499d-8bfb-a2b3ec994446|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|250101000|148400000|7f208f6d-b6fd-40ca-a8ae-fb5acd2257b9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|251701000|127200000|2aba3877-8775-4879-bf53-e11a0b20bd7c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|251701000|148400000|7e997410-78a3-4aca-bd38-cc188e9b19c5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|252100000|143502000|d632b9ec-4a03-43fe-9eee-c4df4af3fc6c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|252501000|148400000|a7d53491-532a-47f0-8722-aafda0d0e76a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|253301000|148400000|5370dc45-a220-4df4-b1de-9d0f24e8f772|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|253701000|148400000|d33ecf3f-35ee-41bd-8194-3bf1999baf9b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|254101000|127200000|e6c0a3f8-b2b6-4a54-abcd-ebd205e46f5a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|254101000|148400000|698eddf1-cc05-467a-a8ae-08982323ff81|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|258120000|120040000|73ed825c-dd1e-4e62-b5b7-ae13063d0ac4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|258360000|120040000|f36f5aca-9044-41d2-8987-c7f4816edfa5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|105211000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|da696c55-8567-4f27-85b4-fda538e5e9ce",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|110150000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|cc3c44d8-db87-4d1c-99e5-926288ac91ae",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|117851000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|1f41c852-c58c-46e4-a0b8-9d57be3a1520",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|122212000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|32b7d034-7566-4ff9-88ff-5b97e81408e3",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|131790000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|18c9171d-0e1c-4d5e-9924-2c517dcc0a39",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|141212000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|96038c71-1305-4660-9986-40e2448de0f6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|150790000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|4605506e-789f-43b3-9b6c-bf2e1e870172",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|172520000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|c229dd17-460a-4cc5-8683-369ffc2d156c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|182120000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|5a718e95-655b-4340-978e-004444d82199",
+          ""
+        ],
+        [
+          "silk_edge_clearance|270000000|98790000|be8cec31-bf3e-498b-8bf6-cd26d7c1ac96|fd7388ce-9071-4758-a990-1e20df8d0760",
+          ""
+        ],
+        [
+          "silk_over_copper|156240500|167177000|61aab8ec-5354-4526-be34-073ea92366b2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|156240500|174475000|0e7f6dc2-5233-4aba-a9a9-208da7a42ce6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|158497459|134897522|d09fc7e5-ba43-4d12-85c7-6cabef7bc958|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|159153001|77383364|96ef91de-7bd3-47ad-a810-c5a0a23a857d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|160957589|77345001|e1520f54-1335-42d1-b630-87550c0e2962|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|162088500|167177000|7def41f4-b8a7-4112-a57b-c1c2ef090218|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|162238500|174478000|a70fa516-2fa2-4d4d-b8cf-845aed628c79|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|168753862|174060000|4870970c-0184-4a53-ae46-34a3be4f5254|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|169273506|174441936|0a815764-a5bd-48be-a027-aaee59ca5e00|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|173190500|167177000|b97ded24-9028-4c91-9b77-e117f74320c7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|173190500|174475000|3eabd5c8-76a7-4951-9c25-83b0fe2460f9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|179038500|167177000|72f9b3b5-92d3-4372-8703-11d01e5c2cd5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|179188500|174478000|b17e7cfd-bce8-4ca4-91a7-c16cfd2aa415|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|189896802|127637018|7b32bd8f-b74d-4505-806b-f09e49c8672b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|221800000|136158000|e6cfc697-3534-4371-83e5-23c0e39ac43c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|221800142|142444991|d85cd9b0-dc06-48ff-8860-f4f14411e66f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|224315350|162030001|5eb71011-3062-4cb6-9ad8-08dadf9956ad|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|224736568|159498209|81a60223-bfbd-4e17-a9c1-c8c5643df50f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|224750000|160155761|813e0a0b-9520-4ad3-bbac-d061b74a9dd7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|225615351|160300000|ec312bbc-e7e7-4f46-91c4-45a7288f63ec|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|226598000|136158000|6f60e89d-58f5-4123-b6b0-e2d08de44223|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|231686568|159498209|9c7d98fa-a993-4593-88d2-24a2ca59b9b4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|231700000|160155761|4359a431-0bd5-463a-b6ad-6a91c0ef661d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|251955327|117804004|b5de540e-3a1a-4b49-80eb-69848b020f27|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|261392977|179400466|a10b0246-7645-4287-b090-c101741b0f81|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|261401000|180055761|50c5ac23-029f-492c-b6ab-156c7c773d4a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|264409140|79713877|49da45ef-8707-4693-a1a7-194ed4bcf86e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|264409140|88913877|1a5f4506-717e-4102-9a3e-bb9c398efef7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|264431195|129678871|9a9c8260-b808-4118-b6ad-98c35894f86f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|264450000|84300001|3bdddafc-90d0-4cf4-8ece-d48be3818148|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|264450000|93500001|4e267ed3-c1d8-47d8-bbf1-45eb610ab051|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|265050000|79700000|81312767-9a7e-439d-9eab-590ba013b4c2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|265050000|84300000|11ba90a8-5a7d-4736-944a-bd6c17a19a9c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|265050000|88900000|96eb816b-a70e-4d0d-86d4-48fbae04c832|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|265050000|93500000|fcbfdd6e-8b0a-44d3-badc-6dfdca0e5e83|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|268986000|142165000|70fd31df-c373-4be0-8c9e-eb53f0abe91d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|269003352|142147561|c20d6d63-2ad5-4404-8f52-c1364d13348e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|269184000|130935820|14e4feb7-a541-4204-b32f-2c2c8b5bdaff|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|269184000|141966000|7c81c71b-4a66-4c75-a655-9c90f5990dfc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|165822500|168834649|fca21197-fbb7-40f5-a762-c8a548a6d8b6|cd09770f-e70d-4bfa-a980-9a55988070ba",
+          ""
+        ],
+        [
+          "silk_overlap|169273506|175176323|25aa8a9a-96c1-4215-af2e-94d35fabab99|0a815764-a5bd-48be-a027-aaee59ca5e00",
+          ""
+        ],
+        [
+          "silk_overlap|169471943|174083677|4870970c-0184-4a53-ae46-34a3be4f5254|0a815764-a5bd-48be-a027-aaee59ca5e00",
+          ""
+        ],
+        [
+          "silk_overlap|169768204|175176323|0a815764-a5bd-48be-a027-aaee59ca5e00|1619ccc3-f77c-4146-bfbd-4b8bfb80bee6",
+          ""
+        ],
+        [
+          "silk_overlap|169950000|175176323|0a815764-a5bd-48be-a027-aaee59ca5e00|03b59bd9-1539-46b2-90d2-99f38a18a0a8",
+          ""
+        ],
+        [
+          "silk_overlap|171670000|174083677|88b4271e-13ee-4306-bae0-5f5ace02da4a|0a815764-a5bd-48be-a027-aaee59ca5e00",
+          ""
+        ],
+        [
+          "silk_overlap|188125000|178525000|0821c5d2-a78c-4558-8057-909f186921b4|0e433692-5dc6-4591-a5fe-09a2ffa92d35",
+          ""
+        ],
+        [
+          "silk_overlap|188167500|170875000|ec0aa3d0-9f7c-4cfc-865f-4dc160bebf2d|c59095df-b9cd-431c-bb58-ce3d31f049ac",
+          ""
+        ],
+        [
+          "silk_overlap|188325000|186225000|ff53fe17-ffa0-4a9f-9ded-655685f2bd99|1a6a213f-5b63-4843-bdca-0def8db1e9ca",
+          ""
+        ],
+        [
+          "silk_overlap|188374000|178525000|0821c5d2-a78c-4558-8057-909f186921b4|a2ccb97d-7524-4ced-aaa1-3ae11c452e39",
+          ""
+        ],
+        [
+          "silk_overlap|188390000|181472000|2d4ee09e-f70a-4c18-925d-0fa2bbe84318|e3d2335c-93ce-4b42-8a9f-a55a9728dc1b",
+          ""
+        ],
+        [
+          "silk_overlap|188416500|170875000|ec0aa3d0-9f7c-4cfc-865f-4dc160bebf2d|5baed4e2-1b43-4749-b120-bd76802b974a",
+          ""
+        ],
+        [
+          "silk_overlap|188432500|173822000|ea3e95b8-90d4-466a-8b14-f0ff310ee609|715947e8-09e9-47c1-8483-2909f4766285",
+          ""
+        ],
+        [
+          "silk_overlap|188574000|186225000|928b897d-bba4-47cb-a63e-2dd2997c0932|1a6a213f-5b63-4843-bdca-0def8db1e9ca",
+          ""
+        ],
+        [
+          "silk_overlap|188590000|189172000|a59feca0-b338-4880-b64a-91a09634c240|ddcefbb2-ce0a-4c58-99f9-321bdcb07d77",
+          ""
+        ],
+        [
+          "silk_overlap|190795000|170748000|5e1e52d6-5420-4242-91f9-13c9d162f11d|05693eb7-8f3d-4c94-bd44-bb339897122d",
+          ""
+        ],
+        [
+          "silk_overlap|190795000|170875000|ec0aa3d0-9f7c-4cfc-865f-4dc160bebf2d|5e1e52d6-5420-4242-91f9-13c9d162f11d",
+          ""
+        ],
+        [
+          "silk_overlap|202861000|150800557|27df0b76-cebe-40c4-931e-251c4701b02e|8d883548-49cd-4573-9200-fd271712fd1d",
+          ""
+        ],
+        [
+          "silk_overlap|202861000|151000000|27df0b76-cebe-40c4-931e-251c4701b02e|ae9a224b-bfe1-4642-bf93-36c69cdfd846",
+          ""
+        ],
+        [
+          "silk_overlap|208262979|102401191|b6a3a4e4-9e80-456e-8c9d-2d85145ee2ed|ab07cb8d-de62-47a7-91f2-93b301dd0f4c",
+          ""
+        ],
+        [
+          "silk_overlap|228599000|126275000|13a713e5-4937-4f1b-8cb5-048ab774e919|215226b9-dae4-4815-8d0e-aa6b4d5d374d",
+          ""
+        ],
+        [
+          "silk_overlap|228606533|132132017|06e1f1f5-0627-4da3-b34c-6d9775a268a9|b393f242-fb47-4add-900a-02d697353fa0",
+          ""
+        ],
+        [
+          "silk_overlap|233111316|172303466|32338e3f-712a-472e-99c1-4e0acd77f36e|b6bfa96e-f904-49b3-8c1f-37f9bd4757ab",
+          ""
+        ],
+        [
+          "silk_overlap|237011316|172303466|5fbf9430-a708-471a-b42f-44469c7c87fe|322b374e-0490-474c-8217-42acbde17426",
+          ""
+        ],
+        [
+          "silk_overlap|240911316|172303466|d5e142d5-474a-4fe4-a9dd-85cdc3c9b414|8001bd31-dd10-40cb-bc92-87af42f22e8f",
+          ""
+        ],
+        [
+          "silk_overlap|242316357|90853677|4157d815-a58e-4f07-9545-2d97d5368944|304b06b0-689a-4674-92d3-d427085c5f52",
+          ""
+        ],
+        [
+          "silk_overlap|244811316|172303466|0efa4b7e-ef89-43c1-b7a4-2cf2f0238f0d|f46da2ad-4aab-433f-ba63-f3df3335f6c1",
+          ""
+        ],
+        [
+          "silk_overlap|245001000|90853677|bee0494b-82c1-42f8-837a-48e053215554|4157d815-a58e-4f07-9545-2d97d5368944",
+          ""
+        ],
+        [
+          "silk_overlap|245880713|99176000|76ab514f-961c-4663-8c0e-04dbe2fa8e0c|4a646b4d-385c-4746-b74d-00301d90dc6e",
+          ""
+        ],
+        [
+          "silk_overlap|249123200|95584649|944f5e73-7dc2-4bcb-95f7-857b9f43361a|31284e8e-8bae-4d28-a669-a6a1c53e8d1b",
+          ""
+        ]
+      ],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "ignore",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "error",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "error",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "error",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "error",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "max_error": 0.005,
+        "min_clearance": 0.1,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.4,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 1,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.65,
+        "min_text_thickness": 0.12,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.45,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.1,
+        0.107,
+        0.114,
+        0.15,
+        0.177,
+        0.182,
+        0.198,
+        0.201,
+        0.256,
+        0.4,
+        2.0
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
+        }
+      ],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "ignore",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "ignore",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "ignore",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "k410t-devboard.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100Ohm-diff",
+        "pcb_color": "rgb(0, 0, 132)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "40Ohm-se_DQ",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50Ohm-se",
+        "pcb_color": "rgb(0, 132, 132)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "80Ohm-diff_DQS",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "85Ohm-diff_PCIe",
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ohm-diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.26,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": {
+      "+0V675_VREF": "rgb(178, 215, 50)",
+      "+0V675_VTT": "rgb(194, 20, 96)",
+      "+1V0": "rgb(254, 39, 18)",
+      "+1V0_MGTAVCC": "rgb(102, 176, 50)",
+      "+1V2": "rgb(252, 96, 10)",
+      "+1V2_MGTAVTT": "rgb(52, 124, 152)",
+      "+1V35": "rgb(251, 153, 2)",
+      "+1V8": "rgb(19, 233, 254)",
+      "+3V3": "rgb(68, 36, 214)",
+      "+5V": "rgb(254, 254, 51)",
+      "GND": "rgb(78, 78, 78)",
+      "VCC_USR_A": "rgb(252, 204, 26)",
+      "VCC_USR_B": "rgb(0, 255, 128)"
+    },
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Bank 17/HDMI.CLK_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Bank 17/HDMI.CLK_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Bank 17/HDMI.D0_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Bank 17/HDMI.D0_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Bank 17/HDMI.D1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Bank 17/HDMI.D1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Bank 17/HDMI.D2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Bank 17/HDMI.D2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Config/FPGA_CFG_DXN"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA Config/FPGA_CFG_DXP"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/ETH1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/ETH1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/ETH2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/ETH2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/GBE1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/GBE1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/GBE2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/GBE2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/GBE3_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/GBE3_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/GBE4_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/GBE4_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_CLK_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_CLK_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D0_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D0_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + Ethernet/HDMI_CONN_D2_P"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A0"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A1"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A10"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A11"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A12"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A13"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A14"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A15"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A2"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A3"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A4"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A5"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A6"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A7"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A8"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.A9"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.BA0"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.BA1"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.BA2"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.CKE"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.DM"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.DQ0"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.DQ1"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.DQ2"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.DQ3"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.DQ4"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.DQ5"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.DQ6"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.DQ7"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.ODT"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.~{CAS}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.~{CS}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.~{RAS}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.~{RESET}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR.~{WE}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DRAM + SRAM/DDR_ZQ"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_XI"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_XO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_Y0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_Y1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Clocks/PLL_Y4"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A10"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A11"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A12"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A13"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A14"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A15"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A16"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A17"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A18"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A19"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A4"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A5"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A6"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A7"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A8"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.A9"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.CE2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.DQ0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.DQ1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.DQ2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.DQ3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.DQ4"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.DQ5"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.DQ6"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.DQ7"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.~{CE}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.~{OE}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DRAM + SRAM/SRAM.~{WE}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.GTR_CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.GTX_CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.MDC"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.MDIO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.REFCLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.RXD0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.RXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.RXD2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.RXD3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.RX_DV"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.TXD0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.TXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.TXD2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.TXD3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.TX_EN"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.~{INT}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 17/GBE_RGMII.~{RESET}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.MDC"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.MDIO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.REFCLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.RXD0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.RXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.RXER"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.RX_DV"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.TXD0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.TXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.TXEN"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 32/ETH_RMII.~{RESET}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/SD_CARD.CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/SD_CARD.CMD"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/SD_CARD.DAT0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/SD_CARD.DAT1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/SD_CARD.DAT2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/SD_CARD.DAT3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/SD_CARD.~{CD}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.DQ0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.DQ1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.DQ2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.DQ3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Bank 33/USR_FLASH_0.~{CS}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_REFCLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_RXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_RXDO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_RXER"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_RX_DV"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_TXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_TXDO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_PHY_TXEN"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_XI"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HDMI + Ethernet/ETH_XO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/SD_CARD_~{CD}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/SYSTEM_FLASH_CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/SYSTEM_FLASH_DQ0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/SYSTEM_FLASH_DQ1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/SYSTEM_FLASH_DQ2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/SYSTEM_FLASH_DQ3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/SYSTEM_FLASH_~{CS}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_0_CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_0_DQ0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_0_DQ1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_0_DQ2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_0_DQ3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_0_~{CS}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_1_CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_1_DQ0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_1_DQ1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_1_DQ2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_1_DQ3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/SPI Flash + SD Card/USR_FLASH_1_~{CS}"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DRAM + SRAM/DDR.CK_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DRAM + SRAM/DDR.CK_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DRAM + SRAM/DDR.DQS_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DRAM + SRAM/DDR.DQS_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTR_REFCLK0_R_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTR_REFCLK0_R_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTR_REFCLK1_R_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTR_REFCLK1_R_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTR_REFCLK2_R_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTR_REFCLK2_R_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTR_REFCLK3_R_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTR_REFCLK3_R_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.REFCLK0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.REFCLK0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.REFCLK1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.REFCLK1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.RX0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.RX0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.RX1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.RX1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.RX2_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.RX2_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.RX3_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.RX3_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.TX0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.TX0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.TX1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.TX1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.TX2_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.TX2_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.TX3_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX115.TX3_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.REFCLK0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.REFCLK0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.REFCLK1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.REFCLK1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.RX0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.RX0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.RX1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.RX1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.RX2_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.RX2_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.RX3_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.RX3_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.TX0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.TX0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.TX1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.TX1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.TX2_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.TX2_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.TX3_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX116.TX3_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX0_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX0_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX1_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX1_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX2_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX2_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX3_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX3_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX4_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX4_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX5_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX5_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX6_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX6_C_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX7_C_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FMC+ HSPC/GTX_TX7_C_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO0"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO10_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO10_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO11_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO11_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO12_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO12_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO13_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO13_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO14_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO14_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO15_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO15_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO16_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO16_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO17_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO17_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO18_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO18_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO19_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO19_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO1_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO1_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO20_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO20_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO21_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO21_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO22_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO22_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO23_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO23_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO24_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO24_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO25"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO2_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO2_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO3_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO3_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO4_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO4_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO5_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO5_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO6_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO6_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO7_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO7_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO8_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO8_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO9_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/FMC+ HSPC/FMC.IO9_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_DBG_CONN_D+"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_DBG_CONN_D-"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_HOST_CONN_D+"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_HOST_CONN_D-"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_HOST_D+"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_HOST_D-"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_USR_CONN_D+"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_USR_CONN_D-"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_USR_D+"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/USB PHY/USB_USR_D-"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/HDMI + Ethernet/POE_ETH.VC1"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/HDMI + Ethernet/POE_ETH.VC2"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/HDMI + Ethernet/POE_ETH.VC3"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/HDMI + Ethernet/POE_ETH.VC4"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/HDMI + Ethernet/POE_GBE.VC1"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/HDMI + Ethernet/POE_GBE.VC2"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/HDMI + Ethernet/POE_GBE.VC3"
+      },
+      {
+        "netclass": "POE",
+        "pattern": "/HDMI + Ethernet/POE_GBE.VC4"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+0V675_VREF"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+0V675_VTT"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V0"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V0_MGTAVCC"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V2"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V2_MGTAVTT"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V35"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V85_ADC"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Power supply/PD_VBUS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Power supply/USB_DBG_PD.VBUS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Power supply/USB_PD_VBUS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/USB PHY/USB_HOST_VBUS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/USB PHY/USB_USR_VBUS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "VCC_USR_A"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "VCC_USR_B"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "./",
+    "space_save_all_events": true,
+    "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "c1489e7c-896d-4046-acd4-3929998e87dc",
+      "Root"
+    ],
+    [
+      "020031b8-7f27-4e26-b74c-26be7f0881a9",
+      "FPGA supply"
+    ],
+    [
+      "4957cea6-7ef8-4d5d-9f3b-6e9fc8069ff5",
+      "FPGA Config"
+    ],
+    [
+      "c44d4881-1156-4195-851b-7c886d359b71",
+      "FPGA MGT Interface"
+    ],
+    [
+      "dc541af2-96d1-4686-8434-6b99da36a1e1",
+      "DRAM + SRAM"
+    ],
+    [
+      "f197fc77-508c-435d-932d-162b52b3ed75",
+      "Power supply"
+    ],
+    [
+      "53e5e9d0-da1a-4e72-8926-4916ab1fc9d9",
+      "SPI Flash + SD Card"
+    ],
+    [
+      "92f84d48-430a-4861-a72f-ac293d5b94b2",
+      "User GPIO + LED + button + DIP switch"
+    ],
+    [
+      "32cc216c-573a-42da-8552-2904507ceea0",
+      "USB PHY"
+    ],
+    [
+      "677e70f4-c662-4db0-90ce-7e9c457b20f1",
+      "HDMI + Ethernet"
+    ],
+    [
+      "03f686ad-e1cc-4993-b908-c2b90876b432",
+      "FMC+ HSPC"
+    ],
+    [
+      "68671351-8adf-4d3d-acf4-3cd3079d5c5c",
+      "DC-DC Converters"
+    ],
+    [
+      "9a0374cb-9a33-4819-a0e9-e1b565134863",
+      "Clocks"
+    ],
+    [
+      "429ead79-12f0-47b8-8167-aee96d75a5d4",
+      "FPGA Bank 14 & 15"
+    ],
+    [
+      "64dc573c-4102-47be-8d75-9c1435db537b",
+      "FPGA Bank 16 & 17"
+    ],
+    [
+      "8e3c1fd4-00b3-4241-a4be-4f49c343a1b2",
+      "FPGA Bank 18 & 32"
+    ],
+    [
+      "44e9e439-cc37-4559-9167-3c4b957a5aff",
+      "FPGA Bank 33 & 34"
+    ],
+    [
+      "7d9cde2f-dddc-4745-ba9e-6423f5c75331",
+      "Supervisior MCU"
+    ],
+    [
+      "60d072bf-b5b1-474c-abe1-1c47165e243b",
+      "FPGA Bank 12 & 13"
+    ]
+  ],
+  "text_variables": {}
+}

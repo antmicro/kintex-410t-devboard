@@ -40371,7 +40371,7 @@
 			(uuid "26d80c55-9d44-46f1-af7f-3b436b76f1e8")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/c44d4881-1156-4195-851b-7c886d359b71"
 					(reference "U1")
 					(unit 6)
@@ -43182,7 +43182,7 @@
 			(uuid "959c0a45-c3fa-433e-8394-b1d34f7bf389")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/c44d4881-1156-4195-851b-7c886d359b71"
 					(reference "U1")
 					(unit 7)

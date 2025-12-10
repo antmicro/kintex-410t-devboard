@@ -23809,7 +23809,7 @@
 			(uuid "1d672aad-4f9c-444a-9e52-e359da6415db")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C81")
 					(unit 1)
@@ -23874,7 +23874,7 @@
 			(uuid "fbec94d7-3704-4e30-b57f-56840ccc04cd")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "#PWR06")
 					(unit 1)
@@ -24022,7 +24022,7 @@
 			(uuid "5f5dead3-aa71-4f0d-a825-1b160fc3e4d5")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C39")
 					(unit 1)
@@ -24112,7 +24112,7 @@
 			(uuid "9a8fcbd3-dd9f-40a4-953c-76506cff4ed3")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "#PWR017")
 					(unit 1)
@@ -24203,7 +24203,7 @@
 			(uuid "7ba21ff1-3247-49bd-8085-686e8ee5b45f")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "#PWR020")
 					(unit 1)
@@ -27015,7 +27015,7 @@
 			(uuid "9953d037-bf12-49a2-a41f-fc5d48347703")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "U1")
 					(unit 3)
@@ -27163,7 +27163,7 @@
 			(uuid "ef7ff597-cbcc-4ee5-8d14-39bb86378f6e")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C21")
 					(unit 1)
@@ -27311,7 +27311,7 @@
 			(uuid "bf4adf0c-856c-47c3-89c2-4e768469989a")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C61")
 					(unit 1)
@@ -27459,7 +27459,7 @@
 			(uuid "e3f1b3d4-8b33-40b5-95c3-06a3b4ebe14c")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C33")
 					(unit 1)
@@ -27608,7 +27608,7 @@
 			(uuid "f0de69dd-19ec-4949-bac6-250f5d921c08")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C105")
 					(unit 1)
@@ -27756,7 +27756,7 @@
 			(uuid "2405496f-6fa2-4ffc-80b6-194d05e2a359")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C75")
 					(unit 1)
@@ -27904,7 +27904,7 @@
 			(uuid "9394b1af-41b8-47d3-ba0a-4099c1f0fb4c")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C92")
 					(unit 1)
@@ -28052,7 +28052,7 @@
 			(uuid "4c2a3f17-948e-4328-a5a3-ad0c8491373c")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C7")
 					(unit 1)
@@ -28200,7 +28200,7 @@
 			(uuid "4237ab78-0855-4a28-9338-3a2dd031bf6c")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C44")
 					(unit 1)
@@ -28348,7 +28348,7 @@
 			(uuid "8e30b822-f670-4624-99ac-1e6f337c67e0")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C27")
 					(unit 1)
@@ -28496,7 +28496,7 @@
 			(uuid "f6171c66-4c05-44f3-9968-3cbf1e2357b6")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C87")
 					(unit 1)
@@ -28644,7 +28644,7 @@
 			(uuid "310f1eb4-ac81-4807-845f-56633fa70d9c")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C15")
 					(unit 1)
@@ -28792,7 +28792,7 @@
 			(uuid "e1ffe556-ad60-4f32-919d-73c16b58283f")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C67")
 					(unit 1)
@@ -28940,7 +28940,7 @@
 			(uuid "fb1f7f16-3f66-4889-b98b-7bf55d39efb5")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C98")
 					(unit 1)
@@ -29005,7 +29005,7 @@
 			(uuid "4dff3258-690e-4e7b-8ccf-9993e7ab5e3f")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "#PWR023")
 					(unit 1)
@@ -29153,7 +29153,7 @@
 			(uuid "7a73acef-0d8d-48a4-9d61-75b17325d458")
 		)
 		(instances
-			(project "K410T-devboard"
+			(project "k410t-devboard"
 				(path "/c1489e7c-896d-4046-acd4-3929998e87dc/64dc573c-4102-47be-8d75-9c1435db537b"
 					(reference "C47")
 					(unit 1)
